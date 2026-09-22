@@ -1,16 +1,19 @@
 {
   "project": "너는 내 운명이야",
   "slug": "ymd",
-  "generated_at": "2026-09-22T22:41:21",
+  "generated_at": "2026-09-23T00:24:10",
   "url_patterns": {
     "background": "ymd/bg/{b}.png",
     "character": "ymd/ch/{c}_{e}.png",
+    "intro": "ymd/intro/{c}.webp",
     "scene": "b={b}, c={c}, e={e}"
   },
   "counts": {
     "backgrounds": 10,
     "character_images": 248,
-    "total_png": 258
+    "intro_images": 8,
+    "total_png": 258,
+    "total_files": 266
   },
   "characters": [
     {
@@ -67,70 +70,70 @@
       "code": "b01",
       "file": "bg/b01.png",
       "name": "디자인 회사",
-      "source": "D:\\크랙\\000\\_너는내운명\\배경\\01_디자인 회사\\01_디자인 회사.png",
+      "source": "D:\\크랙\\000 너는내운명\\배경\\01_디자인 회사\\01_디자인 회사.png",
       "sha256": "dfe19dfca19f44e442b975eeecfab08d971b8bf516761bc9cff3079c7d6db730"
     },
     {
       "code": "b02",
       "file": "bg/b02.png",
       "name": "원룸",
-      "source": "D:\\크랙\\000\\_너는내운명\\배경\\02_원룸\\02_원룸.png",
+      "source": "D:\\크랙\\000 너는내운명\\배경\\02_원룸\\02_원룸.png",
       "sha256": "23bf08f35d1c0764f6f3a864c8b49a4e6c3eeed702c616d9df6e302c11e62a02"
     },
     {
       "code": "b03",
       "file": "bg/b03.png",
       "name": "주거 건물 공용부",
-      "source": "D:\\크랙\\000\\_너는내운명\\배경\\03_주거 건물 공용부\\03_주거 건물 공용부.png",
+      "source": "D:\\크랙\\000 너는내운명\\배경\\03_주거 건물 공용부\\03_주거 건물 공용부.png",
       "sha256": "f24b348317eabd21991ec13f02ec1ac2aebf51d1109063bba537b890499cd510"
     },
     {
       "code": "b04",
       "file": "bg/b04.png",
       "name": "출퇴근 거리",
-      "source": "D:\\크랙\\000\\_너는내운명\\배경\\04_출퇴근 거리\\04_출퇴근 거리.png",
+      "source": "D:\\크랙\\000 너는내운명\\배경\\04_출퇴근 거리\\04_출퇴근 거리.png",
       "sha256": "70a0137a6b4a41f0c8c9e62cf8896e5178fe4079b789898d8c3bfed17795f836"
     },
     {
       "code": "b05",
       "file": "bg/b05.png",
       "name": "카페",
-      "source": "D:\\크랙\\000\\_너는내운명\\배경\\05_카페\\05_카페.png",
+      "source": "D:\\크랙\\000 너는내운명\\배경\\05_카페\\05_카페.png",
       "sha256": "673b76ee23ff90cfea4728a05d6c3ae9dc3b36d35280ca6a326cce12cc2a017c"
     },
     {
       "code": "b06",
       "file": "bg/b06.png",
       "name": "식당",
-      "source": "D:\\크랙\\000\\_너는내운명\\배경\\06_식당\\06_식당.png",
+      "source": "D:\\크랙\\000 너는내운명\\배경\\06_식당\\06_식당.png",
       "sha256": "fed0136c12c5d2e77e99444fcef5c399948d5a4f805e7e8a0fd604682d54e92c"
     },
     {
       "code": "b07",
       "file": "bg/b07.png",
       "name": "서울숲",
-      "source": "D:\\크랙\\000\\_너는내운명\\배경\\07_서울숲\\07_서울숲.png",
+      "source": "D:\\크랙\\000 너는내운명\\배경\\07_서울숲\\07_서울숲.png",
       "sha256": "db3843f9757958a885147d0f4d0a77d4a6b97560c2dda72a571e92ec119dd066"
     },
     {
       "code": "b08",
       "file": "bg/b08.png",
       "name": "을지로 술집",
-      "source": "D:\\크랙\\000\\_너는내운명\\배경\\08_을지로 술집\\08_을지로 술집.png",
+      "source": "D:\\크랙\\000 너는내운명\\배경\\08_을지로 술집\\08_을지로 술집.png",
       "sha256": "2f94cbbda8b46df161ee271b36f8cd27978738be07d7ab3edb2b9cacd89680a1"
     },
     {
       "code": "b09",
       "file": "bg/b09.png",
       "name": "구리 본가",
-      "source": "D:\\크랙\\000\\_너는내운명\\배경\\09_구리 본가\\09_구리 본가.png",
+      "source": "D:\\크랙\\000 너는내운명\\배경\\09_구리 본가\\09_구리 본가.png",
       "sha256": "50bda9982ae175485adcda7989749afcf57d8cfa803d8a4468c2a9f3ddadfb74"
     },
     {
       "code": "b10",
       "file": "bg/b10.png",
       "name": "구리 동네",
-      "source": "D:\\크랙\\000\\_너는내운명\\배경\\10_구리 동네\\10_구리 동네.png",
+      "source": "D:\\크랙\\000 너는내운명\\배경\\10_구리 동네\\10_구리 동네.png",
       "sha256": "abfb24a976882d324492327ecfaaba34c105b72cc1600fb44c4bd2a598a3b83e"
     }
   ],
@@ -2614,6 +2617,72 @@
       "file": "ch/c08_e30.png",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\30_손짓_부르기.png",
       "sha256": "0e840ab3cfe74980fd4d40d0b11040f4f7dfdc9f41d7ae6bb3ed288b00cf37cf"
+    }
+  ],
+  "introductions": [
+    {
+      "code": "c01",
+      "name": "고양이 인간형",
+      "english": "Cat Human",
+      "file": "intro/c01.webp",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터등장\\edit\\고먐미.webp",
+      "sha256": "1ed79414519396456464d7b53ea398504f57bfca8eb2745194e992226135c224"
+    },
+    {
+      "code": "c02",
+      "name": "윤시후",
+      "english": "Yoon Sihoo",
+      "file": "intro/c02.webp",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터등장\\edit\\윤시후.webp",
+      "sha256": "7f4b72f6330c1c7832f198bd691fa7eb0a2fd02d700897ae876ba28724fcd030"
+    },
+    {
+      "code": "c03",
+      "name": "한예진",
+      "english": "Han Yejin",
+      "file": "intro/c03.webp",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터등장\\edit\\한예진.webp",
+      "sha256": "e42303d707a29dba786f9eb2d219a83dd38dc2af69e6b30ea7639fefebae46eb"
+    },
+    {
+      "code": "c04",
+      "name": "강준서",
+      "english": "Kang Junseo",
+      "file": "intro/c04.webp",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터등장\\edit\\강준서.webp",
+      "sha256": "2e99c54ae37fff8d3c881507a15fe6868aeda95a3fc3a1bb67b1bf1cb6473959"
+    },
+    {
+      "code": "c05",
+      "name": "민서아",
+      "english": "Min Seoah",
+      "file": "intro/c05.webp",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터등장\\edit\\민서아.webp",
+      "sha256": "76c205a474c8e5fc6b12fcb2432b5c269e98b914c045353a8c064b01d166c8eb"
+    },
+    {
+      "code": "c06",
+      "name": "이도윤",
+      "english": "Lee Doyoon",
+      "file": "intro/c06.webp",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터등장\\edit\\이도윤.webp",
+      "sha256": "bee6e82842deb48430fb6f8930827a033f26e8b39090ad9e7711af1cfe661afa"
+    },
+    {
+      "code": "c07",
+      "name": "김미정",
+      "english": "Kim Mijeong",
+      "file": "intro/c07.webp",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터등장\\edit\\김미정.webp",
+      "sha256": "6e9b27cd54687a77e6e39764e9c3bb5582608fed22c9b73d55cc42462f11ff27"
+    },
+    {
+      "code": "c08",
+      "name": "주현우",
+      "english": "Joo Hyunwoo",
+      "file": "intro/c08.webp",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터등장\\edit\\주현우.webp",
+      "sha256": "d8cc349662aa96802ad54120e964dab96bb64280e0f8d3fba062ea6273752c07"
     }
   ]
 }
