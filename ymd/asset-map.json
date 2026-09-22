@@ -1,0 +1,2619 @@
+{
+  "project": "너는 내 운명이야",
+  "slug": "ymd",
+  "generated_at": "2026-09-22T22:41:21",
+  "url_patterns": {
+    "background": "ymd/bg/{b}.png",
+    "character": "ymd/ch/{c}_{e}.png",
+    "scene": "b={b}, c={c}, e={e}"
+  },
+  "counts": {
+    "backgrounds": 10,
+    "character_images": 248,
+    "total_png": 258
+  },
+  "characters": [
+    {
+      "code": "c01",
+      "name": "고양이 인간형",
+      "english": "Cat Human",
+      "count": 32
+    },
+    {
+      "code": "c02",
+      "name": "윤시후",
+      "english": "Yoon Sihoo",
+      "count": 32
+    },
+    {
+      "code": "c03",
+      "name": "한예진",
+      "english": "Han Yejin",
+      "count": 32
+    },
+    {
+      "code": "c04",
+      "name": "강준서",
+      "english": "Kang Junseo",
+      "count": 32
+    },
+    {
+      "code": "c05",
+      "name": "민서아",
+      "english": "Min Seoah",
+      "count": 32
+    },
+    {
+      "code": "c06",
+      "name": "이도윤",
+      "english": "Lee Doyoon",
+      "count": 32
+    },
+    {
+      "code": "c07",
+      "name": "김미정",
+      "english": "Kim Mijeong",
+      "count": 32
+    },
+    {
+      "code": "c08",
+      "name": "주현우",
+      "english": "Joo Hyunwoo",
+      "count": 24
+    }
+  ],
+  "backgrounds": [
+    {
+      "code": "b01",
+      "file": "bg/b01.png",
+      "name": "디자인 회사",
+      "source": "D:\\크랙\\000\\_너는내운명\\배경\\01_디자인 회사\\01_디자인 회사.png",
+      "sha256": "dfe19dfca19f44e442b975eeecfab08d971b8bf516761bc9cff3079c7d6db730"
+    },
+    {
+      "code": "b02",
+      "file": "bg/b02.png",
+      "name": "원룸",
+      "source": "D:\\크랙\\000\\_너는내운명\\배경\\02_원룸\\02_원룸.png",
+      "sha256": "23bf08f35d1c0764f6f3a864c8b49a4e6c3eeed702c616d9df6e302c11e62a02"
+    },
+    {
+      "code": "b03",
+      "file": "bg/b03.png",
+      "name": "주거 건물 공용부",
+      "source": "D:\\크랙\\000\\_너는내운명\\배경\\03_주거 건물 공용부\\03_주거 건물 공용부.png",
+      "sha256": "f24b348317eabd21991ec13f02ec1ac2aebf51d1109063bba537b890499cd510"
+    },
+    {
+      "code": "b04",
+      "file": "bg/b04.png",
+      "name": "출퇴근 거리",
+      "source": "D:\\크랙\\000\\_너는내운명\\배경\\04_출퇴근 거리\\04_출퇴근 거리.png",
+      "sha256": "70a0137a6b4a41f0c8c9e62cf8896e5178fe4079b789898d8c3bfed17795f836"
+    },
+    {
+      "code": "b05",
+      "file": "bg/b05.png",
+      "name": "카페",
+      "source": "D:\\크랙\\000\\_너는내운명\\배경\\05_카페\\05_카페.png",
+      "sha256": "673b76ee23ff90cfea4728a05d6c3ae9dc3b36d35280ca6a326cce12cc2a017c"
+    },
+    {
+      "code": "b06",
+      "file": "bg/b06.png",
+      "name": "식당",
+      "source": "D:\\크랙\\000\\_너는내운명\\배경\\06_식당\\06_식당.png",
+      "sha256": "fed0136c12c5d2e77e99444fcef5c399948d5a4f805e7e8a0fd604682d54e92c"
+    },
+    {
+      "code": "b07",
+      "file": "bg/b07.png",
+      "name": "서울숲",
+      "source": "D:\\크랙\\000\\_너는내운명\\배경\\07_서울숲\\07_서울숲.png",
+      "sha256": "db3843f9757958a885147d0f4d0a77d4a6b97560c2dda72a571e92ec119dd066"
+    },
+    {
+      "code": "b08",
+      "file": "bg/b08.png",
+      "name": "을지로 술집",
+      "source": "D:\\크랙\\000\\_너는내운명\\배경\\08_을지로 술집\\08_을지로 술집.png",
+      "sha256": "2f94cbbda8b46df161ee271b36f8cd27978738be07d7ab3edb2b9cacd89680a1"
+    },
+    {
+      "code": "b09",
+      "file": "bg/b09.png",
+      "name": "구리 본가",
+      "source": "D:\\크랙\\000\\_너는내운명\\배경\\09_구리 본가\\09_구리 본가.png",
+      "sha256": "50bda9982ae175485adcda7989749afcf57d8cfa803d8a4468c2a9f3ddadfb74"
+    },
+    {
+      "code": "b10",
+      "file": "bg/b10.png",
+      "name": "구리 동네",
+      "source": "D:\\크랙\\000\\_너는내운명\\배경\\10_구리 동네\\10_구리 동네.png",
+      "sha256": "abfb24a976882d324492327ecfaaba34c105b72cc1600fb44c4bd2a598a3b83e"
+    }
+  ],
+  "character_assets": [
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e01",
+      "emotion_name": "01_standing__01_relaxed",
+      "file": "ch/c01_e01.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\01_01_standing__01_relaxed.png",
+      "sha256": "64312a41c9463214b55268f2731c2ce90c7ff14f50d787a86b4496310f14411a"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e02",
+      "emotion_name": "01_standing__02_happy",
+      "file": "ch/c01_e02.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\02_01_standing__02_happy.png",
+      "sha256": "efea5b306c56ade8e2782cfdf31d2c778a8df922fcea096a8272e678c4b3e7c7"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e03",
+      "emotion_name": "01_standing__03_sad",
+      "file": "ch/c01_e03.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\03_01_standing__03_sad.png",
+      "sha256": "383bf491185e17ddd52fa9d46f1141e1d5938bb579c6e1a0d038c606307f1615"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e04",
+      "emotion_name": "01_standing__04_annoyed",
+      "file": "ch/c01_e04.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\04_01_standing__04_annoyed.png",
+      "sha256": "e9922077ea5fc896feb0f0977a6be220dd592c34a022c26ec3e44709f7e4ab0d"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e05",
+      "emotion_name": "02_walking__01_leisurely",
+      "file": "ch/c01_e05.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\05_02_walking__01_leisurely.png",
+      "sha256": "f5e89773a968292182a738d585c891a5fb3c64645850148f002922468aaf5aea"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e06",
+      "emotion_name": "02_walking__02_excited",
+      "file": "ch/c01_e06.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\06_02_walking__02_excited.png",
+      "sha256": "9a58e5b3ec54b6c1e9327ea9e9918987e9006633f078f157865750a8b955b6bd"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e07",
+      "emotion_name": "02_walking__03_anxious",
+      "file": "ch/c01_e07.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\07_02_walking__03_anxious.png",
+      "sha256": "fe62764a0ccd463fc14105e57ced0201fd60e998483b68a269292b329d5fd4c9"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e08",
+      "emotion_name": "02_walking__04_dejected",
+      "file": "ch/c01_e08.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\08_02_walking__04_dejected.png",
+      "sha256": "179ddac8fb2b5c130f36a245d09211700717fce4f7714aa2eed8157fa74e1b8f"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e09",
+      "emotion_name": "03_sitting__01_relaxed",
+      "file": "ch/c01_e09.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\09_03_sitting__01_relaxed.png",
+      "sha256": "450a49f089d7a3992559ad7407b67b01b4b684c9a38a3abff7f29bdafca17304"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e10",
+      "emotion_name": "03_sitting__02_tired",
+      "file": "ch/c01_e10.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\10_03_sitting__02_tired.png",
+      "sha256": "057992e17d82595ccc3b8e253dbf3c2dc79df0b3850dc0efff7160c0e842ad0d"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e11",
+      "emotion_name": "03_sitting__03_tense",
+      "file": "ch/c01_e11.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\11_03_sitting__03_tense.png",
+      "sha256": "fd7650d8d212d217e7146c65645058e063439611ffb63183de0a0e6b6e900567"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e12",
+      "emotion_name": "03_sitting__04_depressed",
+      "file": "ch/c01_e12.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\12_03_sitting__04_depressed.png",
+      "sha256": "56b39cb219889248c9926b60317e77bcf7ae6cc9b18d6552cd8c899bc8879f91"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e13",
+      "emotion_name": "04_waiting__01_expectant",
+      "file": "ch/c01_e13.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\13_04_waiting__01_expectant.png",
+      "sha256": "76097597ac57422d81371c3c0be04b38bbd020f4548de23c6c25146a6dbe9197"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e14",
+      "emotion_name": "04_waiting__02_bored",
+      "file": "ch/c01_e14.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\14_04_waiting__02_bored.png",
+      "sha256": "f69d507f0221be909d5e59fdb844e580fc9251a49f58be4d12decf1263f33463"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e15",
+      "emotion_name": "04_waiting__03_worried",
+      "file": "ch/c01_e15.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\15_04_waiting__03_worried.png",
+      "sha256": "9116c96b41f55e2c220c12ccac6a795596631dc14e3c04e3067c00189c14fc45"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e16",
+      "emotion_name": "04_waiting__04_impatient",
+      "file": "ch/c01_e16.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\16_04_waiting__04_impatient.png",
+      "sha256": "dfb5915477be6243c4e8ca1448e6aab69df68133742502551d2949d26d3a44f5"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e17",
+      "emotion_name": "05_talking__01_cheerful",
+      "file": "ch/c01_e17.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\17_05_talking__01_cheerful.png",
+      "sha256": "eba5d15a14dcf3b50cc9476ec6187c7cea5bdd9918180e2d46b0046a480b931d"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e18",
+      "emotion_name": "05_talking__02_serious",
+      "file": "ch/c01_e18.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\18_05_talking__02_serious.png",
+      "sha256": "74143e4609c605e317f7e9b51801f375fee96ddbeaa547c9047cb34703080e74"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e19",
+      "emotion_name": "05_talking__03_angry",
+      "file": "ch/c01_e19.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\19_05_talking__03_angry.png",
+      "sha256": "f89cd5209c321510df3460e5e2a9cc32f7f52572ed5badf1f9f494c3e7c7c489"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e20",
+      "emotion_name": "05_talking__04_flustered",
+      "file": "ch/c01_e20.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\20_05_talking__04_flustered.png",
+      "sha256": "c656993641ceb238128d557450e0dde546a24a6ace1a288eeb6c09b8e8f13d92"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e21",
+      "emotion_name": "06_listening__01_interested",
+      "file": "ch/c01_e21.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\21_06_listening__01_interested.png",
+      "sha256": "ae6296cb072f741f481a7f942fb3d555b1f0f22c3a1de21de3ceededbbcce3ca"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e22",
+      "emotion_name": "06_listening__02_empathetic",
+      "file": "ch/c01_e22.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\22_06_listening__02_empathetic.png",
+      "sha256": "a4d210a5988f0bcab79db78b2cc1b092659449e31160b17f01b095f42efc1ecc"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e23",
+      "emotion_name": "06_listening__03_skeptical",
+      "file": "ch/c01_e23.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\23_06_listening__03_skeptical.png",
+      "sha256": "52459669cc9b044977eb85ca5b68e7fa829e6ceabf30e895e6004523c7e2a744"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e24",
+      "emotion_name": "06_listening__04_surprised",
+      "file": "ch/c01_e24.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\24_06_listening__04_surprised.png",
+      "sha256": "4822afc7521618d4585cfd39e8a6580c35ffd1d84b36705dcf54917741bc7fde"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e25",
+      "emotion_name": "07_looking_back__01_recognition",
+      "file": "ch/c01_e25.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\25_07_looking_back__01_recognition.png",
+      "sha256": "fdc66db90db896d43b3da6aaeaec7f1694b32823f52a113e6183297c69b87025"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e26",
+      "emotion_name": "07_looking_back__02_surprised",
+      "file": "ch/c01_e26.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\26_07_looking_back__02_surprised.png",
+      "sha256": "cddbaf48f345270b7b748e3a71e6a4fb6a0a9cf0b0460c5ebaa9e61b45ed499e"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e27",
+      "emotion_name": "07_looking_back__03_wary",
+      "file": "ch/c01_e27.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\27_07_looking_back__03_wary.png",
+      "sha256": "44538fa5ef04d19ceb179c87f5e38e6f73647994ed10b2204a0f9ffe448f1b7a"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e28",
+      "emotion_name": "07_looking_back__04_hurt",
+      "file": "ch/c01_e28.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\28_07_looking_back__04_hurt.png",
+      "sha256": "534768c47068e8fbcb78bc01bb3149430157215c77162e12d6bd07adc1868cf3"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e29",
+      "emotion_name": "08_gesturing__01_wave",
+      "file": "ch/c01_e29.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\29_08_gesturing__01_wave.png",
+      "sha256": "11a0f826c80dd26c673aa4f3e3c389fede04584e75c70702fba142233d20b497"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e30",
+      "emotion_name": "08_gesturing__02_beckon",
+      "file": "ch/c01_e30.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\30_08_gesturing__02_beckon.png",
+      "sha256": "935139b816546fe8ac569c7077aea19ecb633722586e31af8a917d4f77c74d1b"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e31",
+      "emotion_name": "08_gesturing__03_refusal",
+      "file": "ch/c01_e31.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\31_08_gesturing__03_refusal.png",
+      "sha256": "62cc8329c2cf8095acf2c3f60fb925a267d78508c53de27fc347c9da240e3005"
+    },
+    {
+      "character": "c01",
+      "character_name": "고양이 인간형",
+      "english": "Cat Human",
+      "emotion": "e32",
+      "emotion_name": "08_gesturing__04_shrug",
+      "file": "ch/c01_e32.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\32_08_gesturing__04_shrug.png",
+      "sha256": "34d4c04c801f365b2b10994d42de7b98d2d6e8ccc919a3551c3bfcd288c84687"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e01",
+      "emotion_name": "01_standing__01_relaxed",
+      "file": "ch/c02_e01.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\01_01_standing__01_relaxed.png",
+      "sha256": "18ffee65ec46125655b6f57b4a3f08c511cfb15b2ff16be3ffe986bf27487401"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e02",
+      "emotion_name": "01_standing__02_happy",
+      "file": "ch/c02_e02.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\02_01_standing__02_happy.png",
+      "sha256": "e15de73767800d2e812a78a5a0ae1c5b7c227eea5905e461765a862b9c641ee8"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e03",
+      "emotion_name": "01_standing__03_sad",
+      "file": "ch/c02_e03.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\03_01_standing__03_sad.png",
+      "sha256": "c27ed7765c3e84dbf00fb54ee5d762d297a437f544d266a864699660a1a58948"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e04",
+      "emotion_name": "01_standing__04_annoyed",
+      "file": "ch/c02_e04.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\04_01_standing__04_annoyed.png",
+      "sha256": "549fb9133217a6c409e51436968dbe36e045a8870fb9b296aa866e5c5f524efb"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e05",
+      "emotion_name": "02_walking__01_leisurely",
+      "file": "ch/c02_e05.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\05_02_walking__01_leisurely.png",
+      "sha256": "d090aa3454a90fe2017af544dec0bbd2680648144171f67370ac59cef40fefc3"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e06",
+      "emotion_name": "02_walking__02_excited",
+      "file": "ch/c02_e06.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\06_02_walking__02_excited.png",
+      "sha256": "466793baec6f8d5e4222c6cf36d31470b753437dfc8b77298db3bc1e3e91bda0"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e07",
+      "emotion_name": "02_walking__03_anxious",
+      "file": "ch/c02_e07.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\07_02_walking__03_anxious.png",
+      "sha256": "229ccf58c030b9ae3f602c3eebb39a7a27e37f43bff6f8a328eaf9d1cf3d93b3"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e08",
+      "emotion_name": "02_walking__04_dejected",
+      "file": "ch/c02_e08.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\08_02_walking__04_dejected.png",
+      "sha256": "d54a8b84f4b57b31d554a807909675d84887f2d2385b6350dbea9db621a7fd01"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e09",
+      "emotion_name": "03_sitting__01_relaxed",
+      "file": "ch/c02_e09.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\09_03_sitting__01_relaxed.png",
+      "sha256": "fc921bf0362ecdb8492ecc159577bcfc03b0e0bf7b3ed23b94c1819874fec7cb"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e10",
+      "emotion_name": "03_sitting__02_tired",
+      "file": "ch/c02_e10.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\10_03_sitting__02_tired.png",
+      "sha256": "3a28f4241e46a76255e3aab98d4a4e4ae22c2e1e869a0ec63be49e630b760dbb"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e11",
+      "emotion_name": "03_sitting__03_tense",
+      "file": "ch/c02_e11.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\11_03_sitting__03_tense.png",
+      "sha256": "b1d0d1f4405ffc903951121b9050c94e72098a0cddb060545902a70e7696ea6e"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e12",
+      "emotion_name": "03_sitting__04_depressed",
+      "file": "ch/c02_e12.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\12_03_sitting__04_depressed.png",
+      "sha256": "60ac505bc8b0f5625b614ed2ead8f34b75389d2cfb440c901b326ac8fbd4d6d5"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e13",
+      "emotion_name": "04_waiting__01_expectant",
+      "file": "ch/c02_e13.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\13_04_waiting__01_expectant.png",
+      "sha256": "70436ad70de303ad54e5973cc325000ad2db067e82b35cc531d6aada26913e7a"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e14",
+      "emotion_name": "04_waiting__02_bored",
+      "file": "ch/c02_e14.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\14_04_waiting__02_bored.png",
+      "sha256": "a221136f04f1b8bd86d45e30287e2aadaf351408c66ed9d6f8ca62992f7e3d83"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e15",
+      "emotion_name": "04_waiting__03_worried",
+      "file": "ch/c02_e15.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\15_04_waiting__03_worried.png",
+      "sha256": "c201e2f203f4604e867c9b53547f724e77d3b267e6b2efa9ffd6a9cbb4e04ca2"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e16",
+      "emotion_name": "04_waiting__04_impatient",
+      "file": "ch/c02_e16.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\16_04_waiting__04_impatient.png",
+      "sha256": "96bd3edf1f3008906cb1652600887bf2a49d5636b2eac8358a58a08afba09f70"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e17",
+      "emotion_name": "05_talking__01_cheerful",
+      "file": "ch/c02_e17.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\17_05_talking__01_cheerful.png",
+      "sha256": "43ed8ef7bc20575884d967a7161f85cf41c76f825ba3cad7ed74c66f1ac3f26c"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e18",
+      "emotion_name": "05_talking__02_serious",
+      "file": "ch/c02_e18.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\18_05_talking__02_serious.png",
+      "sha256": "c8511c0529c1d9e706bb7aaf2bdff78baf19ae636a67eae111f45584f9c006b6"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e19",
+      "emotion_name": "05_talking__03_angry",
+      "file": "ch/c02_e19.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\19_05_talking__03_angry.png",
+      "sha256": "98a4d4c9bb6d98f413f8cab47b2bdb50631d15ab7570438a8c3c0d9b1690945c"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e20",
+      "emotion_name": "05_talking__04_flustered",
+      "file": "ch/c02_e20.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\20_05_talking__04_flustered.png",
+      "sha256": "487ff2a0acb52d9912f675b3328254f75b89c65c84d68a5e50115b0817d95e0c"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e21",
+      "emotion_name": "06_listening__01_interested",
+      "file": "ch/c02_e21.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\21_06_listening__01_interested.png",
+      "sha256": "921d728d1273727623ecb19185a6ad253eec619e97d65408d6badd51d6f460f7"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e22",
+      "emotion_name": "06_listening__02_empathetic",
+      "file": "ch/c02_e22.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\22_06_listening__02_empathetic.png",
+      "sha256": "94c21c50e0c97d8571d9541b12dfb4fac27a417ad2077ae52d9ffeadfab30e8b"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e23",
+      "emotion_name": "06_listening__03_skeptical",
+      "file": "ch/c02_e23.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\23_06_listening__03_skeptical.png",
+      "sha256": "40a75a2702c83e9eafe7cf8f4a38df6b671fe65d98641ca40e8b1cbe5e3e8456"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e24",
+      "emotion_name": "06_listening__04_surprised",
+      "file": "ch/c02_e24.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\24_06_listening__04_surprised.png",
+      "sha256": "ed1cdbe80967b291b8d17b2f93617a68bb83cdf4b1a5e801c2421635914401b3"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e25",
+      "emotion_name": "07_looking_back__01_recognition",
+      "file": "ch/c02_e25.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\25_07_looking_back__01_recognition.png",
+      "sha256": "f1a62b9302a23c14f381911add7ed527f80a448a03e84c4d8310be6c14670485"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e26",
+      "emotion_name": "07_looking_back__02_surprised",
+      "file": "ch/c02_e26.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\26_07_looking_back__02_surprised.png",
+      "sha256": "b1bfc1d157b90870d6ed1547d1627218d7e95c20a6af7ecb829e2618d7e1a909"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e27",
+      "emotion_name": "07_looking_back__03_wary",
+      "file": "ch/c02_e27.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\27_07_looking_back__03_wary.png",
+      "sha256": "3db05242b6e9cc2656ffa947502a05baab211f3ad17839e5eb5b32ba59371615"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e28",
+      "emotion_name": "07_looking_back__04_hurt",
+      "file": "ch/c02_e28.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\28_07_looking_back__04_hurt.png",
+      "sha256": "0a51ded7d86952bbbf0fc03d0a0957a33b89b2a054a3446899ca23bb19a7ff2e"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e29",
+      "emotion_name": "08_gesturing__01_wave",
+      "file": "ch/c02_e29.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\29_08_gesturing__01_wave.png",
+      "sha256": "768147b3ea6811b66058aaca01f90ce0aa3b51bca9cf5188d84827fa5b908d1e"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e30",
+      "emotion_name": "08_gesturing__02_beckon",
+      "file": "ch/c02_e30.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\30_08_gesturing__02_beckon.png",
+      "sha256": "18281fd14fd8b21cf089649386b72e125444e2937f50e53dde6a33f968a4875b"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e31",
+      "emotion_name": "08_gesturing__03_refusal",
+      "file": "ch/c02_e31.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\31_08_gesturing__03_refusal.png",
+      "sha256": "101e291c5d616818c3b9d37169df8c0458a68478b98c452256fb8f2f0b05d370"
+    },
+    {
+      "character": "c02",
+      "character_name": "윤시후",
+      "english": "Yoon Sihoo",
+      "emotion": "e32",
+      "emotion_name": "08_gesturing__04_shrug",
+      "file": "ch/c02_e32.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\32_08_gesturing__04_shrug.png",
+      "sha256": "9202ce1062d6c4d17c21d47344ce5db7508be2776de53488c27622d8c65aa649"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e01",
+      "emotion_name": "01_standing__01_relaxed",
+      "file": "ch/c03_e01.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\01_01_standing__01_relaxed.png",
+      "sha256": "c6660295a3bddb87ceaa8987b13266d446ad91073d921007b225e3f7aa177fc8"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e02",
+      "emotion_name": "01_standing__02_happy",
+      "file": "ch/c03_e02.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\02_01_standing__02_happy.png",
+      "sha256": "794151a9aa0ee1460623ad2e3e084a9d3ab772ef6c75e6404e11dd574e14ff2d"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e03",
+      "emotion_name": "01_standing__03_sad",
+      "file": "ch/c03_e03.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\03_01_standing__03_sad.png",
+      "sha256": "87d097fb41587e5564ce88306fd9507a0b698d45adf458b3e338e5a486f3b75a"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e04",
+      "emotion_name": "01_standing__04_annoyed",
+      "file": "ch/c03_e04.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\04_01_standing__04_annoyed.png",
+      "sha256": "24f6f939ee6224df10eeb3857bf7828eff2921da9158f387e90b7a79a7a43c1a"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e05",
+      "emotion_name": "02_walking__01_leisurely",
+      "file": "ch/c03_e05.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\05_02_walking__01_leisurely.png",
+      "sha256": "2107e816e7e3f75b5fe1d1b2bf42f0d98bb5964f328fd4344c33beade94ea8ae"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e06",
+      "emotion_name": "02_walking__02_excited",
+      "file": "ch/c03_e06.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\06_02_walking__02_excited.png",
+      "sha256": "d2f8dfaa390fe8e663d94188ffd3d3f80bd1e682b56e2462bcd4bb8a3b0ef7cd"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e07",
+      "emotion_name": "02_walking__03_anxious",
+      "file": "ch/c03_e07.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\07_02_walking__03_anxious.png",
+      "sha256": "8cbee98050e2cf0c8cb6029e5e0f801e29b855707471c343e8c9797b653a8275"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e08",
+      "emotion_name": "02_walking__04_dejected",
+      "file": "ch/c03_e08.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\08_02_walking__04_dejected.png",
+      "sha256": "575f2d9391b23983463e6938c452e0b1c768db93f6a0b28798dea36ab4a01268"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e09",
+      "emotion_name": "03_sitting__01_relaxed",
+      "file": "ch/c03_e09.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\09_03_sitting__01_relaxed.png",
+      "sha256": "d89f153bfdb5548cc167f8079cd965cdc0d56390c39c0b157c6904e2ed592e43"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e10",
+      "emotion_name": "03_sitting__02_tired",
+      "file": "ch/c03_e10.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\10_03_sitting__02_tired.png",
+      "sha256": "eff0027f44402ac3d44627f77b298338159008d68857f433c37f92ca50239166"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e11",
+      "emotion_name": "03_sitting__03_tense",
+      "file": "ch/c03_e11.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\11_03_sitting__03_tense.png",
+      "sha256": "22611c033c569b86d84821c210ac6555240314687fdafe04864b82ab5134e90c"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e12",
+      "emotion_name": "03_sitting__04_depressed",
+      "file": "ch/c03_e12.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\12_03_sitting__04_depressed.png",
+      "sha256": "83192396447d0f710c9c4c3cbf36e6d18f81d3a8ff0fcd823c5e8fc8114812fc"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e13",
+      "emotion_name": "04_waiting__01_expectant",
+      "file": "ch/c03_e13.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\13_04_waiting__01_expectant.png",
+      "sha256": "0b7f0bf11b7313dfee17401c61622fddb88e1f6fbeef4a2016fb893e9f7e61a8"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e14",
+      "emotion_name": "04_waiting__02_bored",
+      "file": "ch/c03_e14.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\14_04_waiting__02_bored.png",
+      "sha256": "04060887f301b01292fedfd4072c99458e1aea2b7191d5868bb1778298a6facc"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e15",
+      "emotion_name": "04_waiting__03_worried",
+      "file": "ch/c03_e15.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\15_04_waiting__03_worried.png",
+      "sha256": "464db65c07c36c748f1beb6e7a32dc927fcd401ff658927dc832db5c96eaa350"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e16",
+      "emotion_name": "04_waiting__04_impatient",
+      "file": "ch/c03_e16.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\16_04_waiting__04_impatient.png",
+      "sha256": "57be3ffe732d565117d4543164b52e228bbb7b9f47fdf32156e9ae9030c3fe05"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e17",
+      "emotion_name": "05_talking__01_cheerful",
+      "file": "ch/c03_e17.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\17_05_talking__01_cheerful.png",
+      "sha256": "248600a60f44d1cd4402f3f4bb60482e7ee0036b27e7a8a38a3315d6339b5b2c"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e18",
+      "emotion_name": "05_talking__02_serious",
+      "file": "ch/c03_e18.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\18_05_talking__02_serious.png",
+      "sha256": "12c723529a8d17cfea0aed89ac273da0c8fc6ce5ee1b02243c8c60b0dcd94055"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e19",
+      "emotion_name": "05_talking__03_angry",
+      "file": "ch/c03_e19.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\19_05_talking__03_angry.png",
+      "sha256": "3c0cf0d9981aa301214fe2a63e0d0d87371714f79fe0c81d96b103a6b7fdafe7"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e20",
+      "emotion_name": "05_talking__04_flustered",
+      "file": "ch/c03_e20.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\20_05_talking__04_flustered.png",
+      "sha256": "5b47025d1007548db58d0952946c278fc1c3c01fb4460437020c504cfd4cc19b"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e21",
+      "emotion_name": "06_listening__01_interested",
+      "file": "ch/c03_e21.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\21_06_listening__01_interested.png",
+      "sha256": "53d86dcb686288bda220f0801fd26a18e8122fe5f841497a9ad028a7b0431a98"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e22",
+      "emotion_name": "06_listening__02_empathetic",
+      "file": "ch/c03_e22.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\22_06_listening__02_empathetic.png",
+      "sha256": "a5a1831e59e4fa3625e7f4867b4278e6c459053e030fe7187a6b13ae63443ac5"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e23",
+      "emotion_name": "06_listening__03_skeptical",
+      "file": "ch/c03_e23.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\23_06_listening__03_skeptical.png",
+      "sha256": "fbd6cee8dd3fb51a1b7570c0654839ee78a25f7d9723154db18741920989cc03"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e24",
+      "emotion_name": "06_listening__04_surprised",
+      "file": "ch/c03_e24.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\24_06_listening__04_surprised.png",
+      "sha256": "00626198568c2d917d6d269dd456d07b61e79ce75af0a8e6fe5e98137043a1a9"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e25",
+      "emotion_name": "07_looking_back__01_recognition",
+      "file": "ch/c03_e25.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\25_07_looking_back__01_recognition.png",
+      "sha256": "6687ef98100db1436734a3380ed638181e8cebd6779a6755ab9014c1e9f7c7be"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e26",
+      "emotion_name": "07_looking_back__02_surprised",
+      "file": "ch/c03_e26.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\26_07_looking_back__02_surprised.png",
+      "sha256": "142d6466de38d7240545dc6feb8079878529eb392c34c1aba7def86d0ee52bd8"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e27",
+      "emotion_name": "07_looking_back__03_wary",
+      "file": "ch/c03_e27.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\27_07_looking_back__03_wary.png",
+      "sha256": "6b82859a5228ffc68f2880583d10a73f2fad72240a39a7b158d17a6791b5bd54"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e28",
+      "emotion_name": "07_looking_back__04_hurt",
+      "file": "ch/c03_e28.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\28_07_looking_back__04_hurt.png",
+      "sha256": "333f69fab92a99b2af4bb0e868aa0706903a6715380f8cba473cdf187e24dac5"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e29",
+      "emotion_name": "08_gesturing__01_wave",
+      "file": "ch/c03_e29.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\29_08_gesturing__01_wave.png",
+      "sha256": "03d9ac43b3b066d68a9c7416eba206c0272cc6e5741ea4e523c87c0b02d3968c"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e30",
+      "emotion_name": "08_gesturing__02_beckon",
+      "file": "ch/c03_e30.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\30_08_gesturing__02_beckon.png",
+      "sha256": "f52036b704be4b0fd308a0a413e4d807c8086e50bdbdd85c0d0ac5eca6c006d5"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e31",
+      "emotion_name": "08_gesturing__03_refusal",
+      "file": "ch/c03_e31.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\31_08_gesturing__03_refusal.png",
+      "sha256": "968355c7ae49b65843ae896c0464392ade5847bd719f1fafd03a065043154423"
+    },
+    {
+      "character": "c03",
+      "character_name": "한예진",
+      "english": "Han Yejin",
+      "emotion": "e32",
+      "emotion_name": "08_gesturing__04_shrug",
+      "file": "ch/c03_e32.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\32_08_gesturing__04_shrug.png",
+      "sha256": "7a8f100eb2ec0b2e767824e6b7cc6777c7b5d9515b0c76a4835515e422bed706"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e01",
+      "emotion_name": "01_standing__01_relaxed",
+      "file": "ch/c04_e01.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\01_01_standing__01_relaxed.png",
+      "sha256": "490abf658a688af3d45b74f0122cc81e72775b62d20c76015f08cda98f17608f"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e02",
+      "emotion_name": "01_standing__02_happy",
+      "file": "ch/c04_e02.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\02_01_standing__02_happy.png",
+      "sha256": "369edba87409f1dbdea987f57e882858d21e831e354742f56f8aaf53c2ddd46c"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e03",
+      "emotion_name": "01_standing__03_sad",
+      "file": "ch/c04_e03.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\03_01_standing__03_sad.png",
+      "sha256": "c1c5c4f04094e4104e028484515f056ed575d20f7e3f437a4b03c94194193084"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e04",
+      "emotion_name": "01_standing__04_annoyed",
+      "file": "ch/c04_e04.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\04_01_standing__04_annoyed.png",
+      "sha256": "ca0eb11720e7e4f7c75fe88ad8b7ef006feb709208efb2d54b5a98e437c583ab"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e05",
+      "emotion_name": "02_walking__01_leisurely",
+      "file": "ch/c04_e05.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\05_02_walking__01_leisurely.png",
+      "sha256": "8206d829ece055434e0e65f1d85e8ffb000b35c4f0182e0bcc4d44acbc7dabae"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e06",
+      "emotion_name": "02_walking__02_excited",
+      "file": "ch/c04_e06.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\06_02_walking__02_excited.png",
+      "sha256": "6e8c689c2bf2a156793a04a8cedaf170639d1873268d54c3fc4a3dc71695a4c8"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e07",
+      "emotion_name": "02_walking__03_anxious",
+      "file": "ch/c04_e07.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\07_02_walking__03_anxious.png",
+      "sha256": "b0038cce1cb7de3b8a1f0282495b6b2ee6acd6e4b0b4975655b25a543e9a5b92"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e08",
+      "emotion_name": "02_walking__04_dejected",
+      "file": "ch/c04_e08.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\08_02_walking__04_dejected.png",
+      "sha256": "b2298d9c0b5a43c677dbf4f91130385dc587156f350f0c107c3991a1d1e3410c"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e09",
+      "emotion_name": "03_sitting__01_relaxed",
+      "file": "ch/c04_e09.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\09_03_sitting__01_relaxed.png",
+      "sha256": "2c68563a3ca521a9e79ecdb1bc50e05c75888d07adba50ee1b3ff2d6013e3f52"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e10",
+      "emotion_name": "03_sitting__02_tired",
+      "file": "ch/c04_e10.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\10_03_sitting__02_tired.png",
+      "sha256": "5d7bf697b73c07f1ea4e3c4fb9dc072ad2c68a36f68a0bbd5a5ee6d04edb401d"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e11",
+      "emotion_name": "03_sitting__03_tense",
+      "file": "ch/c04_e11.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\11_03_sitting__03_tense.png",
+      "sha256": "44af48d3970b4de8f6479c4194ed4a54b95a924438ec95fc7edc6e38737bfa68"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e12",
+      "emotion_name": "03_sitting__04_depressed",
+      "file": "ch/c04_e12.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\12_03_sitting__04_depressed.png",
+      "sha256": "063143c738e24b2ed3dae9bd54491bfa36307a8d1b052e3928a63e0bc22a2131"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e13",
+      "emotion_name": "04_waiting__01_expectant",
+      "file": "ch/c04_e13.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\13_04_waiting__01_expectant.png",
+      "sha256": "b02cfd4d45ebec2d3b596d97682a6358b7b0a7f6ff703390a98cb41bb1b35e1a"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e14",
+      "emotion_name": "04_waiting__02_bored",
+      "file": "ch/c04_e14.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\14_04_waiting__02_bored.png",
+      "sha256": "94bb52a305104b33443479fba92f06f56746b01728f2df7d03f4a80bd43d9130"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e15",
+      "emotion_name": "04_waiting__03_worried",
+      "file": "ch/c04_e15.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\15_04_waiting__03_worried.png",
+      "sha256": "59b3555d52588abca9f14e0c837f06dc49e761fdeb8d17ae3df9fc48dce8c589"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e16",
+      "emotion_name": "04_waiting__04_impatient",
+      "file": "ch/c04_e16.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\16_04_waiting__04_impatient.png",
+      "sha256": "167a7333d5217906060de9fc3b2a0de5fe33728e8ff7586b7e9b779ca4c77921"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e17",
+      "emotion_name": "05_talking__01_cheerful",
+      "file": "ch/c04_e17.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\17_05_talking__01_cheerful.png",
+      "sha256": "c42b4072dd26bf806243fe07137bac054ad181295c9fd7190bb0a6e07ca44bed"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e18",
+      "emotion_name": "05_talking__02_serious",
+      "file": "ch/c04_e18.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\18_05_talking__02_serious.png",
+      "sha256": "213bd436e97d1124ffe86a8d19e5d1c48f78d5079c32c53eb0185f477d6cd6d9"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e19",
+      "emotion_name": "05_talking__03_angry",
+      "file": "ch/c04_e19.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\19_05_talking__03_angry.png",
+      "sha256": "db80a8b524e54022865dbfa2ab3fb09eed07ec51634f28d57f34c5c2c37d6199"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e20",
+      "emotion_name": "05_talking__04_flustered",
+      "file": "ch/c04_e20.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\20_05_talking__04_flustered.png",
+      "sha256": "6aea9ed1c5330bbb6268d689cab4e3cfc2cb3254181bf2c99251dde36ee9e26d"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e21",
+      "emotion_name": "06_listening__01_interested",
+      "file": "ch/c04_e21.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\21_06_listening__01_interested.png",
+      "sha256": "ee88acc3dfbdfd89c8c485eea5d72f232cb9b60599933a35fb8a12549a998527"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e22",
+      "emotion_name": "06_listening__02_empathetic",
+      "file": "ch/c04_e22.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\22_06_listening__02_empathetic.png",
+      "sha256": "0f7428ca6141583faab66079256c0e7f9f3d48f94738466542504137ea0f965c"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e23",
+      "emotion_name": "06_listening__03_skeptical",
+      "file": "ch/c04_e23.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\23_06_listening__03_skeptical.png",
+      "sha256": "a29f7029d68508a7e0aa746d5aacb8598e9859e424fe5d19e7a26122bd95db5f"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e24",
+      "emotion_name": "06_listening__04_surprised",
+      "file": "ch/c04_e24.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\24_06_listening__04_surprised.png",
+      "sha256": "51f02f5f7ef4c55124570b996810237558681f81ac5d37e0ba79311254bad5b5"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e25",
+      "emotion_name": "07_looking_back__01_recognition",
+      "file": "ch/c04_e25.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\25_07_looking_back__01_recognition.png",
+      "sha256": "7d023e95670049f99194953cde600ddfa4878031ee8362bcc78cea160a8c2200"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e26",
+      "emotion_name": "07_looking_back__02_surprised",
+      "file": "ch/c04_e26.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\26_07_looking_back__02_surprised.png",
+      "sha256": "878594428dc76275577b9c7af0772438fe0b21642fbc0f0a27736b00e7e47f3f"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e27",
+      "emotion_name": "07_looking_back__03_wary",
+      "file": "ch/c04_e27.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\27_07_looking_back__03_wary.png",
+      "sha256": "c3714cbc2c26536c0b5df728cb14f2dd9d591d92b0f2207e9fbc3ca912772b6c"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e28",
+      "emotion_name": "07_looking_back__04_hurt",
+      "file": "ch/c04_e28.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\28_07_looking_back__04_hurt.png",
+      "sha256": "73377837801c5f9310af8357ad9a4730d7679b916fa2ab26a00fc113590b7cce"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e29",
+      "emotion_name": "08_gesturing__01_wave",
+      "file": "ch/c04_e29.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\29_08_gesturing__01_wave.png",
+      "sha256": "335510e3eb98a7d23faaa78e1ca40da56c732a8970936afc88321796f8b6453e"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e30",
+      "emotion_name": "08_gesturing__02_beckon",
+      "file": "ch/c04_e30.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\30_08_gesturing__02_beckon.png",
+      "sha256": "40ae6ca55f65c0c928e702be79e3ab919a0da7cca7b9d5cc728468dd5e5f46c4"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e31",
+      "emotion_name": "08_gesturing__03_refusal",
+      "file": "ch/c04_e31.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\31_08_gesturing__03_refusal.png",
+      "sha256": "a86dc71482bea932327d7bbc4a16fd424a5b6aa752309a9b1b103e561f128c31"
+    },
+    {
+      "character": "c04",
+      "character_name": "강준서",
+      "english": "Kang Junseo",
+      "emotion": "e32",
+      "emotion_name": "08_gesturing__04_shrug",
+      "file": "ch/c04_e32.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\32_08_gesturing__04_shrug.png",
+      "sha256": "7e947a88043207f627b08d4ef992f1cf598221fa823d4f0a98dab04083993448"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e01",
+      "emotion_name": "01_standing__01_relaxed",
+      "file": "ch/c05_e01.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\01_01_standing__01_relaxed.png",
+      "sha256": "1dbc432930b3422d9675ab4d2d94974740e1c2c14a2894bdb964dda7b97ec300"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e02",
+      "emotion_name": "01_standing__02_happy",
+      "file": "ch/c05_e02.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\02_01_standing__02_happy.png",
+      "sha256": "e90ae2161589f919aeed56951f56fb7f591d993a7b1ef80885918a6c60a28bc7"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e03",
+      "emotion_name": "01_standing__03_sad",
+      "file": "ch/c05_e03.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\03_01_standing__03_sad.png",
+      "sha256": "7b9d30450850db8526d898f98bdab8f9c3798294dd0c6b6be911f7e6132c1fb3"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e04",
+      "emotion_name": "01_standing__04_annoyed",
+      "file": "ch/c05_e04.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\04_01_standing__04_annoyed.png",
+      "sha256": "6d1aaa3d14f91af8b9ebfc2c836d436b08b9218437728dcfcd7c215cfbbd0203"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e05",
+      "emotion_name": "02_walking__01_leisurely",
+      "file": "ch/c05_e05.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\05_02_walking__01_leisurely.png",
+      "sha256": "cdbcc094b6bd911d3a943bc4e57e58ffcebf701a92ece13bb27537a99778f335"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e06",
+      "emotion_name": "02_walking__02_excited",
+      "file": "ch/c05_e06.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\06_02_walking__02_excited.png",
+      "sha256": "28ae1dde06bac8a0a483a4dc6b147b025f666ec5c9c615f1b240ec72c41bd7d9"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e07",
+      "emotion_name": "02_walking__03_anxious",
+      "file": "ch/c05_e07.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\07_02_walking__03_anxious.png",
+      "sha256": "e337d66873a6d9935bb115e066b88810ec63d5c0a294aa592eb449c3c7b6316e"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e08",
+      "emotion_name": "02_walking__04_dejected",
+      "file": "ch/c05_e08.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\08_02_walking__04_dejected.png",
+      "sha256": "9b215ed9a6a1d637a9ec763300a41f55357e324e0714a09aa7a910e7757a5ea7"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e09",
+      "emotion_name": "03_sitting__01_relaxed",
+      "file": "ch/c05_e09.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\09_03_sitting__01_relaxed.png",
+      "sha256": "75dcf46ad400c28d71a942faf495e546f40c7ea8c78e96490a89daed65daaf12"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e10",
+      "emotion_name": "03_sitting__02_tired",
+      "file": "ch/c05_e10.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\10_03_sitting__02_tired.png",
+      "sha256": "7b5049387abf7af40ad0decc1134c66047440a9b14163ca4a6ef151e5c2816f4"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e11",
+      "emotion_name": "03_sitting__03_tense",
+      "file": "ch/c05_e11.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\11_03_sitting__03_tense.png",
+      "sha256": "fc1d322dbcc4576bf3b8ef595533769fd2e1b47b2afe847728600331a8a10e54"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e12",
+      "emotion_name": "03_sitting__04_depressed",
+      "file": "ch/c05_e12.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\12_03_sitting__04_depressed.png",
+      "sha256": "16a98d2275a9af06f4cf4d8c98135e0227d83ae33d5dff58233ea84b45276def"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e13",
+      "emotion_name": "04_waiting__01_expectant",
+      "file": "ch/c05_e13.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\13_04_waiting__01_expectant.png",
+      "sha256": "e7fd4dc12c9c9f96af3553e14715ffd9040e477caf24f74e0e87f870a8db09fa"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e14",
+      "emotion_name": "04_waiting__02_bored",
+      "file": "ch/c05_e14.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\14_04_waiting__02_bored.png",
+      "sha256": "74ff069e8ac5c9c30cf3b14defc734e692772bb6979a6221f9b1ac8a83f7a73e"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e15",
+      "emotion_name": "04_waiting__03_worried",
+      "file": "ch/c05_e15.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\15_04_waiting__03_worried.png",
+      "sha256": "641d32f7b1528164a123ef9913424d7d6718be026d1b6e9540b5244bb8e8b380"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e16",
+      "emotion_name": "04_waiting__04_impatient",
+      "file": "ch/c05_e16.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\16_04_waiting__04_impatient.png",
+      "sha256": "aa382d932f9d31c83e385426bf20db674be01d1ac7801379b885a992289f3a37"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e17",
+      "emotion_name": "05_talking__01_cheerful",
+      "file": "ch/c05_e17.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\17_05_talking__01_cheerful.png",
+      "sha256": "b893b024bce4d6393d6d6559a7faba27e41f859c41ec5e46e84ad5f2c1912a7c"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e18",
+      "emotion_name": "05_talking__02_serious",
+      "file": "ch/c05_e18.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\18_05_talking__02_serious.png",
+      "sha256": "007bbba33147656b5776bcb726c75472c808e0ce11a30d1f40ecd37a1faaac0f"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e19",
+      "emotion_name": "05_talking__03_angry",
+      "file": "ch/c05_e19.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\19_05_talking__03_angry.png",
+      "sha256": "bc16166aaa5f5b5ba47a459ca96695aaab514cced1cbb2c13f50e0bb2c670d09"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e20",
+      "emotion_name": "05_talking__04_flustered",
+      "file": "ch/c05_e20.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\20_05_talking__04_flustered.png",
+      "sha256": "5bbdb1fec16bffd4686ff0383415450606959910540be4c22c7999ed010ecd09"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e21",
+      "emotion_name": "06_listening__01_interested",
+      "file": "ch/c05_e21.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\21_06_listening__01_interested.png",
+      "sha256": "72617777ac199acb9be5f37ec57cd189c1ed2d07c3cb7da61acb3cadc3f5221c"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e22",
+      "emotion_name": "06_listening__02_empathetic",
+      "file": "ch/c05_e22.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\22_06_listening__02_empathetic.png",
+      "sha256": "c3bb6fc6dc8272277bbed88363dade13d2b8db299ecda4d44f20a686d0f397b0"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e23",
+      "emotion_name": "06_listening__03_skeptical",
+      "file": "ch/c05_e23.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\23_06_listening__03_skeptical.png",
+      "sha256": "89de234aa4f1ba7dd80e6ce13dbac3323c4e5f408d4afe95cc1d03736ae1a922"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e24",
+      "emotion_name": "06_listening__04_surprised",
+      "file": "ch/c05_e24.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\24_06_listening__04_surprised.png",
+      "sha256": "8151e2890195b9177b85c84e5edbec27fc357d9f80dc0e94d84b0f8b5be1ff5f"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e25",
+      "emotion_name": "07_looking_back__01_recognition",
+      "file": "ch/c05_e25.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\25_07_looking_back__01_recognition.png",
+      "sha256": "1a101a8d37b1a451239a352a8355793892f97d253fcb9b6d6a0a631e675ac2fa"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e26",
+      "emotion_name": "07_looking_back__02_surprised",
+      "file": "ch/c05_e26.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\26_07_looking_back__02_surprised.png",
+      "sha256": "0e110c6636016913be05354155428364843cdbb4f730dc780cced5278b3007cc"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e27",
+      "emotion_name": "07_looking_back__03_wary",
+      "file": "ch/c05_e27.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\27_07_looking_back__03_wary.png",
+      "sha256": "ca5b025f729b969787a3c8889bfc2f23caa0a169fee1b94aeb226add08106c01"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e28",
+      "emotion_name": "07_looking_back__04_hurt",
+      "file": "ch/c05_e28.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\28_07_looking_back__04_hurt.png",
+      "sha256": "aca20cd0d0709f9aa7aaeaca65c645be2bb5877a67d2c21ac29be095fb6c1280"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e29",
+      "emotion_name": "08_gesturing__01_wave",
+      "file": "ch/c05_e29.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\29_08_gesturing__01_wave.png",
+      "sha256": "ddd6407023f4b1ad7c9c96c05fbec9a16c279a6841363122db4a167bf4f550e8"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e30",
+      "emotion_name": "08_gesturing__02_beckon",
+      "file": "ch/c05_e30.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\30_08_gesturing__02_beckon.png",
+      "sha256": "cc67cb00768cb482992a683563c26e8d78bd171c6b2856a30fd6ede3408c172f"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e31",
+      "emotion_name": "08_gesturing__03_refusal",
+      "file": "ch/c05_e31.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\31_08_gesturing__03_refusal.png",
+      "sha256": "84641bd7e286f0d0f3731fea8bfe97e2a3e14f782f6a92a2f82ccc6322800e9a"
+    },
+    {
+      "character": "c05",
+      "character_name": "민서아",
+      "english": "Min Seoah",
+      "emotion": "e32",
+      "emotion_name": "08_gesturing__04_shrug",
+      "file": "ch/c05_e32.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\32_08_gesturing__04_shrug.png",
+      "sha256": "a8e19be0e759f3c1c9d9cc92a86fa2590eec69f90e45a0d25d799de6e9ca3508"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e01",
+      "emotion_name": "서있기_편안",
+      "file": "ch/c06_e01.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\01_서있기_편안.png",
+      "sha256": "2d1627c64c9eaa0a72999d524e124881a47d7e95d0b67108bb494721054232cd"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e02",
+      "emotion_name": "서있기_기쁨",
+      "file": "ch/c06_e02.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\02_서있기_기쁨.png",
+      "sha256": "b0ea3184877a30f2ddda4707ca35a3411d15185c74bba319cbd252be358db10e"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e03",
+      "emotion_name": "서있기_슬픔",
+      "file": "ch/c06_e03.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\03_서있기_슬픔.png",
+      "sha256": "92312769b0597a6d72e758e492a34ca465796a6a233a17d90d801a4e3a8a693c"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e04",
+      "emotion_name": "서있기_짜증",
+      "file": "ch/c06_e04.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\04_서있기_짜증.png",
+      "sha256": "ed7faf5a148e8ca575bcd6c8b4a6b938ce54ed9b1354710617c1af50bb850834"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e05",
+      "emotion_name": "걷기_여유",
+      "file": "ch/c06_e05.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\05_걷기_여유.png",
+      "sha256": "5ed32438353c2960a172904201f97bed98db969fda9041cafcdbeba30ad1594e"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e06",
+      "emotion_name": "걷기_신남",
+      "file": "ch/c06_e06.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\06_걷기_신남.png",
+      "sha256": "99c8a5ed8fb8c4229d5eadb881026f0c19dabddc83d685740b02df901c54b2fb"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e07",
+      "emotion_name": "걷기_불안",
+      "file": "ch/c06_e07.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\07_걷기_불안.png",
+      "sha256": "df6104b55c5a31678a432cc5bc601b3d8897e9f63f269815cc69a5ec665cc84a"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e08",
+      "emotion_name": "걷기_풀이죽음",
+      "file": "ch/c06_e08.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\08_걷기_풀이죽음.png",
+      "sha256": "b9639dfd2c013c4009173b07adadda7c23d40d06b5c316957681e66e0f3fcb8d"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e09",
+      "emotion_name": "앉기_편안",
+      "file": "ch/c06_e09.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\09_앉기_편안.png",
+      "sha256": "82b4d46c7a47d8e832f811a8f49ec929a73ad3177a2547a7ecdee05d952e3c90"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e10",
+      "emotion_name": "앉기_피곤",
+      "file": "ch/c06_e10.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\10_앉기_피곤.png",
+      "sha256": "ab1364a6eb6d7ab60b8d083fdcfd7d46e4b15b6eecbc264f943eb5733ecf0e1d"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e11",
+      "emotion_name": "앉기_긴장",
+      "file": "ch/c06_e11.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\11_앉기_긴장.png",
+      "sha256": "946735928303d6b00c01b3c6c0c8ef07fe8dbbd5331b265ecce7d9add1e523b6"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e12",
+      "emotion_name": "앉기_우울",
+      "file": "ch/c06_e12.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\12_앉기_우울.png",
+      "sha256": "72bb9b6c2ef7636029b5ecad22cea327554a8adf411f05bef406545d4f8d042e"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e13",
+      "emotion_name": "기다리기_기대",
+      "file": "ch/c06_e13.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\13_기다리기_기대.png",
+      "sha256": "e4f7e39c9dc6fa2aa89b145a6d4899602d716a75a9ca6b42b8c49d6357b9b1f4"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e14",
+      "emotion_name": "기다리기_지루함",
+      "file": "ch/c06_e14.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\14_기다리기_지루함.png",
+      "sha256": "a23d79c3192fc2e0a3808aa08741ecba29c56d74650bcba0fda4d668eb5d0d64"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e15",
+      "emotion_name": "기다리기_걱정",
+      "file": "ch/c06_e15.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\15_기다리기_걱정.png",
+      "sha256": "5bc4ac1e884e2de56749a8a1e930c1ab57f6613bb18e72469e3269535cddf331"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e16",
+      "emotion_name": "기다리기_초조",
+      "file": "ch/c06_e16.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\16_기다리기_초조.png",
+      "sha256": "0c99b53e845cb45da3d69f779fc8537a233a4f40a4ea340c27d03b2a67535a4c"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e17",
+      "emotion_name": "대화하기_밝게",
+      "file": "ch/c06_e17.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\17_대화하기_밝게.png",
+      "sha256": "7c6cdbcc6bad054816bd408eff647f7b9dd31eeb0861f64cb16d4a1ffa0a5d18"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e18",
+      "emotion_name": "대화하기_진지",
+      "file": "ch/c06_e18.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\18_대화하기_진지.png",
+      "sha256": "8316737b96bc3eaabb456934f48e9b360bdf830ca3272bbb38a1af2a337920ff"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e19",
+      "emotion_name": "대화하기_화남",
+      "file": "ch/c06_e19.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\19_대화하기_화남.png",
+      "sha256": "167cfaa6d3883ad8f25a9fb3342ce36f7221a524b99b8acd23fe627a51bac180"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e20",
+      "emotion_name": "대화하기_당황",
+      "file": "ch/c06_e20.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\20_대화하기_당황.png",
+      "sha256": "222ef57d0d492cd6de4fbdb76ce6385c2b208b19dd89cfef47ac34a0d9f45d14"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e21",
+      "emotion_name": "듣기_관심",
+      "file": "ch/c06_e21.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\21_듣기_관심.png",
+      "sha256": "326d44f3e0aa8e0208235da49c8992346917fbce00212d7655b8ccdbe87bae48"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e22",
+      "emotion_name": "듣기_공감",
+      "file": "ch/c06_e22.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\22_듣기_공감.png",
+      "sha256": "05ebb9fa2cbcfd06c98b1b77403190baad2f143c014085a690adfb384c5ab69f"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e23",
+      "emotion_name": "듣기_의심",
+      "file": "ch/c06_e23.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\23_듣기_의심.png",
+      "sha256": "315d047f61e4c673daebc831b6e08c372c462b65972a827e20e31556f1724569"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e24",
+      "emotion_name": "듣기_놀람",
+      "file": "ch/c06_e24.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\24_듣기_놀람.png",
+      "sha256": "ffc8e6e8d242031f96baae6519233e84a9d512fc6714bfe73ddd959e13ab1430"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e25",
+      "emotion_name": "뒤돌아보기_알아봄",
+      "file": "ch/c06_e25.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\25_뒤돌아보기_알아봄.png",
+      "sha256": "87954657a9004ce2f66863267a197662211cc598c6f41c7bdf77a7c52d7b7238"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e26",
+      "emotion_name": "뒤돌아보기_놀람",
+      "file": "ch/c06_e26.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\26_뒤돌아보기_놀람.png",
+      "sha256": "d6c1b3ac17b6fdb05eed0979619566f4a6e791f24161d3f0b391e89ba6e56e24"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e27",
+      "emotion_name": "뒤돌아보기_경계",
+      "file": "ch/c06_e27.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\27_뒤돌아보기_경계.png",
+      "sha256": "e2651348d4e5a1bac76666b7d3128868de48e43f4bdc4a0d60bc33b333796799"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e28",
+      "emotion_name": "뒤돌아보기_상처",
+      "file": "ch/c06_e28.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\28_뒤돌아보기_상처.png",
+      "sha256": "877b00dea7b0c873bf80497c245260ecb540d115bd32fef2ab5db94c0783637f"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e29",
+      "emotion_name": "손짓_손흔들기",
+      "file": "ch/c06_e29.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\29_손짓_손흔들기.png",
+      "sha256": "9cde8d3458ffe3cdfeb959f7127e639ed4476901f4c47857ec56dbeb42fe9066"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e30",
+      "emotion_name": "손짓_부르기",
+      "file": "ch/c06_e30.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\30_손짓_부르기.png",
+      "sha256": "f4021d5eb032b058a61fbe554c4225d85da42f3515c661bb7016baa65422a4b5"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e31",
+      "emotion_name": "손짓_거절",
+      "file": "ch/c06_e31.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\31_손짓_거절.png",
+      "sha256": "6714dfc705dd718d7d750026de44fec824025bccd3b57e6f4a09b3f025a5fd25"
+    },
+    {
+      "character": "c06",
+      "character_name": "이도윤",
+      "english": "Lee Doyoon",
+      "emotion": "e32",
+      "emotion_name": "손짓_어깨으쓱",
+      "file": "ch/c06_e32.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\32_손짓_어깨으쓱.png",
+      "sha256": "cadbd5e11c89db694f905dfddb5a7bdf0c4111f47c9f4164cce649acce0a51ff"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e01",
+      "emotion_name": "서기_여유",
+      "file": "ch/c07_e01.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\01_서기_여유.png",
+      "sha256": "ea761699db00acf408b5037e3920b6c80e60e6396721c134fb5fc55fc9a36fe7"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e02",
+      "emotion_name": "서기_기쁨",
+      "file": "ch/c07_e02.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\02_서기_기쁨.png",
+      "sha256": "26905043264f77e7f6888f8de30e5fa8fee516bc901456381d3b3de92e08ac03"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e03",
+      "emotion_name": "서기_슬픔",
+      "file": "ch/c07_e03.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\03_서기_슬픔.png",
+      "sha256": "2170a0390efdbfe64be2d55b91094aa822bba6346eaad92f49a153c006aa1e28"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e04",
+      "emotion_name": "서기_짜증",
+      "file": "ch/c07_e04.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\04_서기_짜증.png",
+      "sha256": "8dc60dc60e48409650b76fb7171548344f08078888fa8467edd7115a6fdf22f3"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e05",
+      "emotion_name": "걷기_여유",
+      "file": "ch/c07_e05.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\05_걷기_여유.png",
+      "sha256": "c9775c56d33adc366c84878843fe93959f23a24d15c8531522a48b65f3df1a3c"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e06",
+      "emotion_name": "걷기_신남",
+      "file": "ch/c07_e06.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\06_걷기_신남.png",
+      "sha256": "f1c4cb89a47b08d3fe297b43398fbe30ce536a85b4415fd8bdabe42cf080e466"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e07",
+      "emotion_name": "걷기_불안",
+      "file": "ch/c07_e07.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\07_걷기_불안.png",
+      "sha256": "7bc0c5a5ff4ee2154d2db7156b3de9e022d9450be4b4305ad9ad301d4f960c61"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e08",
+      "emotion_name": "걷기_낙담",
+      "file": "ch/c07_e08.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\08_걷기_낙담.png",
+      "sha256": "8dfb0874938d36346fd53cb036398685e1eb2e970c7ce90feef1f5ffbb4a7206"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e09",
+      "emotion_name": "앉기_여유",
+      "file": "ch/c07_e09.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\09_앉기_여유.png",
+      "sha256": "ce5a9769dcb218a05e93a3afdbf6228229e014d5548467e8ff911d1234d858c2"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e10",
+      "emotion_name": "앉기_피로",
+      "file": "ch/c07_e10.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\10_앉기_피로.png",
+      "sha256": "9952a93d580e53873c53bb8bbe86f933c7186278afe3a99094ba3bebe2b9b5aa"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e11",
+      "emotion_name": "앉기_긴장",
+      "file": "ch/c07_e11.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\11_앉기_긴장.png",
+      "sha256": "322e5caa6ff6498a21aa1925e43255dbd00a644c267533d26c88bd945ed0e1cf"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e12",
+      "emotion_name": "앉기_침울",
+      "file": "ch/c07_e12.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\12_앉기_침울.png",
+      "sha256": "c3fd9aff4afe2a07756e0af6def1d1ec42cd3e8c603f62a52e50686cb0dde9c0"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e13",
+      "emotion_name": "기다림_기대",
+      "file": "ch/c07_e13.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\13_기다림_기대.png",
+      "sha256": "deb2ef9f0a10bb60afddbd5668e89b7a6ad97e35fdeb72008a2d3e1f6d7ad0a3"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e14",
+      "emotion_name": "기다림_지루함",
+      "file": "ch/c07_e14.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\14_기다림_지루함.png",
+      "sha256": "2adf809d1852fc21608bf2f7d0cca3251857a1a4476d296c13b0d02f313d96e1"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e15",
+      "emotion_name": "기다림_걱정",
+      "file": "ch/c07_e15.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\15_기다림_걱정.png",
+      "sha256": "7424c0163321b23fc2bd9d86b805ee82225f15e67c1623ae2ec88fe85034b606"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e16",
+      "emotion_name": "기다림_조급함",
+      "file": "ch/c07_e16.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\16_기다림_조급함.png",
+      "sha256": "3aae669b2138f4ff34838bc6586c2f0778ce15583df52dd5595c250d9f046088"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e17",
+      "emotion_name": "말하기_유쾌",
+      "file": "ch/c07_e17.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\17_말하기_유쾌.png",
+      "sha256": "5013c8a979ac12d159622d45a742424db4349e79824c8e0cad01a3ab2376e4f2"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e18",
+      "emotion_name": "말하기_진지",
+      "file": "ch/c07_e18.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\18_말하기_진지.png",
+      "sha256": "9b9252d51723a471cbde9044f4a48bffe887efef543878bfd922acf1ef12eda7"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e19",
+      "emotion_name": "말하기_화남",
+      "file": "ch/c07_e19.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\19_말하기_화남.png",
+      "sha256": "263109a57b8cdd650f663a95f51390dfabb45b6a2c0c3a9d3590afaf99b4f8a6"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e20",
+      "emotion_name": "말하기_당황",
+      "file": "ch/c07_e20.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\20_말하기_당황.png",
+      "sha256": "e791eac2dc32d57c4312e9259cebf4fbe05de0adb2c073e2008e954d654106ab"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e21",
+      "emotion_name": "듣기_관심",
+      "file": "ch/c07_e21.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\21_듣기_관심.png",
+      "sha256": "49c9124d55da0ff4785e39946a74e853f4ef5b4a7fbf02442fd6077e20931df4"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e22",
+      "emotion_name": "듣기_공감",
+      "file": "ch/c07_e22.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\22_듣기_공감.png",
+      "sha256": "bea2d5f082f325601c80e71c053527975b1776956f40134405b720eb8ba51b9a"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e23",
+      "emotion_name": "듣기_의심",
+      "file": "ch/c07_e23.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\23_듣기_의심.png",
+      "sha256": "5db7c26a7bcf0cdb6eefcdef12eaa7c170a8bc2d82677ca8796e29e225714014"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e24",
+      "emotion_name": "듣기_놀람",
+      "file": "ch/c07_e24.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\24_듣기_놀람.png",
+      "sha256": "d4370e46a3df034141046ab9ff6efffca68ab58977eb013452d5b9ddc63c7548"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e25",
+      "emotion_name": "돌아보기_반가움",
+      "file": "ch/c07_e25.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\25_돌아보기_반가움.png",
+      "sha256": "b61e02684a20a153221130b021ca46a9797fa1aa682ed63e7d759bccf47308e5"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e26",
+      "emotion_name": "돌아보기_놀람",
+      "file": "ch/c07_e26.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\26_돌아보기_놀람.png",
+      "sha256": "e802edae9b6bb88a5e08c9b5a4b620e60006dfd123018651248c5c961f41803a"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e27",
+      "emotion_name": "돌아보기_경계",
+      "file": "ch/c07_e27.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\27_돌아보기_경계.png",
+      "sha256": "9c5a5e699f62a149d559b7a90b3c4218583bba7e15d87af1b24fb5469c6ee8bf"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e28",
+      "emotion_name": "돌아보기_상처",
+      "file": "ch/c07_e28.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\28_돌아보기_상처.png",
+      "sha256": "b295d5856662bf41fb495df08af160e7353422ab56190c40e737d654445a5150"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e29",
+      "emotion_name": "손짓_인사",
+      "file": "ch/c07_e29.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\29_손짓_인사.png",
+      "sha256": "fb121cdb0a04f3dda7568c83e93f2a6cceccbf8a76d32ce081c6c3f03d3d0ba3"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e30",
+      "emotion_name": "손짓_부르기",
+      "file": "ch/c07_e30.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\30_손짓_부르기.png",
+      "sha256": "f8b1eab95bbebb4b689c7dfedabef9790542ce6cb9c109983344d80d90a0d899"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e31",
+      "emotion_name": "손짓_거절",
+      "file": "ch/c07_e31.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\31_손짓_거절.png",
+      "sha256": "8dbcb542c1900e8a221891b138f683bb7426f42360cac94451577896b876ff1d"
+    },
+    {
+      "character": "c07",
+      "character_name": "김미정",
+      "english": "Kim Mijeong",
+      "emotion": "e32",
+      "emotion_name": "손짓_으쓱",
+      "file": "ch/c07_e32.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\32_손짓_으쓱.png",
+      "sha256": "d440b1457abe6ad26c45ca168052ab7821b1e9562e1864da5fb196f51d1ecf75"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e01",
+      "emotion_name": "서있기_편안",
+      "file": "ch/c08_e01.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\01_서있기_편안.png",
+      "sha256": "6feb0127354fbc538cf84185a8022d4c4400460109c6c4969e839d3ad42c9c98"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e02",
+      "emotion_name": "서있기_기쁨",
+      "file": "ch/c08_e02.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\02_서있기_기쁨.png",
+      "sha256": "07e7b2477bff171f2f445f604015bb55102dca5c7f9b7d81ef68863e9e2b88a5"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e04",
+      "emotion_name": "서있기_짜증",
+      "file": "ch/c08_e04.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\04_서있기_짜증.png",
+      "sha256": "25c01c4023464189c0d92110914cf75032a77caa2fef72ef8c67c94093eec090"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e05",
+      "emotion_name": "걷기_여유",
+      "file": "ch/c08_e05.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\05_걷기_여유.png",
+      "sha256": "0671ecb6b9d5986d6501c391d6f6ba27e7664ce2635fa37d6ca45ddfecaf566a"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e06",
+      "emotion_name": "걷기_신남",
+      "file": "ch/c08_e06.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\06_걷기_신남.png",
+      "sha256": "345c58a6385763971449b8663bc9dcbc2e753143d672d9b9b31483b302b17c53"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e07",
+      "emotion_name": "걷기_불안",
+      "file": "ch/c08_e07.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\07_걷기_불안.png",
+      "sha256": "11e1973da60e4ed04c9206cc39ee657ab495c55404058a0f147aa1b911748a68"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e08",
+      "emotion_name": "걷기_풀이죽음",
+      "file": "ch/c08_e08.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\08_걷기_풀이죽음.png",
+      "sha256": "50b57606ca0451890c25bdc813c94d23cf83e754e6f8d8bb2f43bcf5fe88531e"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e09",
+      "emotion_name": "앉기_편안",
+      "file": "ch/c08_e09.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\09_앉기_편안.png",
+      "sha256": "35f8c40fcefabb3c7a09015044b24b72f8dc6ad767d5a8ff929de23b61b022f8"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e10",
+      "emotion_name": "앉기_피곤",
+      "file": "ch/c08_e10.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\10_앉기_피곤.png",
+      "sha256": "9f536a7f438bdc1d670e79e7f5a97dd8e74c6807ac913d631965200953b574e9"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e11",
+      "emotion_name": "앉기_긴장",
+      "file": "ch/c08_e11.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\11_앉기_긴장.png",
+      "sha256": "e607ae01eea9d34c24c7b7410aed9f595cb431bfef99c461e9f2d3c161761d39"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e12",
+      "emotion_name": "앉기_우울",
+      "file": "ch/c08_e12.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\12_앉기_우울.png",
+      "sha256": "5f5605faacd0dca4112a185cd7cdc8a1f0a59ad00fbbbd95aa405881a0b005c6"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e13",
+      "emotion_name": "기다리기_기대",
+      "file": "ch/c08_e13.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\13_기다리기_기대.png",
+      "sha256": "d641247bd038563fcc5cb83cd8f119d1f6dbf9c890c3ea91ac89446c4f7a4bdd"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e14",
+      "emotion_name": "기다리기_지루함",
+      "file": "ch/c08_e14.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\14_기다리기_지루함.png",
+      "sha256": "0c7c51bcbf0b4c3945cc1fdee9b1fda841098442c632baa90a4422fcc2a3c2f7"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e16",
+      "emotion_name": "기다리기_초조",
+      "file": "ch/c08_e16.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\16_기다리기_초조.png",
+      "sha256": "3ab2c0e639cbc8c28133e7fde8a2d4dd64eca14db4a2f7104dce8e28a74478d2"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e17",
+      "emotion_name": "대화_밝음",
+      "file": "ch/c08_e17.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\17_대화_밝음.png",
+      "sha256": "52f554f331fbdcd7a9f6dd771d111e569b7828cc0452f58f4cfd130677a78ca2"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e18",
+      "emotion_name": "대화_진지",
+      "file": "ch/c08_e18.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\18_대화_진지.png",
+      "sha256": "a38210d56a0d621c5fc6883eb2c4014c9801c01be4c5bd795fb73a2a5a0958c1"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e19",
+      "emotion_name": "대화_화남",
+      "file": "ch/c08_e19.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\19_대화_화남.png",
+      "sha256": "e2f1fedb6dd33382efdc2a54fc0e18e6e74ddd15e07f07ee514a3a84073c5620"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e22",
+      "emotion_name": "듣기_공감",
+      "file": "ch/c08_e22.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\22_듣기_공감.png",
+      "sha256": "923625098e381ec427a7578c9545a8ab535d06a6c716fa993f89185203375a19"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e25",
+      "emotion_name": "뒤돌아보기_알아봄",
+      "file": "ch/c08_e25.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\25_뒤돌아보기_알아봄.png",
+      "sha256": "7a016c1e67e8ba0a0f8eb623e1ac06acc7c44370ff94d536c8f58839ee587153"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e26",
+      "emotion_name": "뒤돌아보기_놀람",
+      "file": "ch/c08_e26.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\26_뒤돌아보기_놀람.png",
+      "sha256": "d984910a9da27903b4e358dc568e3951119a56492d07fef6ce9d3bfb19e1b6f4"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e27",
+      "emotion_name": "뒤돌아보기_경계",
+      "file": "ch/c08_e27.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\27_뒤돌아보기_경계.png",
+      "sha256": "540123507f0472c5966609fbea3f63bbaae2c288fce093cbd0fdc9f2c5d26bba"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e28",
+      "emotion_name": "뒤돌아보기_상처",
+      "file": "ch/c08_e28.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\28_뒤돌아보기_상처.png",
+      "sha256": "56b02ab4ec50b2b99f1fa0bacf94f6293bf8404642eb6964b4874b1c42a93fcc"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e29",
+      "emotion_name": "손짓_인사",
+      "file": "ch/c08_e29.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\29_손짓_인사.png",
+      "sha256": "e8f026a6873350793424ef308c97cea44441bccadb9b774c589396590647efda"
+    },
+    {
+      "character": "c08",
+      "character_name": "주현우",
+      "english": "Joo Hyunwoo",
+      "emotion": "e30",
+      "emotion_name": "손짓_부르기",
+      "file": "ch/c08_e30.png",
+      "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\30_손짓_부르기.png",
+      "sha256": "0e840ab3cfe74980fd4d40d0b11040f4f7dfdc9f41d7ae6bb3ed288b00cf37cf"
+    }
+  ]
+}
