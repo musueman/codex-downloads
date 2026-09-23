@@ -1,18 +1,18 @@
 {
   "project": "너는 내 운명이야",
   "slug": "ymd",
-  "generated_at": "2026-09-23T00:24:10",
+  "generated_at": "2026-09-23T12:26:57",
   "url_patterns": {
-    "background": "ymd/bg/{b}.png",
-    "character": "ymd/ch/{c}_{e}.png",
+    "background": "ymd/bg/{b}.webp",
+    "character": "ymd/ch/{c}_{e}.webp",
     "intro": "ymd/intro/{c}.webp",
-    "scene": "b={b}, c={c}, e={e}"
+    "scene": "ymd-scene.musueman.workers.dev/scene.webp?b={b}&c={c}&e={e}"
   },
   "counts": {
     "backgrounds": 10,
     "character_images": 248,
     "intro_images": 8,
-    "total_png": 258,
+    "total_webp": 266,
     "total_files": 266
   },
   "characters": [
@@ -68,73 +68,83 @@
   "backgrounds": [
     {
       "code": "b01",
-      "file": "bg/b01.png",
+      "file": "bg/b01.webp",
       "name": "디자인 회사",
       "source": "D:\\크랙\\000 너는내운명\\배경\\01_디자인 회사\\01_디자인 회사.png",
-      "sha256": "dfe19dfca19f44e442b975eeecfab08d971b8bf516761bc9cff3079c7d6db730"
+      "source_sha256": "dfe19dfca19f44e442b975eeecfab08d971b8bf516761bc9cff3079c7d6db730",
+      "sha256": "38dd67e168ab0a99ee15d3f193777094a9a2a7695595236f2a9bd98f266daed9"
     },
     {
       "code": "b02",
-      "file": "bg/b02.png",
+      "file": "bg/b02.webp",
       "name": "원룸",
       "source": "D:\\크랙\\000 너는내운명\\배경\\02_원룸\\02_원룸.png",
-      "sha256": "23bf08f35d1c0764f6f3a864c8b49a4e6c3eeed702c616d9df6e302c11e62a02"
+      "source_sha256": "23bf08f35d1c0764f6f3a864c8b49a4e6c3eeed702c616d9df6e302c11e62a02",
+      "sha256": "bdf0e06973f3a5b081558de07dee81d73e1b43047ef9dce3907253ab6ff6b54c"
     },
     {
       "code": "b03",
-      "file": "bg/b03.png",
+      "file": "bg/b03.webp",
       "name": "주거 건물 공용부",
       "source": "D:\\크랙\\000 너는내운명\\배경\\03_주거 건물 공용부\\03_주거 건물 공용부.png",
-      "sha256": "f24b348317eabd21991ec13f02ec1ac2aebf51d1109063bba537b890499cd510"
+      "source_sha256": "f24b348317eabd21991ec13f02ec1ac2aebf51d1109063bba537b890499cd510",
+      "sha256": "8cd7b1857cdc7592f857449e41d4b500647261f91c571111ab49fef52a34110f"
     },
     {
       "code": "b04",
-      "file": "bg/b04.png",
+      "file": "bg/b04.webp",
       "name": "출퇴근 거리",
       "source": "D:\\크랙\\000 너는내운명\\배경\\04_출퇴근 거리\\04_출퇴근 거리.png",
-      "sha256": "70a0137a6b4a41f0c8c9e62cf8896e5178fe4079b789898d8c3bfed17795f836"
+      "source_sha256": "70a0137a6b4a41f0c8c9e62cf8896e5178fe4079b789898d8c3bfed17795f836",
+      "sha256": "25d6925986cfbbf686b8a0dadc379cbf4f5c83d2cdc35403c32a2ba5d55bc7b8"
     },
     {
       "code": "b05",
-      "file": "bg/b05.png",
+      "file": "bg/b05.webp",
       "name": "카페",
       "source": "D:\\크랙\\000 너는내운명\\배경\\05_카페\\05_카페.png",
-      "sha256": "673b76ee23ff90cfea4728a05d6c3ae9dc3b36d35280ca6a326cce12cc2a017c"
+      "source_sha256": "673b76ee23ff90cfea4728a05d6c3ae9dc3b36d35280ca6a326cce12cc2a017c",
+      "sha256": "6af822cb1085b9a27af0ab6ad248e96d05f2bc20034e14fe87376c1fe9e8b006"
     },
     {
       "code": "b06",
-      "file": "bg/b06.png",
+      "file": "bg/b06.webp",
       "name": "식당",
       "source": "D:\\크랙\\000 너는내운명\\배경\\06_식당\\06_식당.png",
-      "sha256": "fed0136c12c5d2e77e99444fcef5c399948d5a4f805e7e8a0fd604682d54e92c"
+      "source_sha256": "fed0136c12c5d2e77e99444fcef5c399948d5a4f805e7e8a0fd604682d54e92c",
+      "sha256": "f649c739b23955bd1fb221e275dbad4880b8532c4b6b0faf7ffff6803fe643da"
     },
     {
       "code": "b07",
-      "file": "bg/b07.png",
+      "file": "bg/b07.webp",
       "name": "서울숲",
       "source": "D:\\크랙\\000 너는내운명\\배경\\07_서울숲\\07_서울숲.png",
-      "sha256": "db3843f9757958a885147d0f4d0a77d4a6b97560c2dda72a571e92ec119dd066"
+      "source_sha256": "db3843f9757958a885147d0f4d0a77d4a6b97560c2dda72a571e92ec119dd066",
+      "sha256": "99bba68b19b68bb4b1442d057a908c6c0ae38651fa22425251c2a044f983c804"
     },
     {
       "code": "b08",
-      "file": "bg/b08.png",
+      "file": "bg/b08.webp",
       "name": "을지로 술집",
       "source": "D:\\크랙\\000 너는내운명\\배경\\08_을지로 술집\\08_을지로 술집.png",
-      "sha256": "2f94cbbda8b46df161ee271b36f8cd27978738be07d7ab3edb2b9cacd89680a1"
+      "source_sha256": "2f94cbbda8b46df161ee271b36f8cd27978738be07d7ab3edb2b9cacd89680a1",
+      "sha256": "76f5a2a8eb849aaf714efdd5825ca01b1e38be1972213c5a2824a2ed33f54b39"
     },
     {
       "code": "b09",
-      "file": "bg/b09.png",
+      "file": "bg/b09.webp",
       "name": "구리 본가",
       "source": "D:\\크랙\\000 너는내운명\\배경\\09_구리 본가\\09_구리 본가.png",
-      "sha256": "50bda9982ae175485adcda7989749afcf57d8cfa803d8a4468c2a9f3ddadfb74"
+      "source_sha256": "50bda9982ae175485adcda7989749afcf57d8cfa803d8a4468c2a9f3ddadfb74",
+      "sha256": "67312d4434d47ab87646951562a11378eae07b1fa970073b6e9de5617df08da5"
     },
     {
       "code": "b10",
-      "file": "bg/b10.png",
+      "file": "bg/b10.webp",
       "name": "구리 동네",
       "source": "D:\\크랙\\000 너는내운명\\배경\\10_구리 동네\\10_구리 동네.png",
-      "sha256": "abfb24a976882d324492327ecfaaba34c105b72cc1600fb44c4bd2a598a3b83e"
+      "source_sha256": "abfb24a976882d324492327ecfaaba34c105b72cc1600fb44c4bd2a598a3b83e",
+      "sha256": "4024f8938f17a7e58381d2917ba414969aaf9b0e6640ac4647157156b802b259"
     }
   ],
   "character_assets": [
@@ -144,9 +154,10 @@
       "english": "Cat Human",
       "emotion": "e01",
       "emotion_name": "01_standing__01_relaxed",
-      "file": "ch/c01_e01.png",
+      "file": "ch/c01_e01.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\01_01_standing__01_relaxed.png",
-      "sha256": "64312a41c9463214b55268f2731c2ce90c7ff14f50d787a86b4496310f14411a"
+      "source_sha256": "64312a41c9463214b55268f2731c2ce90c7ff14f50d787a86b4496310f14411a",
+      "sha256": "d704e4700d025259e2de53e8e1e49d46acb6971c7640f1d40e8dd1d9469abeae"
     },
     {
       "character": "c01",
@@ -154,9 +165,10 @@
       "english": "Cat Human",
       "emotion": "e02",
       "emotion_name": "01_standing__02_happy",
-      "file": "ch/c01_e02.png",
+      "file": "ch/c01_e02.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\02_01_standing__02_happy.png",
-      "sha256": "efea5b306c56ade8e2782cfdf31d2c778a8df922fcea096a8272e678c4b3e7c7"
+      "source_sha256": "efea5b306c56ade8e2782cfdf31d2c778a8df922fcea096a8272e678c4b3e7c7",
+      "sha256": "0bc38384d28af54ba5dcf862b72670c3140ebc7668c0a7e12f021271d1dc298c"
     },
     {
       "character": "c01",
@@ -164,9 +176,10 @@
       "english": "Cat Human",
       "emotion": "e03",
       "emotion_name": "01_standing__03_sad",
-      "file": "ch/c01_e03.png",
+      "file": "ch/c01_e03.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\03_01_standing__03_sad.png",
-      "sha256": "383bf491185e17ddd52fa9d46f1141e1d5938bb579c6e1a0d038c606307f1615"
+      "source_sha256": "383bf491185e17ddd52fa9d46f1141e1d5938bb579c6e1a0d038c606307f1615",
+      "sha256": "574be99d7a8fa8351020efc7ed6fcd182c5a4450a5c7a685e6220d938f46f08d"
     },
     {
       "character": "c01",
@@ -174,9 +187,10 @@
       "english": "Cat Human",
       "emotion": "e04",
       "emotion_name": "01_standing__04_annoyed",
-      "file": "ch/c01_e04.png",
+      "file": "ch/c01_e04.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\04_01_standing__04_annoyed.png",
-      "sha256": "e9922077ea5fc896feb0f0977a6be220dd592c34a022c26ec3e44709f7e4ab0d"
+      "source_sha256": "e9922077ea5fc896feb0f0977a6be220dd592c34a022c26ec3e44709f7e4ab0d",
+      "sha256": "1b288922d28cfb4235e27751d6a0f2461115b75697a2ab14275b223cff0f3acd"
     },
     {
       "character": "c01",
@@ -184,9 +198,10 @@
       "english": "Cat Human",
       "emotion": "e05",
       "emotion_name": "02_walking__01_leisurely",
-      "file": "ch/c01_e05.png",
+      "file": "ch/c01_e05.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\05_02_walking__01_leisurely.png",
-      "sha256": "f5e89773a968292182a738d585c891a5fb3c64645850148f002922468aaf5aea"
+      "source_sha256": "f5e89773a968292182a738d585c891a5fb3c64645850148f002922468aaf5aea",
+      "sha256": "78eb0b8c3844d1dfa38776d89729ab9e4fb527f54603de218b0a55bb8da150b1"
     },
     {
       "character": "c01",
@@ -194,9 +209,10 @@
       "english": "Cat Human",
       "emotion": "e06",
       "emotion_name": "02_walking__02_excited",
-      "file": "ch/c01_e06.png",
+      "file": "ch/c01_e06.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\06_02_walking__02_excited.png",
-      "sha256": "9a58e5b3ec54b6c1e9327ea9e9918987e9006633f078f157865750a8b955b6bd"
+      "source_sha256": "9a58e5b3ec54b6c1e9327ea9e9918987e9006633f078f157865750a8b955b6bd",
+      "sha256": "7969f93f7d87d00acccaae2c72eee7081d96760d6eeb96a51968be012c380b7d"
     },
     {
       "character": "c01",
@@ -204,9 +220,10 @@
       "english": "Cat Human",
       "emotion": "e07",
       "emotion_name": "02_walking__03_anxious",
-      "file": "ch/c01_e07.png",
+      "file": "ch/c01_e07.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\07_02_walking__03_anxious.png",
-      "sha256": "fe62764a0ccd463fc14105e57ced0201fd60e998483b68a269292b329d5fd4c9"
+      "source_sha256": "fe62764a0ccd463fc14105e57ced0201fd60e998483b68a269292b329d5fd4c9",
+      "sha256": "60bb1753a831308e605f4d298bcf4574041fb00a1b93cdb0eafffc0df3a53e6f"
     },
     {
       "character": "c01",
@@ -214,9 +231,10 @@
       "english": "Cat Human",
       "emotion": "e08",
       "emotion_name": "02_walking__04_dejected",
-      "file": "ch/c01_e08.png",
+      "file": "ch/c01_e08.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\08_02_walking__04_dejected.png",
-      "sha256": "179ddac8fb2b5c130f36a245d09211700717fce4f7714aa2eed8157fa74e1b8f"
+      "source_sha256": "179ddac8fb2b5c130f36a245d09211700717fce4f7714aa2eed8157fa74e1b8f",
+      "sha256": "60530d2397bebe9f2b60627aacc204ccddd4004848444f5fd30df0e2bcb04610"
     },
     {
       "character": "c01",
@@ -224,9 +242,10 @@
       "english": "Cat Human",
       "emotion": "e09",
       "emotion_name": "03_sitting__01_relaxed",
-      "file": "ch/c01_e09.png",
+      "file": "ch/c01_e09.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\09_03_sitting__01_relaxed.png",
-      "sha256": "450a49f089d7a3992559ad7407b67b01b4b684c9a38a3abff7f29bdafca17304"
+      "source_sha256": "450a49f089d7a3992559ad7407b67b01b4b684c9a38a3abff7f29bdafca17304",
+      "sha256": "c0e63e8a87f98ece48c699ecfdc1ae29dfe92f4ab7753ef00c42093d51668ff6"
     },
     {
       "character": "c01",
@@ -234,9 +253,10 @@
       "english": "Cat Human",
       "emotion": "e10",
       "emotion_name": "03_sitting__02_tired",
-      "file": "ch/c01_e10.png",
+      "file": "ch/c01_e10.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\10_03_sitting__02_tired.png",
-      "sha256": "057992e17d82595ccc3b8e253dbf3c2dc79df0b3850dc0efff7160c0e842ad0d"
+      "source_sha256": "057992e17d82595ccc3b8e253dbf3c2dc79df0b3850dc0efff7160c0e842ad0d",
+      "sha256": "3fa946453e928788eb6326542f063a24f2e58137a8a3c8011367d495bfea6c08"
     },
     {
       "character": "c01",
@@ -244,9 +264,10 @@
       "english": "Cat Human",
       "emotion": "e11",
       "emotion_name": "03_sitting__03_tense",
-      "file": "ch/c01_e11.png",
+      "file": "ch/c01_e11.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\11_03_sitting__03_tense.png",
-      "sha256": "fd7650d8d212d217e7146c65645058e063439611ffb63183de0a0e6b6e900567"
+      "source_sha256": "fd7650d8d212d217e7146c65645058e063439611ffb63183de0a0e6b6e900567",
+      "sha256": "4b23a9cb581e5cb52d038e38e31477df9d2a633cb78784b0f995533066247fee"
     },
     {
       "character": "c01",
@@ -254,9 +275,10 @@
       "english": "Cat Human",
       "emotion": "e12",
       "emotion_name": "03_sitting__04_depressed",
-      "file": "ch/c01_e12.png",
+      "file": "ch/c01_e12.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\12_03_sitting__04_depressed.png",
-      "sha256": "56b39cb219889248c9926b60317e77bcf7ae6cc9b18d6552cd8c899bc8879f91"
+      "source_sha256": "56b39cb219889248c9926b60317e77bcf7ae6cc9b18d6552cd8c899bc8879f91",
+      "sha256": "4c0be675547364217e3661a5b131b79a993287d426a0ae2ac60a4770bd581050"
     },
     {
       "character": "c01",
@@ -264,9 +286,10 @@
       "english": "Cat Human",
       "emotion": "e13",
       "emotion_name": "04_waiting__01_expectant",
-      "file": "ch/c01_e13.png",
+      "file": "ch/c01_e13.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\13_04_waiting__01_expectant.png",
-      "sha256": "76097597ac57422d81371c3c0be04b38bbd020f4548de23c6c25146a6dbe9197"
+      "source_sha256": "76097597ac57422d81371c3c0be04b38bbd020f4548de23c6c25146a6dbe9197",
+      "sha256": "f6cf108a41ed4685ca1d96c28e32732968905d9731656abdc1a5cca73c523d5e"
     },
     {
       "character": "c01",
@@ -274,9 +297,10 @@
       "english": "Cat Human",
       "emotion": "e14",
       "emotion_name": "04_waiting__02_bored",
-      "file": "ch/c01_e14.png",
+      "file": "ch/c01_e14.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\14_04_waiting__02_bored.png",
-      "sha256": "f69d507f0221be909d5e59fdb844e580fc9251a49f58be4d12decf1263f33463"
+      "source_sha256": "f69d507f0221be909d5e59fdb844e580fc9251a49f58be4d12decf1263f33463",
+      "sha256": "269538011e438b7f6258a1c094f841f04d5758c066b7bd46ef8e75fc8ab9cc95"
     },
     {
       "character": "c01",
@@ -284,9 +308,10 @@
       "english": "Cat Human",
       "emotion": "e15",
       "emotion_name": "04_waiting__03_worried",
-      "file": "ch/c01_e15.png",
+      "file": "ch/c01_e15.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\15_04_waiting__03_worried.png",
-      "sha256": "9116c96b41f55e2c220c12ccac6a795596631dc14e3c04e3067c00189c14fc45"
+      "source_sha256": "9116c96b41f55e2c220c12ccac6a795596631dc14e3c04e3067c00189c14fc45",
+      "sha256": "100de3e786e7014c040fd96089456a3d15c312ab69c2aba0e2008bb0641f4e1a"
     },
     {
       "character": "c01",
@@ -294,9 +319,10 @@
       "english": "Cat Human",
       "emotion": "e16",
       "emotion_name": "04_waiting__04_impatient",
-      "file": "ch/c01_e16.png",
+      "file": "ch/c01_e16.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\16_04_waiting__04_impatient.png",
-      "sha256": "dfb5915477be6243c4e8ca1448e6aab69df68133742502551d2949d26d3a44f5"
+      "source_sha256": "dfb5915477be6243c4e8ca1448e6aab69df68133742502551d2949d26d3a44f5",
+      "sha256": "dfb5da84fc8214e779ef0a38efed74a1c4714d6b24075f9d5e09c6ed2d7b21a0"
     },
     {
       "character": "c01",
@@ -304,9 +330,10 @@
       "english": "Cat Human",
       "emotion": "e17",
       "emotion_name": "05_talking__01_cheerful",
-      "file": "ch/c01_e17.png",
+      "file": "ch/c01_e17.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\17_05_talking__01_cheerful.png",
-      "sha256": "eba5d15a14dcf3b50cc9476ec6187c7cea5bdd9918180e2d46b0046a480b931d"
+      "source_sha256": "eba5d15a14dcf3b50cc9476ec6187c7cea5bdd9918180e2d46b0046a480b931d",
+      "sha256": "63a59207f55bf4daf6fad77d1594720853c7ab97fc970a3ca3fdf78d049fbc56"
     },
     {
       "character": "c01",
@@ -314,9 +341,10 @@
       "english": "Cat Human",
       "emotion": "e18",
       "emotion_name": "05_talking__02_serious",
-      "file": "ch/c01_e18.png",
+      "file": "ch/c01_e18.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\18_05_talking__02_serious.png",
-      "sha256": "74143e4609c605e317f7e9b51801f375fee96ddbeaa547c9047cb34703080e74"
+      "source_sha256": "74143e4609c605e317f7e9b51801f375fee96ddbeaa547c9047cb34703080e74",
+      "sha256": "d2a47652749108e817f83a30a1197ba2b33c31e1b5aa288c8a727133c1ccf66c"
     },
     {
       "character": "c01",
@@ -324,9 +352,10 @@
       "english": "Cat Human",
       "emotion": "e19",
       "emotion_name": "05_talking__03_angry",
-      "file": "ch/c01_e19.png",
+      "file": "ch/c01_e19.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\19_05_talking__03_angry.png",
-      "sha256": "f89cd5209c321510df3460e5e2a9cc32f7f52572ed5badf1f9f494c3e7c7c489"
+      "source_sha256": "f89cd5209c321510df3460e5e2a9cc32f7f52572ed5badf1f9f494c3e7c7c489",
+      "sha256": "f7005c66dac67c492e89c0ed7b6b2fa1de4bcf7b51cc025d41609ffe3c98b5d3"
     },
     {
       "character": "c01",
@@ -334,9 +363,10 @@
       "english": "Cat Human",
       "emotion": "e20",
       "emotion_name": "05_talking__04_flustered",
-      "file": "ch/c01_e20.png",
+      "file": "ch/c01_e20.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\20_05_talking__04_flustered.png",
-      "sha256": "c656993641ceb238128d557450e0dde546a24a6ace1a288eeb6c09b8e8f13d92"
+      "source_sha256": "c656993641ceb238128d557450e0dde546a24a6ace1a288eeb6c09b8e8f13d92",
+      "sha256": "76fe7dd4ceed2399343bada3f23c416ab8488b86a73a74c3576d3d440dbbd29f"
     },
     {
       "character": "c01",
@@ -344,9 +374,10 @@
       "english": "Cat Human",
       "emotion": "e21",
       "emotion_name": "06_listening__01_interested",
-      "file": "ch/c01_e21.png",
+      "file": "ch/c01_e21.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\21_06_listening__01_interested.png",
-      "sha256": "ae6296cb072f741f481a7f942fb3d555b1f0f22c3a1de21de3ceededbbcce3ca"
+      "source_sha256": "ae6296cb072f741f481a7f942fb3d555b1f0f22c3a1de21de3ceededbbcce3ca",
+      "sha256": "85c4865ec045a5565765493501225fc81faa62542f8b20fd738b3ea65f267597"
     },
     {
       "character": "c01",
@@ -354,9 +385,10 @@
       "english": "Cat Human",
       "emotion": "e22",
       "emotion_name": "06_listening__02_empathetic",
-      "file": "ch/c01_e22.png",
+      "file": "ch/c01_e22.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\22_06_listening__02_empathetic.png",
-      "sha256": "a4d210a5988f0bcab79db78b2cc1b092659449e31160b17f01b095f42efc1ecc"
+      "source_sha256": "a4d210a5988f0bcab79db78b2cc1b092659449e31160b17f01b095f42efc1ecc",
+      "sha256": "06b816d0d3581528d05c8bb8d35e7ae827e1ca3c50f75689fe3aebbfd7119e02"
     },
     {
       "character": "c01",
@@ -364,9 +396,10 @@
       "english": "Cat Human",
       "emotion": "e23",
       "emotion_name": "06_listening__03_skeptical",
-      "file": "ch/c01_e23.png",
+      "file": "ch/c01_e23.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\23_06_listening__03_skeptical.png",
-      "sha256": "52459669cc9b044977eb85ca5b68e7fa829e6ceabf30e895e6004523c7e2a744"
+      "source_sha256": "52459669cc9b044977eb85ca5b68e7fa829e6ceabf30e895e6004523c7e2a744",
+      "sha256": "74be14a079d1423172a9a28ff6af119659acd9d2bdb97df7f17bdf42b04447ed"
     },
     {
       "character": "c01",
@@ -374,9 +407,10 @@
       "english": "Cat Human",
       "emotion": "e24",
       "emotion_name": "06_listening__04_surprised",
-      "file": "ch/c01_e24.png",
+      "file": "ch/c01_e24.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\24_06_listening__04_surprised.png",
-      "sha256": "4822afc7521618d4585cfd39e8a6580c35ffd1d84b36705dcf54917741bc7fde"
+      "source_sha256": "4822afc7521618d4585cfd39e8a6580c35ffd1d84b36705dcf54917741bc7fde",
+      "sha256": "4b5d34a567d2f1f6416f4b58c51fe08ea6c9872502a96e9e7f2b721cb7d32142"
     },
     {
       "character": "c01",
@@ -384,9 +418,10 @@
       "english": "Cat Human",
       "emotion": "e25",
       "emotion_name": "07_looking_back__01_recognition",
-      "file": "ch/c01_e25.png",
+      "file": "ch/c01_e25.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\25_07_looking_back__01_recognition.png",
-      "sha256": "fdc66db90db896d43b3da6aaeaec7f1694b32823f52a113e6183297c69b87025"
+      "source_sha256": "fdc66db90db896d43b3da6aaeaec7f1694b32823f52a113e6183297c69b87025",
+      "sha256": "2c125ba60c6871bc87c0a6b6985245b671d0bbc2936301767bda7c899b189bf3"
     },
     {
       "character": "c01",
@@ -394,9 +429,10 @@
       "english": "Cat Human",
       "emotion": "e26",
       "emotion_name": "07_looking_back__02_surprised",
-      "file": "ch/c01_e26.png",
+      "file": "ch/c01_e26.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\26_07_looking_back__02_surprised.png",
-      "sha256": "cddbaf48f345270b7b748e3a71e6a4fb6a0a9cf0b0460c5ebaa9e61b45ed499e"
+      "source_sha256": "cddbaf48f345270b7b748e3a71e6a4fb6a0a9cf0b0460c5ebaa9e61b45ed499e",
+      "sha256": "c68c04ecbb754a59b201d4178232cb6e68b193497ad1348e30cd51632b23b046"
     },
     {
       "character": "c01",
@@ -404,9 +440,10 @@
       "english": "Cat Human",
       "emotion": "e27",
       "emotion_name": "07_looking_back__03_wary",
-      "file": "ch/c01_e27.png",
+      "file": "ch/c01_e27.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\27_07_looking_back__03_wary.png",
-      "sha256": "44538fa5ef04d19ceb179c87f5e38e6f73647994ed10b2204a0f9ffe448f1b7a"
+      "source_sha256": "44538fa5ef04d19ceb179c87f5e38e6f73647994ed10b2204a0f9ffe448f1b7a",
+      "sha256": "76a77be5e9a0d29911c9b20effb7e7bc111ca84dcb16d955e105fb707b325908"
     },
     {
       "character": "c01",
@@ -414,9 +451,10 @@
       "english": "Cat Human",
       "emotion": "e28",
       "emotion_name": "07_looking_back__04_hurt",
-      "file": "ch/c01_e28.png",
+      "file": "ch/c01_e28.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\28_07_looking_back__04_hurt.png",
-      "sha256": "534768c47068e8fbcb78bc01bb3149430157215c77162e12d6bd07adc1868cf3"
+      "source_sha256": "534768c47068e8fbcb78bc01bb3149430157215c77162e12d6bd07adc1868cf3",
+      "sha256": "6c618ff6bbab239705d675c0581fdea37890314b96dfe3cfa3fed8f1aa21cf8f"
     },
     {
       "character": "c01",
@@ -424,9 +462,10 @@
       "english": "Cat Human",
       "emotion": "e29",
       "emotion_name": "08_gesturing__01_wave",
-      "file": "ch/c01_e29.png",
+      "file": "ch/c01_e29.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\29_08_gesturing__01_wave.png",
-      "sha256": "11a0f826c80dd26c673aa4f3e3c389fede04584e75c70702fba142233d20b497"
+      "source_sha256": "11a0f826c80dd26c673aa4f3e3c389fede04584e75c70702fba142233d20b497",
+      "sha256": "923854e66fa99618842dfeb77cde15c98f20f3c1862fbb8e02016ad5501f1a83"
     },
     {
       "character": "c01",
@@ -434,9 +473,10 @@
       "english": "Cat Human",
       "emotion": "e30",
       "emotion_name": "08_gesturing__02_beckon",
-      "file": "ch/c01_e30.png",
+      "file": "ch/c01_e30.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\30_08_gesturing__02_beckon.png",
-      "sha256": "935139b816546fe8ac569c7077aea19ecb633722586e31af8a917d4f77c74d1b"
+      "source_sha256": "935139b816546fe8ac569c7077aea19ecb633722586e31af8a917d4f77c74d1b",
+      "sha256": "a92563115d90457b67639bf8cb087683e226d64a0e20bcf7c97fcc478cc1a8dc"
     },
     {
       "character": "c01",
@@ -444,9 +484,10 @@
       "english": "Cat Human",
       "emotion": "e31",
       "emotion_name": "08_gesturing__03_refusal",
-      "file": "ch/c01_e31.png",
+      "file": "ch/c01_e31.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\31_08_gesturing__03_refusal.png",
-      "sha256": "62cc8329c2cf8095acf2c3f60fb925a267d78508c53de27fc347c9da240e3005"
+      "source_sha256": "62cc8329c2cf8095acf2c3f60fb925a267d78508c53de27fc347c9da240e3005",
+      "sha256": "6fe041b7ff2580ffe53db6ac1f72c151b7934173828b56b7f69f8c9a7daab109"
     },
     {
       "character": "c01",
@@ -454,9 +495,10 @@
       "english": "Cat Human",
       "emotion": "e32",
       "emotion_name": "08_gesturing__04_shrug",
-      "file": "ch/c01_e32.png",
+      "file": "ch/c01_e32.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\고양이 인간형\\32_08_gesturing__04_shrug.png",
-      "sha256": "34d4c04c801f365b2b10994d42de7b98d2d6e8ccc919a3551c3bfcd288c84687"
+      "source_sha256": "34d4c04c801f365b2b10994d42de7b98d2d6e8ccc919a3551c3bfcd288c84687",
+      "sha256": "cbf31f98acf059597716e59e0974c98501154f71ab2997831a3a45b6fa24d71f"
     },
     {
       "character": "c02",
@@ -464,9 +506,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e01",
       "emotion_name": "01_standing__01_relaxed",
-      "file": "ch/c02_e01.png",
+      "file": "ch/c02_e01.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\01_01_standing__01_relaxed.png",
-      "sha256": "18ffee65ec46125655b6f57b4a3f08c511cfb15b2ff16be3ffe986bf27487401"
+      "source_sha256": "18ffee65ec46125655b6f57b4a3f08c511cfb15b2ff16be3ffe986bf27487401",
+      "sha256": "c20317f62e516edf89b6b2a36a9e36b706dbf1b49ff1f2d9d1c41f724ff56f16"
     },
     {
       "character": "c02",
@@ -474,9 +517,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e02",
       "emotion_name": "01_standing__02_happy",
-      "file": "ch/c02_e02.png",
+      "file": "ch/c02_e02.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\02_01_standing__02_happy.png",
-      "sha256": "e15de73767800d2e812a78a5a0ae1c5b7c227eea5905e461765a862b9c641ee8"
+      "source_sha256": "e15de73767800d2e812a78a5a0ae1c5b7c227eea5905e461765a862b9c641ee8",
+      "sha256": "27ce568103a2054de0ff2f7ba6596fcc5532e58b8b7c3619a0d2b258ad39cb54"
     },
     {
       "character": "c02",
@@ -484,9 +528,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e03",
       "emotion_name": "01_standing__03_sad",
-      "file": "ch/c02_e03.png",
+      "file": "ch/c02_e03.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\03_01_standing__03_sad.png",
-      "sha256": "c27ed7765c3e84dbf00fb54ee5d762d297a437f544d266a864699660a1a58948"
+      "source_sha256": "c27ed7765c3e84dbf00fb54ee5d762d297a437f544d266a864699660a1a58948",
+      "sha256": "36b6bb6e6e54a84a2a6a458964af1683f650cbacb86424e682ee5c18ffa31e9c"
     },
     {
       "character": "c02",
@@ -494,9 +539,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e04",
       "emotion_name": "01_standing__04_annoyed",
-      "file": "ch/c02_e04.png",
+      "file": "ch/c02_e04.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\04_01_standing__04_annoyed.png",
-      "sha256": "549fb9133217a6c409e51436968dbe36e045a8870fb9b296aa866e5c5f524efb"
+      "source_sha256": "549fb9133217a6c409e51436968dbe36e045a8870fb9b296aa866e5c5f524efb",
+      "sha256": "9b4d1b641fca1d88c264de02e397031f8644bd935ea553e6d1a9b9fa8790cce4"
     },
     {
       "character": "c02",
@@ -504,9 +550,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e05",
       "emotion_name": "02_walking__01_leisurely",
-      "file": "ch/c02_e05.png",
+      "file": "ch/c02_e05.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\05_02_walking__01_leisurely.png",
-      "sha256": "d090aa3454a90fe2017af544dec0bbd2680648144171f67370ac59cef40fefc3"
+      "source_sha256": "d090aa3454a90fe2017af544dec0bbd2680648144171f67370ac59cef40fefc3",
+      "sha256": "474edee5edfed76632ec5e2b4f37fa5a52a6e18fb767235ff416e269530f7760"
     },
     {
       "character": "c02",
@@ -514,9 +561,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e06",
       "emotion_name": "02_walking__02_excited",
-      "file": "ch/c02_e06.png",
+      "file": "ch/c02_e06.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\06_02_walking__02_excited.png",
-      "sha256": "466793baec6f8d5e4222c6cf36d31470b753437dfc8b77298db3bc1e3e91bda0"
+      "source_sha256": "466793baec6f8d5e4222c6cf36d31470b753437dfc8b77298db3bc1e3e91bda0",
+      "sha256": "57fdd3ed6cb073c75110575066d253377d43739a133dbd31eeef0b225ad03305"
     },
     {
       "character": "c02",
@@ -524,9 +572,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e07",
       "emotion_name": "02_walking__03_anxious",
-      "file": "ch/c02_e07.png",
+      "file": "ch/c02_e07.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\07_02_walking__03_anxious.png",
-      "sha256": "229ccf58c030b9ae3f602c3eebb39a7a27e37f43bff6f8a328eaf9d1cf3d93b3"
+      "source_sha256": "229ccf58c030b9ae3f602c3eebb39a7a27e37f43bff6f8a328eaf9d1cf3d93b3",
+      "sha256": "965206de029173cf307d6b642f8cfb99ba1edc718051312c1df6c0484e3cf110"
     },
     {
       "character": "c02",
@@ -534,9 +583,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e08",
       "emotion_name": "02_walking__04_dejected",
-      "file": "ch/c02_e08.png",
+      "file": "ch/c02_e08.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\08_02_walking__04_dejected.png",
-      "sha256": "d54a8b84f4b57b31d554a807909675d84887f2d2385b6350dbea9db621a7fd01"
+      "source_sha256": "d54a8b84f4b57b31d554a807909675d84887f2d2385b6350dbea9db621a7fd01",
+      "sha256": "c405136bd911b537762c4473d6c8047315714e12beb1f959f6a11bd7caf7938c"
     },
     {
       "character": "c02",
@@ -544,9 +594,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e09",
       "emotion_name": "03_sitting__01_relaxed",
-      "file": "ch/c02_e09.png",
+      "file": "ch/c02_e09.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\09_03_sitting__01_relaxed.png",
-      "sha256": "fc921bf0362ecdb8492ecc159577bcfc03b0e0bf7b3ed23b94c1819874fec7cb"
+      "source_sha256": "fc921bf0362ecdb8492ecc159577bcfc03b0e0bf7b3ed23b94c1819874fec7cb",
+      "sha256": "63c9ba1a68c5ae4bf04f58762b60aace3dadc4dcd429f112f65ce1d2005b6a8f"
     },
     {
       "character": "c02",
@@ -554,9 +605,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e10",
       "emotion_name": "03_sitting__02_tired",
-      "file": "ch/c02_e10.png",
+      "file": "ch/c02_e10.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\10_03_sitting__02_tired.png",
-      "sha256": "3a28f4241e46a76255e3aab98d4a4e4ae22c2e1e869a0ec63be49e630b760dbb"
+      "source_sha256": "3a28f4241e46a76255e3aab98d4a4e4ae22c2e1e869a0ec63be49e630b760dbb",
+      "sha256": "8cf717273d555e5a8d638a7aedb01e8859b792eb0e2df7c675355561ed904be5"
     },
     {
       "character": "c02",
@@ -564,9 +616,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e11",
       "emotion_name": "03_sitting__03_tense",
-      "file": "ch/c02_e11.png",
+      "file": "ch/c02_e11.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\11_03_sitting__03_tense.png",
-      "sha256": "b1d0d1f4405ffc903951121b9050c94e72098a0cddb060545902a70e7696ea6e"
+      "source_sha256": "b1d0d1f4405ffc903951121b9050c94e72098a0cddb060545902a70e7696ea6e",
+      "sha256": "d49e5c85d6a4a120a12c4eb5e3bf7856746f25e2c82684949929cb26856edafc"
     },
     {
       "character": "c02",
@@ -574,9 +627,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e12",
       "emotion_name": "03_sitting__04_depressed",
-      "file": "ch/c02_e12.png",
+      "file": "ch/c02_e12.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\12_03_sitting__04_depressed.png",
-      "sha256": "60ac505bc8b0f5625b614ed2ead8f34b75389d2cfb440c901b326ac8fbd4d6d5"
+      "source_sha256": "60ac505bc8b0f5625b614ed2ead8f34b75389d2cfb440c901b326ac8fbd4d6d5",
+      "sha256": "e67ad50ca57e906cfcaba293c179e646cc6282893053aa46de597f3df8c5d59d"
     },
     {
       "character": "c02",
@@ -584,9 +638,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e13",
       "emotion_name": "04_waiting__01_expectant",
-      "file": "ch/c02_e13.png",
+      "file": "ch/c02_e13.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\13_04_waiting__01_expectant.png",
-      "sha256": "70436ad70de303ad54e5973cc325000ad2db067e82b35cc531d6aada26913e7a"
+      "source_sha256": "70436ad70de303ad54e5973cc325000ad2db067e82b35cc531d6aada26913e7a",
+      "sha256": "a942a5e1b4cdeeda36268aebfe7436635b7ce4e86e18b1286d3669e9ec21f42c"
     },
     {
       "character": "c02",
@@ -594,9 +649,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e14",
       "emotion_name": "04_waiting__02_bored",
-      "file": "ch/c02_e14.png",
+      "file": "ch/c02_e14.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\14_04_waiting__02_bored.png",
-      "sha256": "a221136f04f1b8bd86d45e30287e2aadaf351408c66ed9d6f8ca62992f7e3d83"
+      "source_sha256": "a221136f04f1b8bd86d45e30287e2aadaf351408c66ed9d6f8ca62992f7e3d83",
+      "sha256": "47666e7cbf20acc9ac9a51438f4a94ab43111f49b9a3596d1ec1295d8387a696"
     },
     {
       "character": "c02",
@@ -604,9 +660,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e15",
       "emotion_name": "04_waiting__03_worried",
-      "file": "ch/c02_e15.png",
+      "file": "ch/c02_e15.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\15_04_waiting__03_worried.png",
-      "sha256": "c201e2f203f4604e867c9b53547f724e77d3b267e6b2efa9ffd6a9cbb4e04ca2"
+      "source_sha256": "c201e2f203f4604e867c9b53547f724e77d3b267e6b2efa9ffd6a9cbb4e04ca2",
+      "sha256": "99f5a67b6b485031ff0ac3b7f635e8a631318611049f8bb78bbf20a53b555bf6"
     },
     {
       "character": "c02",
@@ -614,9 +671,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e16",
       "emotion_name": "04_waiting__04_impatient",
-      "file": "ch/c02_e16.png",
+      "file": "ch/c02_e16.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\16_04_waiting__04_impatient.png",
-      "sha256": "96bd3edf1f3008906cb1652600887bf2a49d5636b2eac8358a58a08afba09f70"
+      "source_sha256": "96bd3edf1f3008906cb1652600887bf2a49d5636b2eac8358a58a08afba09f70",
+      "sha256": "7ad1d26ccef14bb91faf170756137c0ca810ec6f8ae5b6a6ff9d283867b602e1"
     },
     {
       "character": "c02",
@@ -624,9 +682,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e17",
       "emotion_name": "05_talking__01_cheerful",
-      "file": "ch/c02_e17.png",
+      "file": "ch/c02_e17.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\17_05_talking__01_cheerful.png",
-      "sha256": "43ed8ef7bc20575884d967a7161f85cf41c76f825ba3cad7ed74c66f1ac3f26c"
+      "source_sha256": "43ed8ef7bc20575884d967a7161f85cf41c76f825ba3cad7ed74c66f1ac3f26c",
+      "sha256": "3eb9fa3ef09ea9363b9fa4eb479926983534fc5236bf48d40a4783480dfbe8bc"
     },
     {
       "character": "c02",
@@ -634,9 +693,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e18",
       "emotion_name": "05_talking__02_serious",
-      "file": "ch/c02_e18.png",
+      "file": "ch/c02_e18.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\18_05_talking__02_serious.png",
-      "sha256": "c8511c0529c1d9e706bb7aaf2bdff78baf19ae636a67eae111f45584f9c006b6"
+      "source_sha256": "c8511c0529c1d9e706bb7aaf2bdff78baf19ae636a67eae111f45584f9c006b6",
+      "sha256": "02bdd55858cf1d15b4bac198425f42e6e97941cf51c867e8e9afd004b7e9fefa"
     },
     {
       "character": "c02",
@@ -644,9 +704,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e19",
       "emotion_name": "05_talking__03_angry",
-      "file": "ch/c02_e19.png",
+      "file": "ch/c02_e19.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\19_05_talking__03_angry.png",
-      "sha256": "98a4d4c9bb6d98f413f8cab47b2bdb50631d15ab7570438a8c3c0d9b1690945c"
+      "source_sha256": "98a4d4c9bb6d98f413f8cab47b2bdb50631d15ab7570438a8c3c0d9b1690945c",
+      "sha256": "18d3f3ff600a9988c2cdc6ce9d5f2a5138f8c2eb19ef306ed4617dd2894ccb92"
     },
     {
       "character": "c02",
@@ -654,9 +715,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e20",
       "emotion_name": "05_talking__04_flustered",
-      "file": "ch/c02_e20.png",
+      "file": "ch/c02_e20.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\20_05_talking__04_flustered.png",
-      "sha256": "487ff2a0acb52d9912f675b3328254f75b89c65c84d68a5e50115b0817d95e0c"
+      "source_sha256": "487ff2a0acb52d9912f675b3328254f75b89c65c84d68a5e50115b0817d95e0c",
+      "sha256": "14a8b6630629269db6a33cae7d290bd560da775d57679a5a955c31bf7ad6243f"
     },
     {
       "character": "c02",
@@ -664,9 +726,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e21",
       "emotion_name": "06_listening__01_interested",
-      "file": "ch/c02_e21.png",
+      "file": "ch/c02_e21.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\21_06_listening__01_interested.png",
-      "sha256": "921d728d1273727623ecb19185a6ad253eec619e97d65408d6badd51d6f460f7"
+      "source_sha256": "921d728d1273727623ecb19185a6ad253eec619e97d65408d6badd51d6f460f7",
+      "sha256": "ed7351551ee26dc9b79056c95bff98e719016172123ed64b97ec2496628f1d3d"
     },
     {
       "character": "c02",
@@ -674,9 +737,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e22",
       "emotion_name": "06_listening__02_empathetic",
-      "file": "ch/c02_e22.png",
+      "file": "ch/c02_e22.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\22_06_listening__02_empathetic.png",
-      "sha256": "94c21c50e0c97d8571d9541b12dfb4fac27a417ad2077ae52d9ffeadfab30e8b"
+      "source_sha256": "94c21c50e0c97d8571d9541b12dfb4fac27a417ad2077ae52d9ffeadfab30e8b",
+      "sha256": "cd859eae14af3efecfc99bf741c52ac11d825717d658363a056ecb7135659aa5"
     },
     {
       "character": "c02",
@@ -684,9 +748,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e23",
       "emotion_name": "06_listening__03_skeptical",
-      "file": "ch/c02_e23.png",
+      "file": "ch/c02_e23.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\23_06_listening__03_skeptical.png",
-      "sha256": "40a75a2702c83e9eafe7cf8f4a38df6b671fe65d98641ca40e8b1cbe5e3e8456"
+      "source_sha256": "40a75a2702c83e9eafe7cf8f4a38df6b671fe65d98641ca40e8b1cbe5e3e8456",
+      "sha256": "084da8734108c642a995bc4f25e8f221b8730e6e54ad8f87bc6fc61a9ad3124d"
     },
     {
       "character": "c02",
@@ -694,9 +759,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e24",
       "emotion_name": "06_listening__04_surprised",
-      "file": "ch/c02_e24.png",
+      "file": "ch/c02_e24.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\24_06_listening__04_surprised.png",
-      "sha256": "ed1cdbe80967b291b8d17b2f93617a68bb83cdf4b1a5e801c2421635914401b3"
+      "source_sha256": "ed1cdbe80967b291b8d17b2f93617a68bb83cdf4b1a5e801c2421635914401b3",
+      "sha256": "a29a92d698b869ffc5f3dfa427d7f57dc4dfef21eae095e11d4d6d380172bb66"
     },
     {
       "character": "c02",
@@ -704,9 +770,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e25",
       "emotion_name": "07_looking_back__01_recognition",
-      "file": "ch/c02_e25.png",
+      "file": "ch/c02_e25.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\25_07_looking_back__01_recognition.png",
-      "sha256": "f1a62b9302a23c14f381911add7ed527f80a448a03e84c4d8310be6c14670485"
+      "source_sha256": "f1a62b9302a23c14f381911add7ed527f80a448a03e84c4d8310be6c14670485",
+      "sha256": "8a68f735a0d87bc70f4e0ca0e729c38979bf6e3be60a4abd1e0f58e0b445083d"
     },
     {
       "character": "c02",
@@ -714,9 +781,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e26",
       "emotion_name": "07_looking_back__02_surprised",
-      "file": "ch/c02_e26.png",
+      "file": "ch/c02_e26.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\26_07_looking_back__02_surprised.png",
-      "sha256": "b1bfc1d157b90870d6ed1547d1627218d7e95c20a6af7ecb829e2618d7e1a909"
+      "source_sha256": "b1bfc1d157b90870d6ed1547d1627218d7e95c20a6af7ecb829e2618d7e1a909",
+      "sha256": "e6cf35b70ec04ca6eb6a0f8d7788883c7dfc15496ce52647ac4490bcd625b20b"
     },
     {
       "character": "c02",
@@ -724,9 +792,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e27",
       "emotion_name": "07_looking_back__03_wary",
-      "file": "ch/c02_e27.png",
+      "file": "ch/c02_e27.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\27_07_looking_back__03_wary.png",
-      "sha256": "3db05242b6e9cc2656ffa947502a05baab211f3ad17839e5eb5b32ba59371615"
+      "source_sha256": "3db05242b6e9cc2656ffa947502a05baab211f3ad17839e5eb5b32ba59371615",
+      "sha256": "566d6fb71028948eafd8fb8b57eedb57adf07a4f1b2d5da3d65da3fc622b8b84"
     },
     {
       "character": "c02",
@@ -734,9 +803,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e28",
       "emotion_name": "07_looking_back__04_hurt",
-      "file": "ch/c02_e28.png",
+      "file": "ch/c02_e28.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\28_07_looking_back__04_hurt.png",
-      "sha256": "0a51ded7d86952bbbf0fc03d0a0957a33b89b2a054a3446899ca23bb19a7ff2e"
+      "source_sha256": "0a51ded7d86952bbbf0fc03d0a0957a33b89b2a054a3446899ca23bb19a7ff2e",
+      "sha256": "a2dfd35f1f9bf87c983a13015451b12d81ebe60bc11f9678a652358066a65e07"
     },
     {
       "character": "c02",
@@ -744,9 +814,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e29",
       "emotion_name": "08_gesturing__01_wave",
-      "file": "ch/c02_e29.png",
+      "file": "ch/c02_e29.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\29_08_gesturing__01_wave.png",
-      "sha256": "768147b3ea6811b66058aaca01f90ce0aa3b51bca9cf5188d84827fa5b908d1e"
+      "source_sha256": "768147b3ea6811b66058aaca01f90ce0aa3b51bca9cf5188d84827fa5b908d1e",
+      "sha256": "367dca96882cf036daca2b6d299ba610090d384751954cf669896430265f4c1f"
     },
     {
       "character": "c02",
@@ -754,9 +825,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e30",
       "emotion_name": "08_gesturing__02_beckon",
-      "file": "ch/c02_e30.png",
+      "file": "ch/c02_e30.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\30_08_gesturing__02_beckon.png",
-      "sha256": "18281fd14fd8b21cf089649386b72e125444e2937f50e53dde6a33f968a4875b"
+      "source_sha256": "18281fd14fd8b21cf089649386b72e125444e2937f50e53dde6a33f968a4875b",
+      "sha256": "44fc6ae62ab817155303e86b8ee05ef887256343c73736d28a9b0dfc7feeb122"
     },
     {
       "character": "c02",
@@ -764,9 +836,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e31",
       "emotion_name": "08_gesturing__03_refusal",
-      "file": "ch/c02_e31.png",
+      "file": "ch/c02_e31.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\31_08_gesturing__03_refusal.png",
-      "sha256": "101e291c5d616818c3b9d37169df8c0458a68478b98c452256fb8f2f0b05d370"
+      "source_sha256": "101e291c5d616818c3b9d37169df8c0458a68478b98c452256fb8f2f0b05d370",
+      "sha256": "2f976a3651bc1c8436ad403121aed215cf93ec75b1377a0c5b0a11610a90e764"
     },
     {
       "character": "c02",
@@ -774,9 +847,10 @@
       "english": "Yoon Sihoo",
       "emotion": "e32",
       "emotion_name": "08_gesturing__04_shrug",
-      "file": "ch/c02_e32.png",
+      "file": "ch/c02_e32.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\윤시후\\32_08_gesturing__04_shrug.png",
-      "sha256": "9202ce1062d6c4d17c21d47344ce5db7508be2776de53488c27622d8c65aa649"
+      "source_sha256": "9202ce1062d6c4d17c21d47344ce5db7508be2776de53488c27622d8c65aa649",
+      "sha256": "df4754562ded369dc01a3f736a1196d82efc5e85c15cb1d099c925da99b38261"
     },
     {
       "character": "c03",
@@ -784,9 +858,10 @@
       "english": "Han Yejin",
       "emotion": "e01",
       "emotion_name": "01_standing__01_relaxed",
-      "file": "ch/c03_e01.png",
+      "file": "ch/c03_e01.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\01_01_standing__01_relaxed.png",
-      "sha256": "c6660295a3bddb87ceaa8987b13266d446ad91073d921007b225e3f7aa177fc8"
+      "source_sha256": "c6660295a3bddb87ceaa8987b13266d446ad91073d921007b225e3f7aa177fc8",
+      "sha256": "d5c1b175969eb8b7440a328b34b09622eb772913f1474fef8ee89e5825a3353b"
     },
     {
       "character": "c03",
@@ -794,9 +869,10 @@
       "english": "Han Yejin",
       "emotion": "e02",
       "emotion_name": "01_standing__02_happy",
-      "file": "ch/c03_e02.png",
+      "file": "ch/c03_e02.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\02_01_standing__02_happy.png",
-      "sha256": "794151a9aa0ee1460623ad2e3e084a9d3ab772ef6c75e6404e11dd574e14ff2d"
+      "source_sha256": "794151a9aa0ee1460623ad2e3e084a9d3ab772ef6c75e6404e11dd574e14ff2d",
+      "sha256": "d87bd8ce83e9939983b717391850ba52c2d4fb1cad8d1141e4c39ee19ecbd7e4"
     },
     {
       "character": "c03",
@@ -804,9 +880,10 @@
       "english": "Han Yejin",
       "emotion": "e03",
       "emotion_name": "01_standing__03_sad",
-      "file": "ch/c03_e03.png",
+      "file": "ch/c03_e03.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\03_01_standing__03_sad.png",
-      "sha256": "87d097fb41587e5564ce88306fd9507a0b698d45adf458b3e338e5a486f3b75a"
+      "source_sha256": "87d097fb41587e5564ce88306fd9507a0b698d45adf458b3e338e5a486f3b75a",
+      "sha256": "d134ec91085cdc16caae70a09a09ad90382d128510d27534ed95ca5f0162c88f"
     },
     {
       "character": "c03",
@@ -814,9 +891,10 @@
       "english": "Han Yejin",
       "emotion": "e04",
       "emotion_name": "01_standing__04_annoyed",
-      "file": "ch/c03_e04.png",
+      "file": "ch/c03_e04.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\04_01_standing__04_annoyed.png",
-      "sha256": "24f6f939ee6224df10eeb3857bf7828eff2921da9158f387e90b7a79a7a43c1a"
+      "source_sha256": "24f6f939ee6224df10eeb3857bf7828eff2921da9158f387e90b7a79a7a43c1a",
+      "sha256": "a85a09d8aa21a13dc337153e5497b9ef359f8704ec34ea6bd2fb8db78f1e9289"
     },
     {
       "character": "c03",
@@ -824,9 +902,10 @@
       "english": "Han Yejin",
       "emotion": "e05",
       "emotion_name": "02_walking__01_leisurely",
-      "file": "ch/c03_e05.png",
+      "file": "ch/c03_e05.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\05_02_walking__01_leisurely.png",
-      "sha256": "2107e816e7e3f75b5fe1d1b2bf42f0d98bb5964f328fd4344c33beade94ea8ae"
+      "source_sha256": "2107e816e7e3f75b5fe1d1b2bf42f0d98bb5964f328fd4344c33beade94ea8ae",
+      "sha256": "21e92ac36385c2513e27cbb8e0c805fe5bf877e4df0645736e4eb19bd3d8722b"
     },
     {
       "character": "c03",
@@ -834,9 +913,10 @@
       "english": "Han Yejin",
       "emotion": "e06",
       "emotion_name": "02_walking__02_excited",
-      "file": "ch/c03_e06.png",
+      "file": "ch/c03_e06.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\06_02_walking__02_excited.png",
-      "sha256": "d2f8dfaa390fe8e663d94188ffd3d3f80bd1e682b56e2462bcd4bb8a3b0ef7cd"
+      "source_sha256": "d2f8dfaa390fe8e663d94188ffd3d3f80bd1e682b56e2462bcd4bb8a3b0ef7cd",
+      "sha256": "ba14c363ee6ea4b489329a5325d6eca4c1291c8f29edcc0f801769a31376fbe9"
     },
     {
       "character": "c03",
@@ -844,9 +924,10 @@
       "english": "Han Yejin",
       "emotion": "e07",
       "emotion_name": "02_walking__03_anxious",
-      "file": "ch/c03_e07.png",
+      "file": "ch/c03_e07.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\07_02_walking__03_anxious.png",
-      "sha256": "8cbee98050e2cf0c8cb6029e5e0f801e29b855707471c343e8c9797b653a8275"
+      "source_sha256": "8cbee98050e2cf0c8cb6029e5e0f801e29b855707471c343e8c9797b653a8275",
+      "sha256": "5960db3f7db9cd357e6871900716008d5cb6e21706eaf1f6b6a2939e6bd0dfcf"
     },
     {
       "character": "c03",
@@ -854,9 +935,10 @@
       "english": "Han Yejin",
       "emotion": "e08",
       "emotion_name": "02_walking__04_dejected",
-      "file": "ch/c03_e08.png",
+      "file": "ch/c03_e08.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\08_02_walking__04_dejected.png",
-      "sha256": "575f2d9391b23983463e6938c452e0b1c768db93f6a0b28798dea36ab4a01268"
+      "source_sha256": "575f2d9391b23983463e6938c452e0b1c768db93f6a0b28798dea36ab4a01268",
+      "sha256": "7a317a6b737214b8726da5101077437dcd496aa1e0898595fa43230616736217"
     },
     {
       "character": "c03",
@@ -864,9 +946,10 @@
       "english": "Han Yejin",
       "emotion": "e09",
       "emotion_name": "03_sitting__01_relaxed",
-      "file": "ch/c03_e09.png",
+      "file": "ch/c03_e09.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\09_03_sitting__01_relaxed.png",
-      "sha256": "d89f153bfdb5548cc167f8079cd965cdc0d56390c39c0b157c6904e2ed592e43"
+      "source_sha256": "d89f153bfdb5548cc167f8079cd965cdc0d56390c39c0b157c6904e2ed592e43",
+      "sha256": "5120dd52324b8b42c8720709804dbd62b784e862d558c91fb7907273d11dd867"
     },
     {
       "character": "c03",
@@ -874,9 +957,10 @@
       "english": "Han Yejin",
       "emotion": "e10",
       "emotion_name": "03_sitting__02_tired",
-      "file": "ch/c03_e10.png",
+      "file": "ch/c03_e10.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\10_03_sitting__02_tired.png",
-      "sha256": "eff0027f44402ac3d44627f77b298338159008d68857f433c37f92ca50239166"
+      "source_sha256": "eff0027f44402ac3d44627f77b298338159008d68857f433c37f92ca50239166",
+      "sha256": "4f28e31e60858455eb21011f0f3aef006fbd21c13f199e9272746e3da363acd3"
     },
     {
       "character": "c03",
@@ -884,9 +968,10 @@
       "english": "Han Yejin",
       "emotion": "e11",
       "emotion_name": "03_sitting__03_tense",
-      "file": "ch/c03_e11.png",
+      "file": "ch/c03_e11.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\11_03_sitting__03_tense.png",
-      "sha256": "22611c033c569b86d84821c210ac6555240314687fdafe04864b82ab5134e90c"
+      "source_sha256": "22611c033c569b86d84821c210ac6555240314687fdafe04864b82ab5134e90c",
+      "sha256": "fbc1e876efb59a9b6962e310881b2b209847f3d0abfa8bfac792cc326dcb9d9b"
     },
     {
       "character": "c03",
@@ -894,9 +979,10 @@
       "english": "Han Yejin",
       "emotion": "e12",
       "emotion_name": "03_sitting__04_depressed",
-      "file": "ch/c03_e12.png",
+      "file": "ch/c03_e12.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\12_03_sitting__04_depressed.png",
-      "sha256": "83192396447d0f710c9c4c3cbf36e6d18f81d3a8ff0fcd823c5e8fc8114812fc"
+      "source_sha256": "83192396447d0f710c9c4c3cbf36e6d18f81d3a8ff0fcd823c5e8fc8114812fc",
+      "sha256": "ca7bcc90ff19bb51b5b6fe94c604d9bbb3c4088e8fbf345d259da00fecfbd150"
     },
     {
       "character": "c03",
@@ -904,9 +990,10 @@
       "english": "Han Yejin",
       "emotion": "e13",
       "emotion_name": "04_waiting__01_expectant",
-      "file": "ch/c03_e13.png",
+      "file": "ch/c03_e13.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\13_04_waiting__01_expectant.png",
-      "sha256": "0b7f0bf11b7313dfee17401c61622fddb88e1f6fbeef4a2016fb893e9f7e61a8"
+      "source_sha256": "0b7f0bf11b7313dfee17401c61622fddb88e1f6fbeef4a2016fb893e9f7e61a8",
+      "sha256": "6fa1e0e0438261d7029dd04db33083cf7bf61b3cdbd5243b182b47c59ae7bb23"
     },
     {
       "character": "c03",
@@ -914,9 +1001,10 @@
       "english": "Han Yejin",
       "emotion": "e14",
       "emotion_name": "04_waiting__02_bored",
-      "file": "ch/c03_e14.png",
+      "file": "ch/c03_e14.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\14_04_waiting__02_bored.png",
-      "sha256": "04060887f301b01292fedfd4072c99458e1aea2b7191d5868bb1778298a6facc"
+      "source_sha256": "04060887f301b01292fedfd4072c99458e1aea2b7191d5868bb1778298a6facc",
+      "sha256": "eaf2d67e3cb13602015e127bbf4f9c68b3805e46dbc7b9f468985d60eacaea7a"
     },
     {
       "character": "c03",
@@ -924,9 +1012,10 @@
       "english": "Han Yejin",
       "emotion": "e15",
       "emotion_name": "04_waiting__03_worried",
-      "file": "ch/c03_e15.png",
+      "file": "ch/c03_e15.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\15_04_waiting__03_worried.png",
-      "sha256": "464db65c07c36c748f1beb6e7a32dc927fcd401ff658927dc832db5c96eaa350"
+      "source_sha256": "464db65c07c36c748f1beb6e7a32dc927fcd401ff658927dc832db5c96eaa350",
+      "sha256": "d8c2c048130ec937ad345ed541a8c6ca6a9d3d5f6a5717edde3b26b072af22f1"
     },
     {
       "character": "c03",
@@ -934,9 +1023,10 @@
       "english": "Han Yejin",
       "emotion": "e16",
       "emotion_name": "04_waiting__04_impatient",
-      "file": "ch/c03_e16.png",
+      "file": "ch/c03_e16.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\16_04_waiting__04_impatient.png",
-      "sha256": "57be3ffe732d565117d4543164b52e228bbb7b9f47fdf32156e9ae9030c3fe05"
+      "source_sha256": "57be3ffe732d565117d4543164b52e228bbb7b9f47fdf32156e9ae9030c3fe05",
+      "sha256": "ef2349b3568dbe56711009b57141e4c2debb607da2b7c0917b4e4f81ee8b8872"
     },
     {
       "character": "c03",
@@ -944,9 +1034,10 @@
       "english": "Han Yejin",
       "emotion": "e17",
       "emotion_name": "05_talking__01_cheerful",
-      "file": "ch/c03_e17.png",
+      "file": "ch/c03_e17.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\17_05_talking__01_cheerful.png",
-      "sha256": "248600a60f44d1cd4402f3f4bb60482e7ee0036b27e7a8a38a3315d6339b5b2c"
+      "source_sha256": "248600a60f44d1cd4402f3f4bb60482e7ee0036b27e7a8a38a3315d6339b5b2c",
+      "sha256": "5cccfba342152a8b84f23d32be5472a7033f61434f1b9b0e921cd9710b76c49b"
     },
     {
       "character": "c03",
@@ -954,9 +1045,10 @@
       "english": "Han Yejin",
       "emotion": "e18",
       "emotion_name": "05_talking__02_serious",
-      "file": "ch/c03_e18.png",
+      "file": "ch/c03_e18.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\18_05_talking__02_serious.png",
-      "sha256": "12c723529a8d17cfea0aed89ac273da0c8fc6ce5ee1b02243c8c60b0dcd94055"
+      "source_sha256": "12c723529a8d17cfea0aed89ac273da0c8fc6ce5ee1b02243c8c60b0dcd94055",
+      "sha256": "5a01e4f5818174e46b6676fc749755e7fe632aa4e5e742c8260055e7a9306589"
     },
     {
       "character": "c03",
@@ -964,9 +1056,10 @@
       "english": "Han Yejin",
       "emotion": "e19",
       "emotion_name": "05_talking__03_angry",
-      "file": "ch/c03_e19.png",
+      "file": "ch/c03_e19.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\19_05_talking__03_angry.png",
-      "sha256": "3c0cf0d9981aa301214fe2a63e0d0d87371714f79fe0c81d96b103a6b7fdafe7"
+      "source_sha256": "3c0cf0d9981aa301214fe2a63e0d0d87371714f79fe0c81d96b103a6b7fdafe7",
+      "sha256": "3d69d084d66f1d8712ce176ec8c2f0359c28dacf27748c9d1f8e40f50fc305dd"
     },
     {
       "character": "c03",
@@ -974,9 +1067,10 @@
       "english": "Han Yejin",
       "emotion": "e20",
       "emotion_name": "05_talking__04_flustered",
-      "file": "ch/c03_e20.png",
+      "file": "ch/c03_e20.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\20_05_talking__04_flustered.png",
-      "sha256": "5b47025d1007548db58d0952946c278fc1c3c01fb4460437020c504cfd4cc19b"
+      "source_sha256": "5b47025d1007548db58d0952946c278fc1c3c01fb4460437020c504cfd4cc19b",
+      "sha256": "17bb021d81fc6aa992a0aa160452587a6fb8defb4b0738fa24221b34844f04bd"
     },
     {
       "character": "c03",
@@ -984,9 +1078,10 @@
       "english": "Han Yejin",
       "emotion": "e21",
       "emotion_name": "06_listening__01_interested",
-      "file": "ch/c03_e21.png",
+      "file": "ch/c03_e21.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\21_06_listening__01_interested.png",
-      "sha256": "53d86dcb686288bda220f0801fd26a18e8122fe5f841497a9ad028a7b0431a98"
+      "source_sha256": "53d86dcb686288bda220f0801fd26a18e8122fe5f841497a9ad028a7b0431a98",
+      "sha256": "dc0cb92451c9ca79df7721fca9ced9eb6cad97f4a12bebde09edb2a693792ea0"
     },
     {
       "character": "c03",
@@ -994,9 +1089,10 @@
       "english": "Han Yejin",
       "emotion": "e22",
       "emotion_name": "06_listening__02_empathetic",
-      "file": "ch/c03_e22.png",
+      "file": "ch/c03_e22.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\22_06_listening__02_empathetic.png",
-      "sha256": "a5a1831e59e4fa3625e7f4867b4278e6c459053e030fe7187a6b13ae63443ac5"
+      "source_sha256": "a5a1831e59e4fa3625e7f4867b4278e6c459053e030fe7187a6b13ae63443ac5",
+      "sha256": "1b740ca7cd8816a86ed57a04ececf9da3aca8f5d467970efe8403fc7e0e027bb"
     },
     {
       "character": "c03",
@@ -1004,9 +1100,10 @@
       "english": "Han Yejin",
       "emotion": "e23",
       "emotion_name": "06_listening__03_skeptical",
-      "file": "ch/c03_e23.png",
+      "file": "ch/c03_e23.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\23_06_listening__03_skeptical.png",
-      "sha256": "fbd6cee8dd3fb51a1b7570c0654839ee78a25f7d9723154db18741920989cc03"
+      "source_sha256": "fbd6cee8dd3fb51a1b7570c0654839ee78a25f7d9723154db18741920989cc03",
+      "sha256": "bb34825e783af3062505b4ee33468a4affffc27164a402f6c340b5476128c613"
     },
     {
       "character": "c03",
@@ -1014,9 +1111,10 @@
       "english": "Han Yejin",
       "emotion": "e24",
       "emotion_name": "06_listening__04_surprised",
-      "file": "ch/c03_e24.png",
+      "file": "ch/c03_e24.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\24_06_listening__04_surprised.png",
-      "sha256": "00626198568c2d917d6d269dd456d07b61e79ce75af0a8e6fe5e98137043a1a9"
+      "source_sha256": "00626198568c2d917d6d269dd456d07b61e79ce75af0a8e6fe5e98137043a1a9",
+      "sha256": "155cf7fe6905e165ebaa509de3186123969beecc9b9c8e3c903379ba9575c539"
     },
     {
       "character": "c03",
@@ -1024,9 +1122,10 @@
       "english": "Han Yejin",
       "emotion": "e25",
       "emotion_name": "07_looking_back__01_recognition",
-      "file": "ch/c03_e25.png",
+      "file": "ch/c03_e25.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\25_07_looking_back__01_recognition.png",
-      "sha256": "6687ef98100db1436734a3380ed638181e8cebd6779a6755ab9014c1e9f7c7be"
+      "source_sha256": "6687ef98100db1436734a3380ed638181e8cebd6779a6755ab9014c1e9f7c7be",
+      "sha256": "2b762f9cf70d45a4afae4c6aed33064592a29633f7e36bcdefaea6995c39279d"
     },
     {
       "character": "c03",
@@ -1034,9 +1133,10 @@
       "english": "Han Yejin",
       "emotion": "e26",
       "emotion_name": "07_looking_back__02_surprised",
-      "file": "ch/c03_e26.png",
+      "file": "ch/c03_e26.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\26_07_looking_back__02_surprised.png",
-      "sha256": "142d6466de38d7240545dc6feb8079878529eb392c34c1aba7def86d0ee52bd8"
+      "source_sha256": "142d6466de38d7240545dc6feb8079878529eb392c34c1aba7def86d0ee52bd8",
+      "sha256": "860aaf1ec6959260e098213aca0c6c733d64eeed28ba367eca66797f9a900707"
     },
     {
       "character": "c03",
@@ -1044,9 +1144,10 @@
       "english": "Han Yejin",
       "emotion": "e27",
       "emotion_name": "07_looking_back__03_wary",
-      "file": "ch/c03_e27.png",
+      "file": "ch/c03_e27.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\27_07_looking_back__03_wary.png",
-      "sha256": "6b82859a5228ffc68f2880583d10a73f2fad72240a39a7b158d17a6791b5bd54"
+      "source_sha256": "6b82859a5228ffc68f2880583d10a73f2fad72240a39a7b158d17a6791b5bd54",
+      "sha256": "f16799c3c615f643219ddb1108ac4d326e799dad12e16b942a4a1da684815a31"
     },
     {
       "character": "c03",
@@ -1054,9 +1155,10 @@
       "english": "Han Yejin",
       "emotion": "e28",
       "emotion_name": "07_looking_back__04_hurt",
-      "file": "ch/c03_e28.png",
+      "file": "ch/c03_e28.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\28_07_looking_back__04_hurt.png",
-      "sha256": "333f69fab92a99b2af4bb0e868aa0706903a6715380f8cba473cdf187e24dac5"
+      "source_sha256": "333f69fab92a99b2af4bb0e868aa0706903a6715380f8cba473cdf187e24dac5",
+      "sha256": "d3326863059acab7373c0ed32d9a65297b3e8b04482765c82c357d9019caf81b"
     },
     {
       "character": "c03",
@@ -1064,9 +1166,10 @@
       "english": "Han Yejin",
       "emotion": "e29",
       "emotion_name": "08_gesturing__01_wave",
-      "file": "ch/c03_e29.png",
+      "file": "ch/c03_e29.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\29_08_gesturing__01_wave.png",
-      "sha256": "03d9ac43b3b066d68a9c7416eba206c0272cc6e5741ea4e523c87c0b02d3968c"
+      "source_sha256": "03d9ac43b3b066d68a9c7416eba206c0272cc6e5741ea4e523c87c0b02d3968c",
+      "sha256": "58f1ce0373746500e3c48bc81f8c876476151f9033f56b7e6cdbd4df3f1620eb"
     },
     {
       "character": "c03",
@@ -1074,9 +1177,10 @@
       "english": "Han Yejin",
       "emotion": "e30",
       "emotion_name": "08_gesturing__02_beckon",
-      "file": "ch/c03_e30.png",
+      "file": "ch/c03_e30.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\30_08_gesturing__02_beckon.png",
-      "sha256": "f52036b704be4b0fd308a0a413e4d807c8086e50bdbdd85c0d0ac5eca6c006d5"
+      "source_sha256": "f52036b704be4b0fd308a0a413e4d807c8086e50bdbdd85c0d0ac5eca6c006d5",
+      "sha256": "772ae323ded0d37a3bc34aea197a34c0b7e833d78886a16eab760c8256f0e7e4"
     },
     {
       "character": "c03",
@@ -1084,9 +1188,10 @@
       "english": "Han Yejin",
       "emotion": "e31",
       "emotion_name": "08_gesturing__03_refusal",
-      "file": "ch/c03_e31.png",
+      "file": "ch/c03_e31.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\31_08_gesturing__03_refusal.png",
-      "sha256": "968355c7ae49b65843ae896c0464392ade5847bd719f1fafd03a065043154423"
+      "source_sha256": "968355c7ae49b65843ae896c0464392ade5847bd719f1fafd03a065043154423",
+      "sha256": "27a70ae7bc7705ec8a6a9a101d4bfd4d7372b7956d5cfffb199b5f417692921f"
     },
     {
       "character": "c03",
@@ -1094,9 +1199,10 @@
       "english": "Han Yejin",
       "emotion": "e32",
       "emotion_name": "08_gesturing__04_shrug",
-      "file": "ch/c03_e32.png",
+      "file": "ch/c03_e32.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\한예진\\32_08_gesturing__04_shrug.png",
-      "sha256": "7a8f100eb2ec0b2e767824e6b7cc6777c7b5d9515b0c76a4835515e422bed706"
+      "source_sha256": "7a8f100eb2ec0b2e767824e6b7cc6777c7b5d9515b0c76a4835515e422bed706",
+      "sha256": "4ce6ef63343061f82817294ac3c5563550170c996b01496ad01c60a5af589c26"
     },
     {
       "character": "c04",
@@ -1104,9 +1210,10 @@
       "english": "Kang Junseo",
       "emotion": "e01",
       "emotion_name": "01_standing__01_relaxed",
-      "file": "ch/c04_e01.png",
+      "file": "ch/c04_e01.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\01_01_standing__01_relaxed.png",
-      "sha256": "490abf658a688af3d45b74f0122cc81e72775b62d20c76015f08cda98f17608f"
+      "source_sha256": "490abf658a688af3d45b74f0122cc81e72775b62d20c76015f08cda98f17608f",
+      "sha256": "8dbf56509035f5f868efb754c2ac96af34fd75bf99d2e4deaa1d66092f3a8aee"
     },
     {
       "character": "c04",
@@ -1114,9 +1221,10 @@
       "english": "Kang Junseo",
       "emotion": "e02",
       "emotion_name": "01_standing__02_happy",
-      "file": "ch/c04_e02.png",
+      "file": "ch/c04_e02.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\02_01_standing__02_happy.png",
-      "sha256": "369edba87409f1dbdea987f57e882858d21e831e354742f56f8aaf53c2ddd46c"
+      "source_sha256": "369edba87409f1dbdea987f57e882858d21e831e354742f56f8aaf53c2ddd46c",
+      "sha256": "1639a95d56556f45bf84a684a6fee8d852685473385797f2c093d3261b88cff5"
     },
     {
       "character": "c04",
@@ -1124,9 +1232,10 @@
       "english": "Kang Junseo",
       "emotion": "e03",
       "emotion_name": "01_standing__03_sad",
-      "file": "ch/c04_e03.png",
+      "file": "ch/c04_e03.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\03_01_standing__03_sad.png",
-      "sha256": "c1c5c4f04094e4104e028484515f056ed575d20f7e3f437a4b03c94194193084"
+      "source_sha256": "c1c5c4f04094e4104e028484515f056ed575d20f7e3f437a4b03c94194193084",
+      "sha256": "085aacdbca06f125221e6002a9b4323aacd4e6d3dd9153b2af27778dff926dda"
     },
     {
       "character": "c04",
@@ -1134,9 +1243,10 @@
       "english": "Kang Junseo",
       "emotion": "e04",
       "emotion_name": "01_standing__04_annoyed",
-      "file": "ch/c04_e04.png",
+      "file": "ch/c04_e04.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\04_01_standing__04_annoyed.png",
-      "sha256": "ca0eb11720e7e4f7c75fe88ad8b7ef006feb709208efb2d54b5a98e437c583ab"
+      "source_sha256": "ca0eb11720e7e4f7c75fe88ad8b7ef006feb709208efb2d54b5a98e437c583ab",
+      "sha256": "f3013ccbffa46876e329c0f695a480dc6fbc7eb4d8d08aee5044240395e0aca6"
     },
     {
       "character": "c04",
@@ -1144,9 +1254,10 @@
       "english": "Kang Junseo",
       "emotion": "e05",
       "emotion_name": "02_walking__01_leisurely",
-      "file": "ch/c04_e05.png",
+      "file": "ch/c04_e05.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\05_02_walking__01_leisurely.png",
-      "sha256": "8206d829ece055434e0e65f1d85e8ffb000b35c4f0182e0bcc4d44acbc7dabae"
+      "source_sha256": "8206d829ece055434e0e65f1d85e8ffb000b35c4f0182e0bcc4d44acbc7dabae",
+      "sha256": "11637e6d852b62552f6c3687f37bedff327c3bb1e280c8e59ef66a326de9c354"
     },
     {
       "character": "c04",
@@ -1154,9 +1265,10 @@
       "english": "Kang Junseo",
       "emotion": "e06",
       "emotion_name": "02_walking__02_excited",
-      "file": "ch/c04_e06.png",
+      "file": "ch/c04_e06.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\06_02_walking__02_excited.png",
-      "sha256": "6e8c689c2bf2a156793a04a8cedaf170639d1873268d54c3fc4a3dc71695a4c8"
+      "source_sha256": "6e8c689c2bf2a156793a04a8cedaf170639d1873268d54c3fc4a3dc71695a4c8",
+      "sha256": "509073725cebb77941e033c6de5beef80dd0d0aa4fc12571134e0ce60fcdfcea"
     },
     {
       "character": "c04",
@@ -1164,9 +1276,10 @@
       "english": "Kang Junseo",
       "emotion": "e07",
       "emotion_name": "02_walking__03_anxious",
-      "file": "ch/c04_e07.png",
+      "file": "ch/c04_e07.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\07_02_walking__03_anxious.png",
-      "sha256": "b0038cce1cb7de3b8a1f0282495b6b2ee6acd6e4b0b4975655b25a543e9a5b92"
+      "source_sha256": "b0038cce1cb7de3b8a1f0282495b6b2ee6acd6e4b0b4975655b25a543e9a5b92",
+      "sha256": "b61181382b065173332f15a06df025435cce4e4cf6e847668b91b0321bca005f"
     },
     {
       "character": "c04",
@@ -1174,9 +1287,10 @@
       "english": "Kang Junseo",
       "emotion": "e08",
       "emotion_name": "02_walking__04_dejected",
-      "file": "ch/c04_e08.png",
+      "file": "ch/c04_e08.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\08_02_walking__04_dejected.png",
-      "sha256": "b2298d9c0b5a43c677dbf4f91130385dc587156f350f0c107c3991a1d1e3410c"
+      "source_sha256": "b2298d9c0b5a43c677dbf4f91130385dc587156f350f0c107c3991a1d1e3410c",
+      "sha256": "c7c2cb0b6def7ecab02b12b2b265474e0e1eee08344e266f8fc1b03f652f54a2"
     },
     {
       "character": "c04",
@@ -1184,9 +1298,10 @@
       "english": "Kang Junseo",
       "emotion": "e09",
       "emotion_name": "03_sitting__01_relaxed",
-      "file": "ch/c04_e09.png",
+      "file": "ch/c04_e09.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\09_03_sitting__01_relaxed.png",
-      "sha256": "2c68563a3ca521a9e79ecdb1bc50e05c75888d07adba50ee1b3ff2d6013e3f52"
+      "source_sha256": "2c68563a3ca521a9e79ecdb1bc50e05c75888d07adba50ee1b3ff2d6013e3f52",
+      "sha256": "7a4ce1bac58d2741b146f3ca58dec5eff2810056753a99a4b2d58aa79ff56825"
     },
     {
       "character": "c04",
@@ -1194,9 +1309,10 @@
       "english": "Kang Junseo",
       "emotion": "e10",
       "emotion_name": "03_sitting__02_tired",
-      "file": "ch/c04_e10.png",
+      "file": "ch/c04_e10.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\10_03_sitting__02_tired.png",
-      "sha256": "5d7bf697b73c07f1ea4e3c4fb9dc072ad2c68a36f68a0bbd5a5ee6d04edb401d"
+      "source_sha256": "5d7bf697b73c07f1ea4e3c4fb9dc072ad2c68a36f68a0bbd5a5ee6d04edb401d",
+      "sha256": "599fb37d74d9434b61c5783f37dac8b58e5011bd04aeb631b2ee63a27debf1e5"
     },
     {
       "character": "c04",
@@ -1204,9 +1320,10 @@
       "english": "Kang Junseo",
       "emotion": "e11",
       "emotion_name": "03_sitting__03_tense",
-      "file": "ch/c04_e11.png",
+      "file": "ch/c04_e11.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\11_03_sitting__03_tense.png",
-      "sha256": "44af48d3970b4de8f6479c4194ed4a54b95a924438ec95fc7edc6e38737bfa68"
+      "source_sha256": "44af48d3970b4de8f6479c4194ed4a54b95a924438ec95fc7edc6e38737bfa68",
+      "sha256": "392bd596acd5395b8d35f368a6cb1c5841629c30af23a5fa1d4dd334cca03579"
     },
     {
       "character": "c04",
@@ -1214,9 +1331,10 @@
       "english": "Kang Junseo",
       "emotion": "e12",
       "emotion_name": "03_sitting__04_depressed",
-      "file": "ch/c04_e12.png",
+      "file": "ch/c04_e12.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\12_03_sitting__04_depressed.png",
-      "sha256": "063143c738e24b2ed3dae9bd54491bfa36307a8d1b052e3928a63e0bc22a2131"
+      "source_sha256": "063143c738e24b2ed3dae9bd54491bfa36307a8d1b052e3928a63e0bc22a2131",
+      "sha256": "95a974bf837a6ccc9c144a9eb6b8ac3ccd239bf6111943a756fb7bc470dc87f5"
     },
     {
       "character": "c04",
@@ -1224,9 +1342,10 @@
       "english": "Kang Junseo",
       "emotion": "e13",
       "emotion_name": "04_waiting__01_expectant",
-      "file": "ch/c04_e13.png",
+      "file": "ch/c04_e13.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\13_04_waiting__01_expectant.png",
-      "sha256": "b02cfd4d45ebec2d3b596d97682a6358b7b0a7f6ff703390a98cb41bb1b35e1a"
+      "source_sha256": "b02cfd4d45ebec2d3b596d97682a6358b7b0a7f6ff703390a98cb41bb1b35e1a",
+      "sha256": "b5dfa00d3b915828e3a7af92e12cbff5e5143fb7e6dfb1f2ac708fee372f666b"
     },
     {
       "character": "c04",
@@ -1234,9 +1353,10 @@
       "english": "Kang Junseo",
       "emotion": "e14",
       "emotion_name": "04_waiting__02_bored",
-      "file": "ch/c04_e14.png",
+      "file": "ch/c04_e14.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\14_04_waiting__02_bored.png",
-      "sha256": "94bb52a305104b33443479fba92f06f56746b01728f2df7d03f4a80bd43d9130"
+      "source_sha256": "94bb52a305104b33443479fba92f06f56746b01728f2df7d03f4a80bd43d9130",
+      "sha256": "a5ae26be8515fd5a3d44ccfdbee26341c120f38a1e0b27451c4be25ed0b8df21"
     },
     {
       "character": "c04",
@@ -1244,9 +1364,10 @@
       "english": "Kang Junseo",
       "emotion": "e15",
       "emotion_name": "04_waiting__03_worried",
-      "file": "ch/c04_e15.png",
+      "file": "ch/c04_e15.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\15_04_waiting__03_worried.png",
-      "sha256": "59b3555d52588abca9f14e0c837f06dc49e761fdeb8d17ae3df9fc48dce8c589"
+      "source_sha256": "59b3555d52588abca9f14e0c837f06dc49e761fdeb8d17ae3df9fc48dce8c589",
+      "sha256": "4a9843c2777ea15f58c8cb0c8188d9f1fce1b34f6b534e586045e238f94adb1a"
     },
     {
       "character": "c04",
@@ -1254,9 +1375,10 @@
       "english": "Kang Junseo",
       "emotion": "e16",
       "emotion_name": "04_waiting__04_impatient",
-      "file": "ch/c04_e16.png",
+      "file": "ch/c04_e16.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\16_04_waiting__04_impatient.png",
-      "sha256": "167a7333d5217906060de9fc3b2a0de5fe33728e8ff7586b7e9b779ca4c77921"
+      "source_sha256": "167a7333d5217906060de9fc3b2a0de5fe33728e8ff7586b7e9b779ca4c77921",
+      "sha256": "cab76d5c4ebc77ea6b64f5e30f35c46843bd07fe924f70c96cccbdf5aa872f0c"
     },
     {
       "character": "c04",
@@ -1264,9 +1386,10 @@
       "english": "Kang Junseo",
       "emotion": "e17",
       "emotion_name": "05_talking__01_cheerful",
-      "file": "ch/c04_e17.png",
+      "file": "ch/c04_e17.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\17_05_talking__01_cheerful.png",
-      "sha256": "c42b4072dd26bf806243fe07137bac054ad181295c9fd7190bb0a6e07ca44bed"
+      "source_sha256": "c42b4072dd26bf806243fe07137bac054ad181295c9fd7190bb0a6e07ca44bed",
+      "sha256": "23d3cf530e121d3baf09cfc650c23415b9693ed3cfeb40b664c4227c7202180e"
     },
     {
       "character": "c04",
@@ -1274,9 +1397,10 @@
       "english": "Kang Junseo",
       "emotion": "e18",
       "emotion_name": "05_talking__02_serious",
-      "file": "ch/c04_e18.png",
+      "file": "ch/c04_e18.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\18_05_talking__02_serious.png",
-      "sha256": "213bd436e97d1124ffe86a8d19e5d1c48f78d5079c32c53eb0185f477d6cd6d9"
+      "source_sha256": "213bd436e97d1124ffe86a8d19e5d1c48f78d5079c32c53eb0185f477d6cd6d9",
+      "sha256": "2ed8a917a6eee1d0f694e86a4b222999ac03fcdf5dd83e49f596baa2f509d647"
     },
     {
       "character": "c04",
@@ -1284,9 +1408,10 @@
       "english": "Kang Junseo",
       "emotion": "e19",
       "emotion_name": "05_talking__03_angry",
-      "file": "ch/c04_e19.png",
+      "file": "ch/c04_e19.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\19_05_talking__03_angry.png",
-      "sha256": "db80a8b524e54022865dbfa2ab3fb09eed07ec51634f28d57f34c5c2c37d6199"
+      "source_sha256": "db80a8b524e54022865dbfa2ab3fb09eed07ec51634f28d57f34c5c2c37d6199",
+      "sha256": "07a25e5ca3d86e05d0d8f735187a544614b0da962b4c1b0c36be70ea85767614"
     },
     {
       "character": "c04",
@@ -1294,9 +1419,10 @@
       "english": "Kang Junseo",
       "emotion": "e20",
       "emotion_name": "05_talking__04_flustered",
-      "file": "ch/c04_e20.png",
+      "file": "ch/c04_e20.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\20_05_talking__04_flustered.png",
-      "sha256": "6aea9ed1c5330bbb6268d689cab4e3cfc2cb3254181bf2c99251dde36ee9e26d"
+      "source_sha256": "6aea9ed1c5330bbb6268d689cab4e3cfc2cb3254181bf2c99251dde36ee9e26d",
+      "sha256": "dd61119d8c97d1f06305157bdef34968b7c01b8ed8dbfc4980b7fe85b1daeddd"
     },
     {
       "character": "c04",
@@ -1304,9 +1430,10 @@
       "english": "Kang Junseo",
       "emotion": "e21",
       "emotion_name": "06_listening__01_interested",
-      "file": "ch/c04_e21.png",
+      "file": "ch/c04_e21.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\21_06_listening__01_interested.png",
-      "sha256": "ee88acc3dfbdfd89c8c485eea5d72f232cb9b60599933a35fb8a12549a998527"
+      "source_sha256": "ee88acc3dfbdfd89c8c485eea5d72f232cb9b60599933a35fb8a12549a998527",
+      "sha256": "d0ee32fb611c6e17b1e5db052f10595b51d119568670429d069938f76048ee89"
     },
     {
       "character": "c04",
@@ -1314,9 +1441,10 @@
       "english": "Kang Junseo",
       "emotion": "e22",
       "emotion_name": "06_listening__02_empathetic",
-      "file": "ch/c04_e22.png",
+      "file": "ch/c04_e22.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\22_06_listening__02_empathetic.png",
-      "sha256": "0f7428ca6141583faab66079256c0e7f9f3d48f94738466542504137ea0f965c"
+      "source_sha256": "0f7428ca6141583faab66079256c0e7f9f3d48f94738466542504137ea0f965c",
+      "sha256": "2d0a5d4d6b8299446d1b38d4a855833ba7cba24e1feb8e5c20c21e1ae6dd4c90"
     },
     {
       "character": "c04",
@@ -1324,9 +1452,10 @@
       "english": "Kang Junseo",
       "emotion": "e23",
       "emotion_name": "06_listening__03_skeptical",
-      "file": "ch/c04_e23.png",
+      "file": "ch/c04_e23.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\23_06_listening__03_skeptical.png",
-      "sha256": "a29f7029d68508a7e0aa746d5aacb8598e9859e424fe5d19e7a26122bd95db5f"
+      "source_sha256": "a29f7029d68508a7e0aa746d5aacb8598e9859e424fe5d19e7a26122bd95db5f",
+      "sha256": "1d1c85c1dfe1fef99f118974f10357b573e4e5a3ebd5764dadfefb5631d7b3fe"
     },
     {
       "character": "c04",
@@ -1334,9 +1463,10 @@
       "english": "Kang Junseo",
       "emotion": "e24",
       "emotion_name": "06_listening__04_surprised",
-      "file": "ch/c04_e24.png",
+      "file": "ch/c04_e24.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\24_06_listening__04_surprised.png",
-      "sha256": "51f02f5f7ef4c55124570b996810237558681f81ac5d37e0ba79311254bad5b5"
+      "source_sha256": "51f02f5f7ef4c55124570b996810237558681f81ac5d37e0ba79311254bad5b5",
+      "sha256": "637cebf33a801804c0606d6caa91bd15ba635d135730b0f2ceac7107876de760"
     },
     {
       "character": "c04",
@@ -1344,9 +1474,10 @@
       "english": "Kang Junseo",
       "emotion": "e25",
       "emotion_name": "07_looking_back__01_recognition",
-      "file": "ch/c04_e25.png",
+      "file": "ch/c04_e25.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\25_07_looking_back__01_recognition.png",
-      "sha256": "7d023e95670049f99194953cde600ddfa4878031ee8362bcc78cea160a8c2200"
+      "source_sha256": "7d023e95670049f99194953cde600ddfa4878031ee8362bcc78cea160a8c2200",
+      "sha256": "826e87dee3a263a1657f4e244a212a5b61f7de4781f39bacb5a8fca8cdec92d3"
     },
     {
       "character": "c04",
@@ -1354,9 +1485,10 @@
       "english": "Kang Junseo",
       "emotion": "e26",
       "emotion_name": "07_looking_back__02_surprised",
-      "file": "ch/c04_e26.png",
+      "file": "ch/c04_e26.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\26_07_looking_back__02_surprised.png",
-      "sha256": "878594428dc76275577b9c7af0772438fe0b21642fbc0f0a27736b00e7e47f3f"
+      "source_sha256": "878594428dc76275577b9c7af0772438fe0b21642fbc0f0a27736b00e7e47f3f",
+      "sha256": "cbb5422a5acb048b92b1a5d2be3f21312a5ccbe1020235b3bd52e0c6403fd6b1"
     },
     {
       "character": "c04",
@@ -1364,9 +1496,10 @@
       "english": "Kang Junseo",
       "emotion": "e27",
       "emotion_name": "07_looking_back__03_wary",
-      "file": "ch/c04_e27.png",
+      "file": "ch/c04_e27.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\27_07_looking_back__03_wary.png",
-      "sha256": "c3714cbc2c26536c0b5df728cb14f2dd9d591d92b0f2207e9fbc3ca912772b6c"
+      "source_sha256": "c3714cbc2c26536c0b5df728cb14f2dd9d591d92b0f2207e9fbc3ca912772b6c",
+      "sha256": "b976f39acecaab105dcf3a9f60dd39224026c653a0f310a23eac6fd43e6a77e3"
     },
     {
       "character": "c04",
@@ -1374,9 +1507,10 @@
       "english": "Kang Junseo",
       "emotion": "e28",
       "emotion_name": "07_looking_back__04_hurt",
-      "file": "ch/c04_e28.png",
+      "file": "ch/c04_e28.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\28_07_looking_back__04_hurt.png",
-      "sha256": "73377837801c5f9310af8357ad9a4730d7679b916fa2ab26a00fc113590b7cce"
+      "source_sha256": "73377837801c5f9310af8357ad9a4730d7679b916fa2ab26a00fc113590b7cce",
+      "sha256": "7c7178ec26a1c29c9d609e9d2311195cb760f0d789234395f02333af86824b11"
     },
     {
       "character": "c04",
@@ -1384,9 +1518,10 @@
       "english": "Kang Junseo",
       "emotion": "e29",
       "emotion_name": "08_gesturing__01_wave",
-      "file": "ch/c04_e29.png",
+      "file": "ch/c04_e29.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\29_08_gesturing__01_wave.png",
-      "sha256": "335510e3eb98a7d23faaa78e1ca40da56c732a8970936afc88321796f8b6453e"
+      "source_sha256": "335510e3eb98a7d23faaa78e1ca40da56c732a8970936afc88321796f8b6453e",
+      "sha256": "5846e6d1c8149489b621dd60486dfce86c52267f8f361ea26a124fe5bfab92bc"
     },
     {
       "character": "c04",
@@ -1394,9 +1529,10 @@
       "english": "Kang Junseo",
       "emotion": "e30",
       "emotion_name": "08_gesturing__02_beckon",
-      "file": "ch/c04_e30.png",
+      "file": "ch/c04_e30.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\30_08_gesturing__02_beckon.png",
-      "sha256": "40ae6ca55f65c0c928e702be79e3ab919a0da7cca7b9d5cc728468dd5e5f46c4"
+      "source_sha256": "40ae6ca55f65c0c928e702be79e3ab919a0da7cca7b9d5cc728468dd5e5f46c4",
+      "sha256": "16a1ec09b839b9ed73883ac7e6f550b488db89aaaa047b3a9e98a063feafaf64"
     },
     {
       "character": "c04",
@@ -1404,9 +1540,10 @@
       "english": "Kang Junseo",
       "emotion": "e31",
       "emotion_name": "08_gesturing__03_refusal",
-      "file": "ch/c04_e31.png",
+      "file": "ch/c04_e31.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\31_08_gesturing__03_refusal.png",
-      "sha256": "a86dc71482bea932327d7bbc4a16fd424a5b6aa752309a9b1b103e561f128c31"
+      "source_sha256": "a86dc71482bea932327d7bbc4a16fd424a5b6aa752309a9b1b103e561f128c31",
+      "sha256": "968a66ec02c47abc2b1aa5341b0437a36789698a00bb5a23f67da3b810ca10a9"
     },
     {
       "character": "c04",
@@ -1414,9 +1551,10 @@
       "english": "Kang Junseo",
       "emotion": "e32",
       "emotion_name": "08_gesturing__04_shrug",
-      "file": "ch/c04_e32.png",
+      "file": "ch/c04_e32.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\강준서\\32_08_gesturing__04_shrug.png",
-      "sha256": "7e947a88043207f627b08d4ef992f1cf598221fa823d4f0a98dab04083993448"
+      "source_sha256": "7e947a88043207f627b08d4ef992f1cf598221fa823d4f0a98dab04083993448",
+      "sha256": "1491dab46b4b018ae7e66289114e1a6486e226be971696ed9a99a34fe1c17758"
     },
     {
       "character": "c05",
@@ -1424,9 +1562,10 @@
       "english": "Min Seoah",
       "emotion": "e01",
       "emotion_name": "01_standing__01_relaxed",
-      "file": "ch/c05_e01.png",
+      "file": "ch/c05_e01.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\01_01_standing__01_relaxed.png",
-      "sha256": "1dbc432930b3422d9675ab4d2d94974740e1c2c14a2894bdb964dda7b97ec300"
+      "source_sha256": "1dbc432930b3422d9675ab4d2d94974740e1c2c14a2894bdb964dda7b97ec300",
+      "sha256": "7c813804815eb44e240fec66a8dddc29dc959fad4899065cb9588b571953bb27"
     },
     {
       "character": "c05",
@@ -1434,9 +1573,10 @@
       "english": "Min Seoah",
       "emotion": "e02",
       "emotion_name": "01_standing__02_happy",
-      "file": "ch/c05_e02.png",
+      "file": "ch/c05_e02.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\02_01_standing__02_happy.png",
-      "sha256": "e90ae2161589f919aeed56951f56fb7f591d993a7b1ef80885918a6c60a28bc7"
+      "source_sha256": "e90ae2161589f919aeed56951f56fb7f591d993a7b1ef80885918a6c60a28bc7",
+      "sha256": "1b999ffe5c3e780767aaf3d691cebcd252bb1a2194c7903ecb7061ee2ba33819"
     },
     {
       "character": "c05",
@@ -1444,9 +1584,10 @@
       "english": "Min Seoah",
       "emotion": "e03",
       "emotion_name": "01_standing__03_sad",
-      "file": "ch/c05_e03.png",
+      "file": "ch/c05_e03.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\03_01_standing__03_sad.png",
-      "sha256": "7b9d30450850db8526d898f98bdab8f9c3798294dd0c6b6be911f7e6132c1fb3"
+      "source_sha256": "7b9d30450850db8526d898f98bdab8f9c3798294dd0c6b6be911f7e6132c1fb3",
+      "sha256": "7143ed1bb77646706de8a432d2e1bf6a72c91f7b3308aa8504c273d1e2a9160c"
     },
     {
       "character": "c05",
@@ -1454,9 +1595,10 @@
       "english": "Min Seoah",
       "emotion": "e04",
       "emotion_name": "01_standing__04_annoyed",
-      "file": "ch/c05_e04.png",
+      "file": "ch/c05_e04.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\04_01_standing__04_annoyed.png",
-      "sha256": "6d1aaa3d14f91af8b9ebfc2c836d436b08b9218437728dcfcd7c215cfbbd0203"
+      "source_sha256": "6d1aaa3d14f91af8b9ebfc2c836d436b08b9218437728dcfcd7c215cfbbd0203",
+      "sha256": "ebd4ada59dc342772f1b3fe5c1d4912007c53ed002863dca9c6b8ad86407bcc7"
     },
     {
       "character": "c05",
@@ -1464,9 +1606,10 @@
       "english": "Min Seoah",
       "emotion": "e05",
       "emotion_name": "02_walking__01_leisurely",
-      "file": "ch/c05_e05.png",
+      "file": "ch/c05_e05.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\05_02_walking__01_leisurely.png",
-      "sha256": "cdbcc094b6bd911d3a943bc4e57e58ffcebf701a92ece13bb27537a99778f335"
+      "source_sha256": "cdbcc094b6bd911d3a943bc4e57e58ffcebf701a92ece13bb27537a99778f335",
+      "sha256": "01b788eae3403876f3faf2ae4289e1ebe50c65fbaa522ddc977b8145cf0fa5b8"
     },
     {
       "character": "c05",
@@ -1474,9 +1617,10 @@
       "english": "Min Seoah",
       "emotion": "e06",
       "emotion_name": "02_walking__02_excited",
-      "file": "ch/c05_e06.png",
+      "file": "ch/c05_e06.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\06_02_walking__02_excited.png",
-      "sha256": "28ae1dde06bac8a0a483a4dc6b147b025f666ec5c9c615f1b240ec72c41bd7d9"
+      "source_sha256": "28ae1dde06bac8a0a483a4dc6b147b025f666ec5c9c615f1b240ec72c41bd7d9",
+      "sha256": "b587337c9301a99868fbfe50eb8326fbfd172724d1feecfc18251ea52f9aa2f7"
     },
     {
       "character": "c05",
@@ -1484,9 +1628,10 @@
       "english": "Min Seoah",
       "emotion": "e07",
       "emotion_name": "02_walking__03_anxious",
-      "file": "ch/c05_e07.png",
+      "file": "ch/c05_e07.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\07_02_walking__03_anxious.png",
-      "sha256": "e337d66873a6d9935bb115e066b88810ec63d5c0a294aa592eb449c3c7b6316e"
+      "source_sha256": "e337d66873a6d9935bb115e066b88810ec63d5c0a294aa592eb449c3c7b6316e",
+      "sha256": "2d7f80ebc71bb8fdc32d69bcec1ef25a5ff57e5a5a328ada59662a18ca47e85b"
     },
     {
       "character": "c05",
@@ -1494,9 +1639,10 @@
       "english": "Min Seoah",
       "emotion": "e08",
       "emotion_name": "02_walking__04_dejected",
-      "file": "ch/c05_e08.png",
+      "file": "ch/c05_e08.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\08_02_walking__04_dejected.png",
-      "sha256": "9b215ed9a6a1d637a9ec763300a41f55357e324e0714a09aa7a910e7757a5ea7"
+      "source_sha256": "9b215ed9a6a1d637a9ec763300a41f55357e324e0714a09aa7a910e7757a5ea7",
+      "sha256": "a487c19b8bde5b587bc3e28ff8b1f0ba4079abe35297f597f1b6d0e5b0e57d97"
     },
     {
       "character": "c05",
@@ -1504,9 +1650,10 @@
       "english": "Min Seoah",
       "emotion": "e09",
       "emotion_name": "03_sitting__01_relaxed",
-      "file": "ch/c05_e09.png",
+      "file": "ch/c05_e09.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\09_03_sitting__01_relaxed.png",
-      "sha256": "75dcf46ad400c28d71a942faf495e546f40c7ea8c78e96490a89daed65daaf12"
+      "source_sha256": "75dcf46ad400c28d71a942faf495e546f40c7ea8c78e96490a89daed65daaf12",
+      "sha256": "7a7a34933e7a61c9fbc07274198ab14b8e71ab03f0525978b51e6bdc21ceb6a2"
     },
     {
       "character": "c05",
@@ -1514,9 +1661,10 @@
       "english": "Min Seoah",
       "emotion": "e10",
       "emotion_name": "03_sitting__02_tired",
-      "file": "ch/c05_e10.png",
+      "file": "ch/c05_e10.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\10_03_sitting__02_tired.png",
-      "sha256": "7b5049387abf7af40ad0decc1134c66047440a9b14163ca4a6ef151e5c2816f4"
+      "source_sha256": "7b5049387abf7af40ad0decc1134c66047440a9b14163ca4a6ef151e5c2816f4",
+      "sha256": "f3d776ea5a8125e899f5f2ff505da8165f25166baede11e6941c78dd6c353ba3"
     },
     {
       "character": "c05",
@@ -1524,9 +1672,10 @@
       "english": "Min Seoah",
       "emotion": "e11",
       "emotion_name": "03_sitting__03_tense",
-      "file": "ch/c05_e11.png",
+      "file": "ch/c05_e11.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\11_03_sitting__03_tense.png",
-      "sha256": "fc1d322dbcc4576bf3b8ef595533769fd2e1b47b2afe847728600331a8a10e54"
+      "source_sha256": "fc1d322dbcc4576bf3b8ef595533769fd2e1b47b2afe847728600331a8a10e54",
+      "sha256": "ee70f0a4c1db0c4ac887e11ee258043a6824869ce12bb86b8a2ff45f7cab1bed"
     },
     {
       "character": "c05",
@@ -1534,9 +1683,10 @@
       "english": "Min Seoah",
       "emotion": "e12",
       "emotion_name": "03_sitting__04_depressed",
-      "file": "ch/c05_e12.png",
+      "file": "ch/c05_e12.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\12_03_sitting__04_depressed.png",
-      "sha256": "16a98d2275a9af06f4cf4d8c98135e0227d83ae33d5dff58233ea84b45276def"
+      "source_sha256": "16a98d2275a9af06f4cf4d8c98135e0227d83ae33d5dff58233ea84b45276def",
+      "sha256": "11f030baf51c5892e403ef867981ce7f37b841ebf1325c64542ec9f04b4cf34d"
     },
     {
       "character": "c05",
@@ -1544,9 +1694,10 @@
       "english": "Min Seoah",
       "emotion": "e13",
       "emotion_name": "04_waiting__01_expectant",
-      "file": "ch/c05_e13.png",
+      "file": "ch/c05_e13.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\13_04_waiting__01_expectant.png",
-      "sha256": "e7fd4dc12c9c9f96af3553e14715ffd9040e477caf24f74e0e87f870a8db09fa"
+      "source_sha256": "e7fd4dc12c9c9f96af3553e14715ffd9040e477caf24f74e0e87f870a8db09fa",
+      "sha256": "572c2c165b2693a8ae7e432cdd31a4d4f23d86a58a4214fc09e68c8b21f1b6a0"
     },
     {
       "character": "c05",
@@ -1554,9 +1705,10 @@
       "english": "Min Seoah",
       "emotion": "e14",
       "emotion_name": "04_waiting__02_bored",
-      "file": "ch/c05_e14.png",
+      "file": "ch/c05_e14.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\14_04_waiting__02_bored.png",
-      "sha256": "74ff069e8ac5c9c30cf3b14defc734e692772bb6979a6221f9b1ac8a83f7a73e"
+      "source_sha256": "74ff069e8ac5c9c30cf3b14defc734e692772bb6979a6221f9b1ac8a83f7a73e",
+      "sha256": "a992f2219e94575f7ff9e54cb5aff78adf72be129a8574574a3b6b1487a7e9a6"
     },
     {
       "character": "c05",
@@ -1564,9 +1716,10 @@
       "english": "Min Seoah",
       "emotion": "e15",
       "emotion_name": "04_waiting__03_worried",
-      "file": "ch/c05_e15.png",
+      "file": "ch/c05_e15.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\15_04_waiting__03_worried.png",
-      "sha256": "641d32f7b1528164a123ef9913424d7d6718be026d1b6e9540b5244bb8e8b380"
+      "source_sha256": "641d32f7b1528164a123ef9913424d7d6718be026d1b6e9540b5244bb8e8b380",
+      "sha256": "d7b3f9e4d18281704eb8ff6ae6749c7dbb9183c186a7a264f915a5dd65b6f63a"
     },
     {
       "character": "c05",
@@ -1574,9 +1727,10 @@
       "english": "Min Seoah",
       "emotion": "e16",
       "emotion_name": "04_waiting__04_impatient",
-      "file": "ch/c05_e16.png",
+      "file": "ch/c05_e16.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\16_04_waiting__04_impatient.png",
-      "sha256": "aa382d932f9d31c83e385426bf20db674be01d1ac7801379b885a992289f3a37"
+      "source_sha256": "aa382d932f9d31c83e385426bf20db674be01d1ac7801379b885a992289f3a37",
+      "sha256": "b739e99c42529692ed06e807ea424edf497088cdd296981bffedbc8baa0dd2b3"
     },
     {
       "character": "c05",
@@ -1584,9 +1738,10 @@
       "english": "Min Seoah",
       "emotion": "e17",
       "emotion_name": "05_talking__01_cheerful",
-      "file": "ch/c05_e17.png",
+      "file": "ch/c05_e17.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\17_05_talking__01_cheerful.png",
-      "sha256": "b893b024bce4d6393d6d6559a7faba27e41f859c41ec5e46e84ad5f2c1912a7c"
+      "source_sha256": "b893b024bce4d6393d6d6559a7faba27e41f859c41ec5e46e84ad5f2c1912a7c",
+      "sha256": "86310d64a25fc53238e6b26cd395d7e03d1462585d3485713d2c2dab3ca4bf58"
     },
     {
       "character": "c05",
@@ -1594,9 +1749,10 @@
       "english": "Min Seoah",
       "emotion": "e18",
       "emotion_name": "05_talking__02_serious",
-      "file": "ch/c05_e18.png",
+      "file": "ch/c05_e18.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\18_05_talking__02_serious.png",
-      "sha256": "007bbba33147656b5776bcb726c75472c808e0ce11a30d1f40ecd37a1faaac0f"
+      "source_sha256": "007bbba33147656b5776bcb726c75472c808e0ce11a30d1f40ecd37a1faaac0f",
+      "sha256": "e3343ee02911b82fe18a956cd0c4eeadae1b6a907da62c7442d07decc7b03ae1"
     },
     {
       "character": "c05",
@@ -1604,9 +1760,10 @@
       "english": "Min Seoah",
       "emotion": "e19",
       "emotion_name": "05_talking__03_angry",
-      "file": "ch/c05_e19.png",
+      "file": "ch/c05_e19.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\19_05_talking__03_angry.png",
-      "sha256": "bc16166aaa5f5b5ba47a459ca96695aaab514cced1cbb2c13f50e0bb2c670d09"
+      "source_sha256": "bc16166aaa5f5b5ba47a459ca96695aaab514cced1cbb2c13f50e0bb2c670d09",
+      "sha256": "0f4b8e4583571f6e2ef2cde8b3ebe7634f2f50a8c404ed8b39538df6f7e6966e"
     },
     {
       "character": "c05",
@@ -1614,9 +1771,10 @@
       "english": "Min Seoah",
       "emotion": "e20",
       "emotion_name": "05_talking__04_flustered",
-      "file": "ch/c05_e20.png",
+      "file": "ch/c05_e20.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\20_05_talking__04_flustered.png",
-      "sha256": "5bbdb1fec16bffd4686ff0383415450606959910540be4c22c7999ed010ecd09"
+      "source_sha256": "5bbdb1fec16bffd4686ff0383415450606959910540be4c22c7999ed010ecd09",
+      "sha256": "ee4c331d041c851d03d1844d8a7d94fd704cde77009c477783263fd2603014dc"
     },
     {
       "character": "c05",
@@ -1624,9 +1782,10 @@
       "english": "Min Seoah",
       "emotion": "e21",
       "emotion_name": "06_listening__01_interested",
-      "file": "ch/c05_e21.png",
+      "file": "ch/c05_e21.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\21_06_listening__01_interested.png",
-      "sha256": "72617777ac199acb9be5f37ec57cd189c1ed2d07c3cb7da61acb3cadc3f5221c"
+      "source_sha256": "72617777ac199acb9be5f37ec57cd189c1ed2d07c3cb7da61acb3cadc3f5221c",
+      "sha256": "3182d426e300443ae0d50567066701ee3d69cd59079161645377b4d6bfafa236"
     },
     {
       "character": "c05",
@@ -1634,9 +1793,10 @@
       "english": "Min Seoah",
       "emotion": "e22",
       "emotion_name": "06_listening__02_empathetic",
-      "file": "ch/c05_e22.png",
+      "file": "ch/c05_e22.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\22_06_listening__02_empathetic.png",
-      "sha256": "c3bb6fc6dc8272277bbed88363dade13d2b8db299ecda4d44f20a686d0f397b0"
+      "source_sha256": "c3bb6fc6dc8272277bbed88363dade13d2b8db299ecda4d44f20a686d0f397b0",
+      "sha256": "971394dbfd69772fb0d3daf3134f875eb6343747fef47b3f52534c1a62c154e4"
     },
     {
       "character": "c05",
@@ -1644,9 +1804,10 @@
       "english": "Min Seoah",
       "emotion": "e23",
       "emotion_name": "06_listening__03_skeptical",
-      "file": "ch/c05_e23.png",
+      "file": "ch/c05_e23.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\23_06_listening__03_skeptical.png",
-      "sha256": "89de234aa4f1ba7dd80e6ce13dbac3323c4e5f408d4afe95cc1d03736ae1a922"
+      "source_sha256": "89de234aa4f1ba7dd80e6ce13dbac3323c4e5f408d4afe95cc1d03736ae1a922",
+      "sha256": "d671f369243f091e6347594bdaa86e4615bccb9894dd0747bba1656e20c8657b"
     },
     {
       "character": "c05",
@@ -1654,9 +1815,10 @@
       "english": "Min Seoah",
       "emotion": "e24",
       "emotion_name": "06_listening__04_surprised",
-      "file": "ch/c05_e24.png",
+      "file": "ch/c05_e24.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\24_06_listening__04_surprised.png",
-      "sha256": "8151e2890195b9177b85c84e5edbec27fc357d9f80dc0e94d84b0f8b5be1ff5f"
+      "source_sha256": "8151e2890195b9177b85c84e5edbec27fc357d9f80dc0e94d84b0f8b5be1ff5f",
+      "sha256": "1e4cdbb44b469f451cd113e2b82f9dfb98c93bb193502b1af6796327ed4f7f00"
     },
     {
       "character": "c05",
@@ -1664,9 +1826,10 @@
       "english": "Min Seoah",
       "emotion": "e25",
       "emotion_name": "07_looking_back__01_recognition",
-      "file": "ch/c05_e25.png",
+      "file": "ch/c05_e25.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\25_07_looking_back__01_recognition.png",
-      "sha256": "1a101a8d37b1a451239a352a8355793892f97d253fcb9b6d6a0a631e675ac2fa"
+      "source_sha256": "1a101a8d37b1a451239a352a8355793892f97d253fcb9b6d6a0a631e675ac2fa",
+      "sha256": "3281c5c815e57ee0cc8c1bc17d5699589ec3f0c85985d052b3e1a3727c6c86e1"
     },
     {
       "character": "c05",
@@ -1674,9 +1837,10 @@
       "english": "Min Seoah",
       "emotion": "e26",
       "emotion_name": "07_looking_back__02_surprised",
-      "file": "ch/c05_e26.png",
+      "file": "ch/c05_e26.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\26_07_looking_back__02_surprised.png",
-      "sha256": "0e110c6636016913be05354155428364843cdbb4f730dc780cced5278b3007cc"
+      "source_sha256": "0e110c6636016913be05354155428364843cdbb4f730dc780cced5278b3007cc",
+      "sha256": "4a01a2871084fde564e3ea1cdbaeff2233cf4cc0ba3f6b309500a75a80d45c11"
     },
     {
       "character": "c05",
@@ -1684,9 +1848,10 @@
       "english": "Min Seoah",
       "emotion": "e27",
       "emotion_name": "07_looking_back__03_wary",
-      "file": "ch/c05_e27.png",
+      "file": "ch/c05_e27.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\27_07_looking_back__03_wary.png",
-      "sha256": "ca5b025f729b969787a3c8889bfc2f23caa0a169fee1b94aeb226add08106c01"
+      "source_sha256": "ca5b025f729b969787a3c8889bfc2f23caa0a169fee1b94aeb226add08106c01",
+      "sha256": "e279b3eeae504c67447ec6780255dfcfc4356143aef12bde9968f64135d0c1d6"
     },
     {
       "character": "c05",
@@ -1694,9 +1859,10 @@
       "english": "Min Seoah",
       "emotion": "e28",
       "emotion_name": "07_looking_back__04_hurt",
-      "file": "ch/c05_e28.png",
+      "file": "ch/c05_e28.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\28_07_looking_back__04_hurt.png",
-      "sha256": "aca20cd0d0709f9aa7aaeaca65c645be2bb5877a67d2c21ac29be095fb6c1280"
+      "source_sha256": "aca20cd0d0709f9aa7aaeaca65c645be2bb5877a67d2c21ac29be095fb6c1280",
+      "sha256": "a510d4e08136f0597d3044559fd994efad8643877fadb409a10d07588672b6f8"
     },
     {
       "character": "c05",
@@ -1704,9 +1870,10 @@
       "english": "Min Seoah",
       "emotion": "e29",
       "emotion_name": "08_gesturing__01_wave",
-      "file": "ch/c05_e29.png",
+      "file": "ch/c05_e29.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\29_08_gesturing__01_wave.png",
-      "sha256": "ddd6407023f4b1ad7c9c96c05fbec9a16c279a6841363122db4a167bf4f550e8"
+      "source_sha256": "ddd6407023f4b1ad7c9c96c05fbec9a16c279a6841363122db4a167bf4f550e8",
+      "sha256": "786cd00497becc7c3dfe657560606335e20c4342b0a9a5458698edb3d3943f11"
     },
     {
       "character": "c05",
@@ -1714,9 +1881,10 @@
       "english": "Min Seoah",
       "emotion": "e30",
       "emotion_name": "08_gesturing__02_beckon",
-      "file": "ch/c05_e30.png",
+      "file": "ch/c05_e30.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\30_08_gesturing__02_beckon.png",
-      "sha256": "cc67cb00768cb482992a683563c26e8d78bd171c6b2856a30fd6ede3408c172f"
+      "source_sha256": "cc67cb00768cb482992a683563c26e8d78bd171c6b2856a30fd6ede3408c172f",
+      "sha256": "ba9fd12144435711cf95a509bf0234ffcee5d386855968fd72b1bd68c03a0001"
     },
     {
       "character": "c05",
@@ -1724,9 +1892,10 @@
       "english": "Min Seoah",
       "emotion": "e31",
       "emotion_name": "08_gesturing__03_refusal",
-      "file": "ch/c05_e31.png",
+      "file": "ch/c05_e31.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\31_08_gesturing__03_refusal.png",
-      "sha256": "84641bd7e286f0d0f3731fea8bfe97e2a3e14f782f6a92a2f82ccc6322800e9a"
+      "source_sha256": "84641bd7e286f0d0f3731fea8bfe97e2a3e14f782f6a92a2f82ccc6322800e9a",
+      "sha256": "8d9e6bf7ce74a635325a277459f25e289a6da48afcadb5d80ff788a85bea5196"
     },
     {
       "character": "c05",
@@ -1734,9 +1903,10 @@
       "english": "Min Seoah",
       "emotion": "e32",
       "emotion_name": "08_gesturing__04_shrug",
-      "file": "ch/c05_e32.png",
+      "file": "ch/c05_e32.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\민서아\\32_08_gesturing__04_shrug.png",
-      "sha256": "a8e19be0e759f3c1c9d9cc92a86fa2590eec69f90e45a0d25d799de6e9ca3508"
+      "source_sha256": "a8e19be0e759f3c1c9d9cc92a86fa2590eec69f90e45a0d25d799de6e9ca3508",
+      "sha256": "a5a72fde82b5b68ad183522c7e9f4ca586feb23eafed600e1ee131802cbba3df"
     },
     {
       "character": "c06",
@@ -1744,9 +1914,10 @@
       "english": "Lee Doyoon",
       "emotion": "e01",
       "emotion_name": "서있기_편안",
-      "file": "ch/c06_e01.png",
+      "file": "ch/c06_e01.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\01_서있기_편안.png",
-      "sha256": "2d1627c64c9eaa0a72999d524e124881a47d7e95d0b67108bb494721054232cd"
+      "source_sha256": "2d1627c64c9eaa0a72999d524e124881a47d7e95d0b67108bb494721054232cd",
+      "sha256": "aa014c39d4e62ffba7fa11fb12a750794c0205ecd9924b12cc0c27698705a0a2"
     },
     {
       "character": "c06",
@@ -1754,9 +1925,10 @@
       "english": "Lee Doyoon",
       "emotion": "e02",
       "emotion_name": "서있기_기쁨",
-      "file": "ch/c06_e02.png",
+      "file": "ch/c06_e02.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\02_서있기_기쁨.png",
-      "sha256": "b0ea3184877a30f2ddda4707ca35a3411d15185c74bba319cbd252be358db10e"
+      "source_sha256": "b0ea3184877a30f2ddda4707ca35a3411d15185c74bba319cbd252be358db10e",
+      "sha256": "6ed2782c99fe167622870f01f769b1aef2b53750e169f0d27be2708ffb18839d"
     },
     {
       "character": "c06",
@@ -1764,9 +1936,10 @@
       "english": "Lee Doyoon",
       "emotion": "e03",
       "emotion_name": "서있기_슬픔",
-      "file": "ch/c06_e03.png",
+      "file": "ch/c06_e03.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\03_서있기_슬픔.png",
-      "sha256": "92312769b0597a6d72e758e492a34ca465796a6a233a17d90d801a4e3a8a693c"
+      "source_sha256": "92312769b0597a6d72e758e492a34ca465796a6a233a17d90d801a4e3a8a693c",
+      "sha256": "21cdcc96e2565ff798249381e49561daabfc23ab89f753f39497c971c09b6620"
     },
     {
       "character": "c06",
@@ -1774,9 +1947,10 @@
       "english": "Lee Doyoon",
       "emotion": "e04",
       "emotion_name": "서있기_짜증",
-      "file": "ch/c06_e04.png",
+      "file": "ch/c06_e04.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\04_서있기_짜증.png",
-      "sha256": "ed7faf5a148e8ca575bcd6c8b4a6b938ce54ed9b1354710617c1af50bb850834"
+      "source_sha256": "ed7faf5a148e8ca575bcd6c8b4a6b938ce54ed9b1354710617c1af50bb850834",
+      "sha256": "b7e284d7ad02ad33612fe7d018244cb8aa60b491ee8c1daa522ae66033704e13"
     },
     {
       "character": "c06",
@@ -1784,9 +1958,10 @@
       "english": "Lee Doyoon",
       "emotion": "e05",
       "emotion_name": "걷기_여유",
-      "file": "ch/c06_e05.png",
+      "file": "ch/c06_e05.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\05_걷기_여유.png",
-      "sha256": "5ed32438353c2960a172904201f97bed98db969fda9041cafcdbeba30ad1594e"
+      "source_sha256": "5ed32438353c2960a172904201f97bed98db969fda9041cafcdbeba30ad1594e",
+      "sha256": "9f1219f5ad3086d8ab22b0dd99da82e37de0f01246385f1afc2c8b00b13b9a58"
     },
     {
       "character": "c06",
@@ -1794,9 +1969,10 @@
       "english": "Lee Doyoon",
       "emotion": "e06",
       "emotion_name": "걷기_신남",
-      "file": "ch/c06_e06.png",
+      "file": "ch/c06_e06.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\06_걷기_신남.png",
-      "sha256": "99c8a5ed8fb8c4229d5eadb881026f0c19dabddc83d685740b02df901c54b2fb"
+      "source_sha256": "99c8a5ed8fb8c4229d5eadb881026f0c19dabddc83d685740b02df901c54b2fb",
+      "sha256": "bd9b5a1f231438a476cf5a4484dc7659282773505d3be11c56d4a09951498f1e"
     },
     {
       "character": "c06",
@@ -1804,9 +1980,10 @@
       "english": "Lee Doyoon",
       "emotion": "e07",
       "emotion_name": "걷기_불안",
-      "file": "ch/c06_e07.png",
+      "file": "ch/c06_e07.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\07_걷기_불안.png",
-      "sha256": "df6104b55c5a31678a432cc5bc601b3d8897e9f63f269815cc69a5ec665cc84a"
+      "source_sha256": "df6104b55c5a31678a432cc5bc601b3d8897e9f63f269815cc69a5ec665cc84a",
+      "sha256": "64fd0145d92ba0938e839d9409dcc75d383502a5e413677681bf1b57deec1383"
     },
     {
       "character": "c06",
@@ -1814,9 +1991,10 @@
       "english": "Lee Doyoon",
       "emotion": "e08",
       "emotion_name": "걷기_풀이죽음",
-      "file": "ch/c06_e08.png",
+      "file": "ch/c06_e08.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\08_걷기_풀이죽음.png",
-      "sha256": "b9639dfd2c013c4009173b07adadda7c23d40d06b5c316957681e66e0f3fcb8d"
+      "source_sha256": "b9639dfd2c013c4009173b07adadda7c23d40d06b5c316957681e66e0f3fcb8d",
+      "sha256": "56a12e9d51c5ae4d647eb4fd3f3d375d16dab9c76d59e7c5154f43f77f167aa9"
     },
     {
       "character": "c06",
@@ -1824,9 +2002,10 @@
       "english": "Lee Doyoon",
       "emotion": "e09",
       "emotion_name": "앉기_편안",
-      "file": "ch/c06_e09.png",
+      "file": "ch/c06_e09.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\09_앉기_편안.png",
-      "sha256": "82b4d46c7a47d8e832f811a8f49ec929a73ad3177a2547a7ecdee05d952e3c90"
+      "source_sha256": "82b4d46c7a47d8e832f811a8f49ec929a73ad3177a2547a7ecdee05d952e3c90",
+      "sha256": "dea19713ac48ef2017543984d9878646ae5d11f790e783aec26c550f39010127"
     },
     {
       "character": "c06",
@@ -1834,9 +2013,10 @@
       "english": "Lee Doyoon",
       "emotion": "e10",
       "emotion_name": "앉기_피곤",
-      "file": "ch/c06_e10.png",
+      "file": "ch/c06_e10.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\10_앉기_피곤.png",
-      "sha256": "ab1364a6eb6d7ab60b8d083fdcfd7d46e4b15b6eecbc264f943eb5733ecf0e1d"
+      "source_sha256": "ab1364a6eb6d7ab60b8d083fdcfd7d46e4b15b6eecbc264f943eb5733ecf0e1d",
+      "sha256": "3531014d2298cec5956158cd42c623d9ff0accc53bc16792852c253c0ddcc81a"
     },
     {
       "character": "c06",
@@ -1844,9 +2024,10 @@
       "english": "Lee Doyoon",
       "emotion": "e11",
       "emotion_name": "앉기_긴장",
-      "file": "ch/c06_e11.png",
+      "file": "ch/c06_e11.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\11_앉기_긴장.png",
-      "sha256": "946735928303d6b00c01b3c6c0c8ef07fe8dbbd5331b265ecce7d9add1e523b6"
+      "source_sha256": "946735928303d6b00c01b3c6c0c8ef07fe8dbbd5331b265ecce7d9add1e523b6",
+      "sha256": "82f08c511361e323fb9394fec33a3cb344ff007cd1914f49c59fd79a24f84864"
     },
     {
       "character": "c06",
@@ -1854,9 +2035,10 @@
       "english": "Lee Doyoon",
       "emotion": "e12",
       "emotion_name": "앉기_우울",
-      "file": "ch/c06_e12.png",
+      "file": "ch/c06_e12.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\12_앉기_우울.png",
-      "sha256": "72bb9b6c2ef7636029b5ecad22cea327554a8adf411f05bef406545d4f8d042e"
+      "source_sha256": "72bb9b6c2ef7636029b5ecad22cea327554a8adf411f05bef406545d4f8d042e",
+      "sha256": "657598d8ab4afe6e4809f320320efe6863fb352406dbcc6472630ba9a82348ba"
     },
     {
       "character": "c06",
@@ -1864,9 +2046,10 @@
       "english": "Lee Doyoon",
       "emotion": "e13",
       "emotion_name": "기다리기_기대",
-      "file": "ch/c06_e13.png",
+      "file": "ch/c06_e13.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\13_기다리기_기대.png",
-      "sha256": "e4f7e39c9dc6fa2aa89b145a6d4899602d716a75a9ca6b42b8c49d6357b9b1f4"
+      "source_sha256": "e4f7e39c9dc6fa2aa89b145a6d4899602d716a75a9ca6b42b8c49d6357b9b1f4",
+      "sha256": "cd925f1fd769be1f42681193e5094a1cb977fffd325d6e5f2087c2286d10653b"
     },
     {
       "character": "c06",
@@ -1874,9 +2057,10 @@
       "english": "Lee Doyoon",
       "emotion": "e14",
       "emotion_name": "기다리기_지루함",
-      "file": "ch/c06_e14.png",
+      "file": "ch/c06_e14.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\14_기다리기_지루함.png",
-      "sha256": "a23d79c3192fc2e0a3808aa08741ecba29c56d74650bcba0fda4d668eb5d0d64"
+      "source_sha256": "a23d79c3192fc2e0a3808aa08741ecba29c56d74650bcba0fda4d668eb5d0d64",
+      "sha256": "c12aff9fa549af97b7798c5c18decacfb546bf3c8c1d725790faef5ccdf77a5d"
     },
     {
       "character": "c06",
@@ -1884,9 +2068,10 @@
       "english": "Lee Doyoon",
       "emotion": "e15",
       "emotion_name": "기다리기_걱정",
-      "file": "ch/c06_e15.png",
+      "file": "ch/c06_e15.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\15_기다리기_걱정.png",
-      "sha256": "5bc4ac1e884e2de56749a8a1e930c1ab57f6613bb18e72469e3269535cddf331"
+      "source_sha256": "5bc4ac1e884e2de56749a8a1e930c1ab57f6613bb18e72469e3269535cddf331",
+      "sha256": "86faffef874f03ad56eace7bee410f1d939f7f241b577f543ddda7c3286568a9"
     },
     {
       "character": "c06",
@@ -1894,9 +2079,10 @@
       "english": "Lee Doyoon",
       "emotion": "e16",
       "emotion_name": "기다리기_초조",
-      "file": "ch/c06_e16.png",
+      "file": "ch/c06_e16.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\16_기다리기_초조.png",
-      "sha256": "0c99b53e845cb45da3d69f779fc8537a233a4f40a4ea340c27d03b2a67535a4c"
+      "source_sha256": "0c99b53e845cb45da3d69f779fc8537a233a4f40a4ea340c27d03b2a67535a4c",
+      "sha256": "37c45ad6f497a6507e4411a42b4c254ed0ea18a3410fafb2bbd495baac952feb"
     },
     {
       "character": "c06",
@@ -1904,9 +2090,10 @@
       "english": "Lee Doyoon",
       "emotion": "e17",
       "emotion_name": "대화하기_밝게",
-      "file": "ch/c06_e17.png",
+      "file": "ch/c06_e17.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\17_대화하기_밝게.png",
-      "sha256": "7c6cdbcc6bad054816bd408eff647f7b9dd31eeb0861f64cb16d4a1ffa0a5d18"
+      "source_sha256": "7c6cdbcc6bad054816bd408eff647f7b9dd31eeb0861f64cb16d4a1ffa0a5d18",
+      "sha256": "30e8dd7625d34299a46ca83f5a3c0a74760b0af2a10a3832d44497717c59d795"
     },
     {
       "character": "c06",
@@ -1914,9 +2101,10 @@
       "english": "Lee Doyoon",
       "emotion": "e18",
       "emotion_name": "대화하기_진지",
-      "file": "ch/c06_e18.png",
+      "file": "ch/c06_e18.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\18_대화하기_진지.png",
-      "sha256": "8316737b96bc3eaabb456934f48e9b360bdf830ca3272bbb38a1af2a337920ff"
+      "source_sha256": "8316737b96bc3eaabb456934f48e9b360bdf830ca3272bbb38a1af2a337920ff",
+      "sha256": "2e39677d5886cc810a1693de588e7fc97524f2f85c94d242e6ce2e7e9482912f"
     },
     {
       "character": "c06",
@@ -1924,9 +2112,10 @@
       "english": "Lee Doyoon",
       "emotion": "e19",
       "emotion_name": "대화하기_화남",
-      "file": "ch/c06_e19.png",
+      "file": "ch/c06_e19.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\19_대화하기_화남.png",
-      "sha256": "167cfaa6d3883ad8f25a9fb3342ce36f7221a524b99b8acd23fe627a51bac180"
+      "source_sha256": "167cfaa6d3883ad8f25a9fb3342ce36f7221a524b99b8acd23fe627a51bac180",
+      "sha256": "ee90d2c5ae471b423dbabd41302614098cf3df725fbe3f0e3f6521f19cfa6260"
     },
     {
       "character": "c06",
@@ -1934,9 +2123,10 @@
       "english": "Lee Doyoon",
       "emotion": "e20",
       "emotion_name": "대화하기_당황",
-      "file": "ch/c06_e20.png",
+      "file": "ch/c06_e20.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\20_대화하기_당황.png",
-      "sha256": "222ef57d0d492cd6de4fbdb76ce6385c2b208b19dd89cfef47ac34a0d9f45d14"
+      "source_sha256": "222ef57d0d492cd6de4fbdb76ce6385c2b208b19dd89cfef47ac34a0d9f45d14",
+      "sha256": "7e48383a75d9e679d438768a010afa1712a7005b0676111de933f4a9620b4a82"
     },
     {
       "character": "c06",
@@ -1944,9 +2134,10 @@
       "english": "Lee Doyoon",
       "emotion": "e21",
       "emotion_name": "듣기_관심",
-      "file": "ch/c06_e21.png",
+      "file": "ch/c06_e21.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\21_듣기_관심.png",
-      "sha256": "326d44f3e0aa8e0208235da49c8992346917fbce00212d7655b8ccdbe87bae48"
+      "source_sha256": "326d44f3e0aa8e0208235da49c8992346917fbce00212d7655b8ccdbe87bae48",
+      "sha256": "ca3715a51e681f06d6a5ddd2b5fc201efe8c3d79f5bd0a7c6882047dc17565b1"
     },
     {
       "character": "c06",
@@ -1954,9 +2145,10 @@
       "english": "Lee Doyoon",
       "emotion": "e22",
       "emotion_name": "듣기_공감",
-      "file": "ch/c06_e22.png",
+      "file": "ch/c06_e22.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\22_듣기_공감.png",
-      "sha256": "05ebb9fa2cbcfd06c98b1b77403190baad2f143c014085a690adfb384c5ab69f"
+      "source_sha256": "05ebb9fa2cbcfd06c98b1b77403190baad2f143c014085a690adfb384c5ab69f",
+      "sha256": "83494e4ab2097df8a63e666c63dad653d3011e935c986714e5b04116c87cf1cd"
     },
     {
       "character": "c06",
@@ -1964,9 +2156,10 @@
       "english": "Lee Doyoon",
       "emotion": "e23",
       "emotion_name": "듣기_의심",
-      "file": "ch/c06_e23.png",
+      "file": "ch/c06_e23.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\23_듣기_의심.png",
-      "sha256": "315d047f61e4c673daebc831b6e08c372c462b65972a827e20e31556f1724569"
+      "source_sha256": "315d047f61e4c673daebc831b6e08c372c462b65972a827e20e31556f1724569",
+      "sha256": "146b83828eb422c57be40f895d0ad7de017edbca34c76f348e9c0191b583c8db"
     },
     {
       "character": "c06",
@@ -1974,9 +2167,10 @@
       "english": "Lee Doyoon",
       "emotion": "e24",
       "emotion_name": "듣기_놀람",
-      "file": "ch/c06_e24.png",
+      "file": "ch/c06_e24.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\24_듣기_놀람.png",
-      "sha256": "ffc8e6e8d242031f96baae6519233e84a9d512fc6714bfe73ddd959e13ab1430"
+      "source_sha256": "ffc8e6e8d242031f96baae6519233e84a9d512fc6714bfe73ddd959e13ab1430",
+      "sha256": "931a8a82d19335795d7073008caf8301062f1bece17068ddc17bf22a4bc79746"
     },
     {
       "character": "c06",
@@ -1984,9 +2178,10 @@
       "english": "Lee Doyoon",
       "emotion": "e25",
       "emotion_name": "뒤돌아보기_알아봄",
-      "file": "ch/c06_e25.png",
+      "file": "ch/c06_e25.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\25_뒤돌아보기_알아봄.png",
-      "sha256": "87954657a9004ce2f66863267a197662211cc598c6f41c7bdf77a7c52d7b7238"
+      "source_sha256": "87954657a9004ce2f66863267a197662211cc598c6f41c7bdf77a7c52d7b7238",
+      "sha256": "74a5342fa0f30f9998e1706eda6178cfd9516d2688d140d9542b1c4b1ece5cf3"
     },
     {
       "character": "c06",
@@ -1994,9 +2189,10 @@
       "english": "Lee Doyoon",
       "emotion": "e26",
       "emotion_name": "뒤돌아보기_놀람",
-      "file": "ch/c06_e26.png",
+      "file": "ch/c06_e26.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\26_뒤돌아보기_놀람.png",
-      "sha256": "d6c1b3ac17b6fdb05eed0979619566f4a6e791f24161d3f0b391e89ba6e56e24"
+      "source_sha256": "d6c1b3ac17b6fdb05eed0979619566f4a6e791f24161d3f0b391e89ba6e56e24",
+      "sha256": "89cdc06bc678dfcbf27d2431687d2b4595f6fc16169967a2fc5a7b30aaf78327"
     },
     {
       "character": "c06",
@@ -2004,9 +2200,10 @@
       "english": "Lee Doyoon",
       "emotion": "e27",
       "emotion_name": "뒤돌아보기_경계",
-      "file": "ch/c06_e27.png",
+      "file": "ch/c06_e27.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\27_뒤돌아보기_경계.png",
-      "sha256": "e2651348d4e5a1bac76666b7d3128868de48e43f4bdc4a0d60bc33b333796799"
+      "source_sha256": "e2651348d4e5a1bac76666b7d3128868de48e43f4bdc4a0d60bc33b333796799",
+      "sha256": "ad0c8e059f6d82181e58feb654bb6bd001a0c2e4b6198328f61ac9024918300d"
     },
     {
       "character": "c06",
@@ -2014,9 +2211,10 @@
       "english": "Lee Doyoon",
       "emotion": "e28",
       "emotion_name": "뒤돌아보기_상처",
-      "file": "ch/c06_e28.png",
+      "file": "ch/c06_e28.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\28_뒤돌아보기_상처.png",
-      "sha256": "877b00dea7b0c873bf80497c245260ecb540d115bd32fef2ab5db94c0783637f"
+      "source_sha256": "877b00dea7b0c873bf80497c245260ecb540d115bd32fef2ab5db94c0783637f",
+      "sha256": "262bf3c77c65eba05df63b5ed38fdd4ad6a5414c3d84cfe12f08e4a45355a30a"
     },
     {
       "character": "c06",
@@ -2024,9 +2222,10 @@
       "english": "Lee Doyoon",
       "emotion": "e29",
       "emotion_name": "손짓_손흔들기",
-      "file": "ch/c06_e29.png",
+      "file": "ch/c06_e29.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\29_손짓_손흔들기.png",
-      "sha256": "9cde8d3458ffe3cdfeb959f7127e639ed4476901f4c47857ec56dbeb42fe9066"
+      "source_sha256": "9cde8d3458ffe3cdfeb959f7127e639ed4476901f4c47857ec56dbeb42fe9066",
+      "sha256": "b9f2d9d3113cb1ea6a86a5b469d6420a770a56381d7ca873cb63bdba8f049a89"
     },
     {
       "character": "c06",
@@ -2034,9 +2233,10 @@
       "english": "Lee Doyoon",
       "emotion": "e30",
       "emotion_name": "손짓_부르기",
-      "file": "ch/c06_e30.png",
+      "file": "ch/c06_e30.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\30_손짓_부르기.png",
-      "sha256": "f4021d5eb032b058a61fbe554c4225d85da42f3515c661bb7016baa65422a4b5"
+      "source_sha256": "f4021d5eb032b058a61fbe554c4225d85da42f3515c661bb7016baa65422a4b5",
+      "sha256": "7bd8f96a6d9d6a705682d22738673e06de7042a9aeac0b3f3b748b41c4b29024"
     },
     {
       "character": "c06",
@@ -2044,9 +2244,10 @@
       "english": "Lee Doyoon",
       "emotion": "e31",
       "emotion_name": "손짓_거절",
-      "file": "ch/c06_e31.png",
+      "file": "ch/c06_e31.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\31_손짓_거절.png",
-      "sha256": "6714dfc705dd718d7d750026de44fec824025bccd3b57e6f4a09b3f025a5fd25"
+      "source_sha256": "6714dfc705dd718d7d750026de44fec824025bccd3b57e6f4a09b3f025a5fd25",
+      "sha256": "08adea60ffe10eb36b0945ba93a153756ff69f80502a18edcc414ce63ab263f0"
     },
     {
       "character": "c06",
@@ -2054,9 +2255,10 @@
       "english": "Lee Doyoon",
       "emotion": "e32",
       "emotion_name": "손짓_어깨으쓱",
-      "file": "ch/c06_e32.png",
+      "file": "ch/c06_e32.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\이도윤\\32_손짓_어깨으쓱.png",
-      "sha256": "cadbd5e11c89db694f905dfddb5a7bdf0c4111f47c9f4164cce649acce0a51ff"
+      "source_sha256": "cadbd5e11c89db694f905dfddb5a7bdf0c4111f47c9f4164cce649acce0a51ff",
+      "sha256": "9bf22faf7eeeb8dd6c3fc0afe12e6e69b4d1e780e7ecaead0e7b0cd6c2ce01b7"
     },
     {
       "character": "c07",
@@ -2064,9 +2266,10 @@
       "english": "Kim Mijeong",
       "emotion": "e01",
       "emotion_name": "서기_여유",
-      "file": "ch/c07_e01.png",
+      "file": "ch/c07_e01.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\01_서기_여유.png",
-      "sha256": "ea761699db00acf408b5037e3920b6c80e60e6396721c134fb5fc55fc9a36fe7"
+      "source_sha256": "ea761699db00acf408b5037e3920b6c80e60e6396721c134fb5fc55fc9a36fe7",
+      "sha256": "61fdb4e7014204660194c527d20bc542db27834a7652a27b0c842cd6e587eeba"
     },
     {
       "character": "c07",
@@ -2074,9 +2277,10 @@
       "english": "Kim Mijeong",
       "emotion": "e02",
       "emotion_name": "서기_기쁨",
-      "file": "ch/c07_e02.png",
+      "file": "ch/c07_e02.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\02_서기_기쁨.png",
-      "sha256": "26905043264f77e7f6888f8de30e5fa8fee516bc901456381d3b3de92e08ac03"
+      "source_sha256": "26905043264f77e7f6888f8de30e5fa8fee516bc901456381d3b3de92e08ac03",
+      "sha256": "ffb4493bb76bace21ecb59951b629243c17a022fb1ff3310bdf1f8fa408ead1c"
     },
     {
       "character": "c07",
@@ -2084,9 +2288,10 @@
       "english": "Kim Mijeong",
       "emotion": "e03",
       "emotion_name": "서기_슬픔",
-      "file": "ch/c07_e03.png",
+      "file": "ch/c07_e03.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\03_서기_슬픔.png",
-      "sha256": "2170a0390efdbfe64be2d55b91094aa822bba6346eaad92f49a153c006aa1e28"
+      "source_sha256": "2170a0390efdbfe64be2d55b91094aa822bba6346eaad92f49a153c006aa1e28",
+      "sha256": "906d13e43b6162a6547b438fd4b4b712411f05fe4504a95773ab189af429e79d"
     },
     {
       "character": "c07",
@@ -2094,9 +2299,10 @@
       "english": "Kim Mijeong",
       "emotion": "e04",
       "emotion_name": "서기_짜증",
-      "file": "ch/c07_e04.png",
+      "file": "ch/c07_e04.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\04_서기_짜증.png",
-      "sha256": "8dc60dc60e48409650b76fb7171548344f08078888fa8467edd7115a6fdf22f3"
+      "source_sha256": "8dc60dc60e48409650b76fb7171548344f08078888fa8467edd7115a6fdf22f3",
+      "sha256": "5d26a98a2842e6c6693dafe712208aecb728dff4f304a87167d1cf1fd4e6c000"
     },
     {
       "character": "c07",
@@ -2104,9 +2310,10 @@
       "english": "Kim Mijeong",
       "emotion": "e05",
       "emotion_name": "걷기_여유",
-      "file": "ch/c07_e05.png",
+      "file": "ch/c07_e05.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\05_걷기_여유.png",
-      "sha256": "c9775c56d33adc366c84878843fe93959f23a24d15c8531522a48b65f3df1a3c"
+      "source_sha256": "c9775c56d33adc366c84878843fe93959f23a24d15c8531522a48b65f3df1a3c",
+      "sha256": "4dfbe0620301d5cfd59433e614a89289cfdd08bf4281f47fcd86e0f32a24fccf"
     },
     {
       "character": "c07",
@@ -2114,9 +2321,10 @@
       "english": "Kim Mijeong",
       "emotion": "e06",
       "emotion_name": "걷기_신남",
-      "file": "ch/c07_e06.png",
+      "file": "ch/c07_e06.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\06_걷기_신남.png",
-      "sha256": "f1c4cb89a47b08d3fe297b43398fbe30ce536a85b4415fd8bdabe42cf080e466"
+      "source_sha256": "f1c4cb89a47b08d3fe297b43398fbe30ce536a85b4415fd8bdabe42cf080e466",
+      "sha256": "ce415d47a9d3716149ecaf995d875ade0ede89228fc142413c4f21905e32eb7a"
     },
     {
       "character": "c07",
@@ -2124,9 +2332,10 @@
       "english": "Kim Mijeong",
       "emotion": "e07",
       "emotion_name": "걷기_불안",
-      "file": "ch/c07_e07.png",
+      "file": "ch/c07_e07.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\07_걷기_불안.png",
-      "sha256": "7bc0c5a5ff4ee2154d2db7156b3de9e022d9450be4b4305ad9ad301d4f960c61"
+      "source_sha256": "7bc0c5a5ff4ee2154d2db7156b3de9e022d9450be4b4305ad9ad301d4f960c61",
+      "sha256": "7e1983c3d3ac9a89bd190fee40fc5ed26ad87dc6ab8189e4623ee838038b9057"
     },
     {
       "character": "c07",
@@ -2134,9 +2343,10 @@
       "english": "Kim Mijeong",
       "emotion": "e08",
       "emotion_name": "걷기_낙담",
-      "file": "ch/c07_e08.png",
+      "file": "ch/c07_e08.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\08_걷기_낙담.png",
-      "sha256": "8dfb0874938d36346fd53cb036398685e1eb2e970c7ce90feef1f5ffbb4a7206"
+      "source_sha256": "8dfb0874938d36346fd53cb036398685e1eb2e970c7ce90feef1f5ffbb4a7206",
+      "sha256": "c04b87ceb683faccc5057e2ab2561e320950ba88c906587efa1abc064e180bae"
     },
     {
       "character": "c07",
@@ -2144,9 +2354,10 @@
       "english": "Kim Mijeong",
       "emotion": "e09",
       "emotion_name": "앉기_여유",
-      "file": "ch/c07_e09.png",
+      "file": "ch/c07_e09.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\09_앉기_여유.png",
-      "sha256": "ce5a9769dcb218a05e93a3afdbf6228229e014d5548467e8ff911d1234d858c2"
+      "source_sha256": "ce5a9769dcb218a05e93a3afdbf6228229e014d5548467e8ff911d1234d858c2",
+      "sha256": "0571db6bdc3a7cba959f4e918ef52354c3b183a08ccfe1e6b6a16a3dfeb33702"
     },
     {
       "character": "c07",
@@ -2154,9 +2365,10 @@
       "english": "Kim Mijeong",
       "emotion": "e10",
       "emotion_name": "앉기_피로",
-      "file": "ch/c07_e10.png",
+      "file": "ch/c07_e10.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\10_앉기_피로.png",
-      "sha256": "9952a93d580e53873c53bb8bbe86f933c7186278afe3a99094ba3bebe2b9b5aa"
+      "source_sha256": "9952a93d580e53873c53bb8bbe86f933c7186278afe3a99094ba3bebe2b9b5aa",
+      "sha256": "309f810d59c15a1e4354800e5e470ca518d7f0ebdb6e368b156c9b4506de1079"
     },
     {
       "character": "c07",
@@ -2164,9 +2376,10 @@
       "english": "Kim Mijeong",
       "emotion": "e11",
       "emotion_name": "앉기_긴장",
-      "file": "ch/c07_e11.png",
+      "file": "ch/c07_e11.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\11_앉기_긴장.png",
-      "sha256": "322e5caa6ff6498a21aa1925e43255dbd00a644c267533d26c88bd945ed0e1cf"
+      "source_sha256": "322e5caa6ff6498a21aa1925e43255dbd00a644c267533d26c88bd945ed0e1cf",
+      "sha256": "f6cf0a09928a8cfe1e69f7eb9cee4a1808d37c82be59031a066ba7567770cae8"
     },
     {
       "character": "c07",
@@ -2174,9 +2387,10 @@
       "english": "Kim Mijeong",
       "emotion": "e12",
       "emotion_name": "앉기_침울",
-      "file": "ch/c07_e12.png",
+      "file": "ch/c07_e12.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\12_앉기_침울.png",
-      "sha256": "c3fd9aff4afe2a07756e0af6def1d1ec42cd3e8c603f62a52e50686cb0dde9c0"
+      "source_sha256": "c3fd9aff4afe2a07756e0af6def1d1ec42cd3e8c603f62a52e50686cb0dde9c0",
+      "sha256": "169bfdd682db0a145917e1496d6d16490dd6b5848b8d4e075fe379baf02e6bb0"
     },
     {
       "character": "c07",
@@ -2184,9 +2398,10 @@
       "english": "Kim Mijeong",
       "emotion": "e13",
       "emotion_name": "기다림_기대",
-      "file": "ch/c07_e13.png",
+      "file": "ch/c07_e13.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\13_기다림_기대.png",
-      "sha256": "deb2ef9f0a10bb60afddbd5668e89b7a6ad97e35fdeb72008a2d3e1f6d7ad0a3"
+      "source_sha256": "deb2ef9f0a10bb60afddbd5668e89b7a6ad97e35fdeb72008a2d3e1f6d7ad0a3",
+      "sha256": "75d45d7253b018755d1d4a07ca4394348585ac3cafb8488d2f630d977c1d0f8e"
     },
     {
       "character": "c07",
@@ -2194,9 +2409,10 @@
       "english": "Kim Mijeong",
       "emotion": "e14",
       "emotion_name": "기다림_지루함",
-      "file": "ch/c07_e14.png",
+      "file": "ch/c07_e14.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\14_기다림_지루함.png",
-      "sha256": "2adf809d1852fc21608bf2f7d0cca3251857a1a4476d296c13b0d02f313d96e1"
+      "source_sha256": "2adf809d1852fc21608bf2f7d0cca3251857a1a4476d296c13b0d02f313d96e1",
+      "sha256": "3c37b00e49cf8a0a0947ccd3ce996a100c17f94488a8c1c6bb058f518a4fa681"
     },
     {
       "character": "c07",
@@ -2204,9 +2420,10 @@
       "english": "Kim Mijeong",
       "emotion": "e15",
       "emotion_name": "기다림_걱정",
-      "file": "ch/c07_e15.png",
+      "file": "ch/c07_e15.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\15_기다림_걱정.png",
-      "sha256": "7424c0163321b23fc2bd9d86b805ee82225f15e67c1623ae2ec88fe85034b606"
+      "source_sha256": "7424c0163321b23fc2bd9d86b805ee82225f15e67c1623ae2ec88fe85034b606",
+      "sha256": "b2ada12dc523c55465155179be76d15cc03b3c68605480e58507de4b1c771a62"
     },
     {
       "character": "c07",
@@ -2214,9 +2431,10 @@
       "english": "Kim Mijeong",
       "emotion": "e16",
       "emotion_name": "기다림_조급함",
-      "file": "ch/c07_e16.png",
+      "file": "ch/c07_e16.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\16_기다림_조급함.png",
-      "sha256": "3aae669b2138f4ff34838bc6586c2f0778ce15583df52dd5595c250d9f046088"
+      "source_sha256": "3aae669b2138f4ff34838bc6586c2f0778ce15583df52dd5595c250d9f046088",
+      "sha256": "e30e188db788673e78931ef9e397a0bdd904a5c4aa279e54a4950ea51fa73b24"
     },
     {
       "character": "c07",
@@ -2224,9 +2442,10 @@
       "english": "Kim Mijeong",
       "emotion": "e17",
       "emotion_name": "말하기_유쾌",
-      "file": "ch/c07_e17.png",
+      "file": "ch/c07_e17.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\17_말하기_유쾌.png",
-      "sha256": "5013c8a979ac12d159622d45a742424db4349e79824c8e0cad01a3ab2376e4f2"
+      "source_sha256": "5013c8a979ac12d159622d45a742424db4349e79824c8e0cad01a3ab2376e4f2",
+      "sha256": "9b414ef57c0b0de6887d849b0006936e9e74531662e9aeb77d30077764433cdf"
     },
     {
       "character": "c07",
@@ -2234,9 +2453,10 @@
       "english": "Kim Mijeong",
       "emotion": "e18",
       "emotion_name": "말하기_진지",
-      "file": "ch/c07_e18.png",
+      "file": "ch/c07_e18.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\18_말하기_진지.png",
-      "sha256": "9b9252d51723a471cbde9044f4a48bffe887efef543878bfd922acf1ef12eda7"
+      "source_sha256": "9b9252d51723a471cbde9044f4a48bffe887efef543878bfd922acf1ef12eda7",
+      "sha256": "8f08b5e8dabd4f4b6b12ecf6b3e3c635d4a3b098230c1d5f7ac24a6e25a7ce17"
     },
     {
       "character": "c07",
@@ -2244,9 +2464,10 @@
       "english": "Kim Mijeong",
       "emotion": "e19",
       "emotion_name": "말하기_화남",
-      "file": "ch/c07_e19.png",
+      "file": "ch/c07_e19.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\19_말하기_화남.png",
-      "sha256": "263109a57b8cdd650f663a95f51390dfabb45b6a2c0c3a9d3590afaf99b4f8a6"
+      "source_sha256": "263109a57b8cdd650f663a95f51390dfabb45b6a2c0c3a9d3590afaf99b4f8a6",
+      "sha256": "eb662f32507450f40588de11415dd18c1c57366bce9b3387d38b46811d4eccf9"
     },
     {
       "character": "c07",
@@ -2254,9 +2475,10 @@
       "english": "Kim Mijeong",
       "emotion": "e20",
       "emotion_name": "말하기_당황",
-      "file": "ch/c07_e20.png",
+      "file": "ch/c07_e20.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\20_말하기_당황.png",
-      "sha256": "e791eac2dc32d57c4312e9259cebf4fbe05de0adb2c073e2008e954d654106ab"
+      "source_sha256": "e791eac2dc32d57c4312e9259cebf4fbe05de0adb2c073e2008e954d654106ab",
+      "sha256": "42d6bbfe5e02e471ec1aff9b98112b191d40d20fc11353efe3d115cd06d9102d"
     },
     {
       "character": "c07",
@@ -2264,9 +2486,10 @@
       "english": "Kim Mijeong",
       "emotion": "e21",
       "emotion_name": "듣기_관심",
-      "file": "ch/c07_e21.png",
+      "file": "ch/c07_e21.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\21_듣기_관심.png",
-      "sha256": "49c9124d55da0ff4785e39946a74e853f4ef5b4a7fbf02442fd6077e20931df4"
+      "source_sha256": "49c9124d55da0ff4785e39946a74e853f4ef5b4a7fbf02442fd6077e20931df4",
+      "sha256": "b97198659ded86ca8d46dd7f083ea63d966424c3eeab8de0e286cf6c08a61225"
     },
     {
       "character": "c07",
@@ -2274,9 +2497,10 @@
       "english": "Kim Mijeong",
       "emotion": "e22",
       "emotion_name": "듣기_공감",
-      "file": "ch/c07_e22.png",
+      "file": "ch/c07_e22.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\22_듣기_공감.png",
-      "sha256": "bea2d5f082f325601c80e71c053527975b1776956f40134405b720eb8ba51b9a"
+      "source_sha256": "bea2d5f082f325601c80e71c053527975b1776956f40134405b720eb8ba51b9a",
+      "sha256": "be2cfcfd1a10443985172e842a8085a0a6a4ea4c16806049e22ca58e944eaa1f"
     },
     {
       "character": "c07",
@@ -2284,9 +2508,10 @@
       "english": "Kim Mijeong",
       "emotion": "e23",
       "emotion_name": "듣기_의심",
-      "file": "ch/c07_e23.png",
+      "file": "ch/c07_e23.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\23_듣기_의심.png",
-      "sha256": "5db7c26a7bcf0cdb6eefcdef12eaa7c170a8bc2d82677ca8796e29e225714014"
+      "source_sha256": "5db7c26a7bcf0cdb6eefcdef12eaa7c170a8bc2d82677ca8796e29e225714014",
+      "sha256": "3de214792db4673d6a03285e730e1308ade8fa01938eb1942341af54d0406362"
     },
     {
       "character": "c07",
@@ -2294,9 +2519,10 @@
       "english": "Kim Mijeong",
       "emotion": "e24",
       "emotion_name": "듣기_놀람",
-      "file": "ch/c07_e24.png",
+      "file": "ch/c07_e24.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\24_듣기_놀람.png",
-      "sha256": "d4370e46a3df034141046ab9ff6efffca68ab58977eb013452d5b9ddc63c7548"
+      "source_sha256": "d4370e46a3df034141046ab9ff6efffca68ab58977eb013452d5b9ddc63c7548",
+      "sha256": "3f1aa8d0ec5a2eb18c55aa8be1c591663f77a2ec7baeedc5b81c00fc1e14f96a"
     },
     {
       "character": "c07",
@@ -2304,9 +2530,10 @@
       "english": "Kim Mijeong",
       "emotion": "e25",
       "emotion_name": "돌아보기_반가움",
-      "file": "ch/c07_e25.png",
+      "file": "ch/c07_e25.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\25_돌아보기_반가움.png",
-      "sha256": "b61e02684a20a153221130b021ca46a9797fa1aa682ed63e7d759bccf47308e5"
+      "source_sha256": "b61e02684a20a153221130b021ca46a9797fa1aa682ed63e7d759bccf47308e5",
+      "sha256": "758ae3ec04bf88e6742fb282ea9c97aacac87d3e47fa4252fef8ec69f50f4a24"
     },
     {
       "character": "c07",
@@ -2314,9 +2541,10 @@
       "english": "Kim Mijeong",
       "emotion": "e26",
       "emotion_name": "돌아보기_놀람",
-      "file": "ch/c07_e26.png",
+      "file": "ch/c07_e26.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\26_돌아보기_놀람.png",
-      "sha256": "e802edae9b6bb88a5e08c9b5a4b620e60006dfd123018651248c5c961f41803a"
+      "source_sha256": "e802edae9b6bb88a5e08c9b5a4b620e60006dfd123018651248c5c961f41803a",
+      "sha256": "5ee7ba7b2fe233245cd2388de3eaa63fd400fdbc3b1aee60f6ed6b1141cb623e"
     },
     {
       "character": "c07",
@@ -2324,9 +2552,10 @@
       "english": "Kim Mijeong",
       "emotion": "e27",
       "emotion_name": "돌아보기_경계",
-      "file": "ch/c07_e27.png",
+      "file": "ch/c07_e27.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\27_돌아보기_경계.png",
-      "sha256": "9c5a5e699f62a149d559b7a90b3c4218583bba7e15d87af1b24fb5469c6ee8bf"
+      "source_sha256": "9c5a5e699f62a149d559b7a90b3c4218583bba7e15d87af1b24fb5469c6ee8bf",
+      "sha256": "cc80778668d33e6ce5650f32e21ac4ea32c2ac3fc27f125235a389c9ba5d4f0e"
     },
     {
       "character": "c07",
@@ -2334,9 +2563,10 @@
       "english": "Kim Mijeong",
       "emotion": "e28",
       "emotion_name": "돌아보기_상처",
-      "file": "ch/c07_e28.png",
+      "file": "ch/c07_e28.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\28_돌아보기_상처.png",
-      "sha256": "b295d5856662bf41fb495df08af160e7353422ab56190c40e737d654445a5150"
+      "source_sha256": "b295d5856662bf41fb495df08af160e7353422ab56190c40e737d654445a5150",
+      "sha256": "9f754d8c78f85e61b34b3a6e9acabf2a343f121f42e34562971c575445f29af7"
     },
     {
       "character": "c07",
@@ -2344,9 +2574,10 @@
       "english": "Kim Mijeong",
       "emotion": "e29",
       "emotion_name": "손짓_인사",
-      "file": "ch/c07_e29.png",
+      "file": "ch/c07_e29.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\29_손짓_인사.png",
-      "sha256": "fb121cdb0a04f3dda7568c83e93f2a6cceccbf8a76d32ce081c6c3f03d3d0ba3"
+      "source_sha256": "fb121cdb0a04f3dda7568c83e93f2a6cceccbf8a76d32ce081c6c3f03d3d0ba3",
+      "sha256": "e90757d07ac83d4dde13c45d4ba96ec801ca066e0668bf9260717b0699d6f0cc"
     },
     {
       "character": "c07",
@@ -2354,9 +2585,10 @@
       "english": "Kim Mijeong",
       "emotion": "e30",
       "emotion_name": "손짓_부르기",
-      "file": "ch/c07_e30.png",
+      "file": "ch/c07_e30.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\30_손짓_부르기.png",
-      "sha256": "f8b1eab95bbebb4b689c7dfedabef9790542ce6cb9c109983344d80d90a0d899"
+      "source_sha256": "f8b1eab95bbebb4b689c7dfedabef9790542ce6cb9c109983344d80d90a0d899",
+      "sha256": "373ad4da8c38218f691729e54c9a235a26dfbfda8b42b3a619b095d25179eccd"
     },
     {
       "character": "c07",
@@ -2364,9 +2596,10 @@
       "english": "Kim Mijeong",
       "emotion": "e31",
       "emotion_name": "손짓_거절",
-      "file": "ch/c07_e31.png",
+      "file": "ch/c07_e31.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\31_손짓_거절.png",
-      "sha256": "8dbcb542c1900e8a221891b138f683bb7426f42360cac94451577896b876ff1d"
+      "source_sha256": "8dbcb542c1900e8a221891b138f683bb7426f42360cac94451577896b876ff1d",
+      "sha256": "e5967b718fc94552943bcfdf1ebf7514e9498d6da2ab9214229bc7aa51ad8030"
     },
     {
       "character": "c07",
@@ -2374,9 +2607,10 @@
       "english": "Kim Mijeong",
       "emotion": "e32",
       "emotion_name": "손짓_으쓱",
-      "file": "ch/c07_e32.png",
+      "file": "ch/c07_e32.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\김미정\\32_손짓_으쓱.png",
-      "sha256": "d440b1457abe6ad26c45ca168052ab7821b1e9562e1864da5fb196f51d1ecf75"
+      "source_sha256": "d440b1457abe6ad26c45ca168052ab7821b1e9562e1864da5fb196f51d1ecf75",
+      "sha256": "781c116fa8e8d5f4d3ec70f969a09cde16cbba721136f06097b8d6b5ba02babc"
     },
     {
       "character": "c08",
@@ -2384,9 +2618,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e01",
       "emotion_name": "서있기_편안",
-      "file": "ch/c08_e01.png",
+      "file": "ch/c08_e01.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\01_서있기_편안.png",
-      "sha256": "6feb0127354fbc538cf84185a8022d4c4400460109c6c4969e839d3ad42c9c98"
+      "source_sha256": "6feb0127354fbc538cf84185a8022d4c4400460109c6c4969e839d3ad42c9c98",
+      "sha256": "378fe908163cb5cb6362775c67e86571db7d68b473d863057b3bfc0efa6bc522"
     },
     {
       "character": "c08",
@@ -2394,9 +2629,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e02",
       "emotion_name": "서있기_기쁨",
-      "file": "ch/c08_e02.png",
+      "file": "ch/c08_e02.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\02_서있기_기쁨.png",
-      "sha256": "07e7b2477bff171f2f445f604015bb55102dca5c7f9b7d81ef68863e9e2b88a5"
+      "source_sha256": "07e7b2477bff171f2f445f604015bb55102dca5c7f9b7d81ef68863e9e2b88a5",
+      "sha256": "31b3d12b249b48f2e14914f19e0e398140610b5f89b2ff9aa4099b0f0729ec5f"
     },
     {
       "character": "c08",
@@ -2404,9 +2640,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e04",
       "emotion_name": "서있기_짜증",
-      "file": "ch/c08_e04.png",
+      "file": "ch/c08_e04.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\04_서있기_짜증.png",
-      "sha256": "25c01c4023464189c0d92110914cf75032a77caa2fef72ef8c67c94093eec090"
+      "source_sha256": "25c01c4023464189c0d92110914cf75032a77caa2fef72ef8c67c94093eec090",
+      "sha256": "2dde3f37a8609ba92e982b31f9fbe86c23489dc09200d5a71f10fb0128fe1bf9"
     },
     {
       "character": "c08",
@@ -2414,9 +2651,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e05",
       "emotion_name": "걷기_여유",
-      "file": "ch/c08_e05.png",
+      "file": "ch/c08_e05.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\05_걷기_여유.png",
-      "sha256": "0671ecb6b9d5986d6501c391d6f6ba27e7664ce2635fa37d6ca45ddfecaf566a"
+      "source_sha256": "0671ecb6b9d5986d6501c391d6f6ba27e7664ce2635fa37d6ca45ddfecaf566a",
+      "sha256": "b9b1901f51d36592b6e60abe7920cbc8471e7096b73fbb8fa3b7144e9431e180"
     },
     {
       "character": "c08",
@@ -2424,9 +2662,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e06",
       "emotion_name": "걷기_신남",
-      "file": "ch/c08_e06.png",
+      "file": "ch/c08_e06.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\06_걷기_신남.png",
-      "sha256": "345c58a6385763971449b8663bc9dcbc2e753143d672d9b9b31483b302b17c53"
+      "source_sha256": "345c58a6385763971449b8663bc9dcbc2e753143d672d9b9b31483b302b17c53",
+      "sha256": "1980ae804a21f09aba16ba890d03d20dd244d5822ff8cfa0b7f979f1d104a43c"
     },
     {
       "character": "c08",
@@ -2434,9 +2673,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e07",
       "emotion_name": "걷기_불안",
-      "file": "ch/c08_e07.png",
+      "file": "ch/c08_e07.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\07_걷기_불안.png",
-      "sha256": "11e1973da60e4ed04c9206cc39ee657ab495c55404058a0f147aa1b911748a68"
+      "source_sha256": "11e1973da60e4ed04c9206cc39ee657ab495c55404058a0f147aa1b911748a68",
+      "sha256": "f16b7018460d0d8bd643f66c33efa3303c02a4dcf82726da9891beee21b72b05"
     },
     {
       "character": "c08",
@@ -2444,9 +2684,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e08",
       "emotion_name": "걷기_풀이죽음",
-      "file": "ch/c08_e08.png",
+      "file": "ch/c08_e08.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\08_걷기_풀이죽음.png",
-      "sha256": "50b57606ca0451890c25bdc813c94d23cf83e754e6f8d8bb2f43bcf5fe88531e"
+      "source_sha256": "50b57606ca0451890c25bdc813c94d23cf83e754e6f8d8bb2f43bcf5fe88531e",
+      "sha256": "0bf040481d5c5a2e1020327d95a12a7f0a3281b84cee0a5e1e21da53178d9345"
     },
     {
       "character": "c08",
@@ -2454,9 +2695,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e09",
       "emotion_name": "앉기_편안",
-      "file": "ch/c08_e09.png",
+      "file": "ch/c08_e09.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\09_앉기_편안.png",
-      "sha256": "35f8c40fcefabb3c7a09015044b24b72f8dc6ad767d5a8ff929de23b61b022f8"
+      "source_sha256": "35f8c40fcefabb3c7a09015044b24b72f8dc6ad767d5a8ff929de23b61b022f8",
+      "sha256": "617df273149059ea6e5e9944a863ca6124fe9d90c35b50f1b1311ba42228135b"
     },
     {
       "character": "c08",
@@ -2464,9 +2706,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e10",
       "emotion_name": "앉기_피곤",
-      "file": "ch/c08_e10.png",
+      "file": "ch/c08_e10.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\10_앉기_피곤.png",
-      "sha256": "9f536a7f438bdc1d670e79e7f5a97dd8e74c6807ac913d631965200953b574e9"
+      "source_sha256": "9f536a7f438bdc1d670e79e7f5a97dd8e74c6807ac913d631965200953b574e9",
+      "sha256": "35ac0cfe30bcee66b43dc650dcc0dfb3f168c49746ad2dc197452f4f4e03567d"
     },
     {
       "character": "c08",
@@ -2474,9 +2717,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e11",
       "emotion_name": "앉기_긴장",
-      "file": "ch/c08_e11.png",
+      "file": "ch/c08_e11.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\11_앉기_긴장.png",
-      "sha256": "e607ae01eea9d34c24c7b7410aed9f595cb431bfef99c461e9f2d3c161761d39"
+      "source_sha256": "e607ae01eea9d34c24c7b7410aed9f595cb431bfef99c461e9f2d3c161761d39",
+      "sha256": "217100e71dae1ef68d95c761bf2fd5fb6d51474cebd1be95e419297e3de15104"
     },
     {
       "character": "c08",
@@ -2484,9 +2728,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e12",
       "emotion_name": "앉기_우울",
-      "file": "ch/c08_e12.png",
+      "file": "ch/c08_e12.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\12_앉기_우울.png",
-      "sha256": "5f5605faacd0dca4112a185cd7cdc8a1f0a59ad00fbbbd95aa405881a0b005c6"
+      "source_sha256": "5f5605faacd0dca4112a185cd7cdc8a1f0a59ad00fbbbd95aa405881a0b005c6",
+      "sha256": "58fc7cef2b3adb572c990737b86c54f21f9a0a7b11c690413ed2a4618d893c54"
     },
     {
       "character": "c08",
@@ -2494,9 +2739,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e13",
       "emotion_name": "기다리기_기대",
-      "file": "ch/c08_e13.png",
+      "file": "ch/c08_e13.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\13_기다리기_기대.png",
-      "sha256": "d641247bd038563fcc5cb83cd8f119d1f6dbf9c890c3ea91ac89446c4f7a4bdd"
+      "source_sha256": "d641247bd038563fcc5cb83cd8f119d1f6dbf9c890c3ea91ac89446c4f7a4bdd",
+      "sha256": "4381eb698ba2ef41da78fcbdd4bf17f44f2521892ad5c17c83b61b9c8bf84f88"
     },
     {
       "character": "c08",
@@ -2504,9 +2750,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e14",
       "emotion_name": "기다리기_지루함",
-      "file": "ch/c08_e14.png",
+      "file": "ch/c08_e14.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\14_기다리기_지루함.png",
-      "sha256": "0c7c51bcbf0b4c3945cc1fdee9b1fda841098442c632baa90a4422fcc2a3c2f7"
+      "source_sha256": "0c7c51bcbf0b4c3945cc1fdee9b1fda841098442c632baa90a4422fcc2a3c2f7",
+      "sha256": "4e3608ac74b54b05884744195d0052042174e1278cd9caba7e72c77433f5fe55"
     },
     {
       "character": "c08",
@@ -2514,9 +2761,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e16",
       "emotion_name": "기다리기_초조",
-      "file": "ch/c08_e16.png",
+      "file": "ch/c08_e16.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\16_기다리기_초조.png",
-      "sha256": "3ab2c0e639cbc8c28133e7fde8a2d4dd64eca14db4a2f7104dce8e28a74478d2"
+      "source_sha256": "3ab2c0e639cbc8c28133e7fde8a2d4dd64eca14db4a2f7104dce8e28a74478d2",
+      "sha256": "af46f3cd316ea38758fdf5aad4698800e2bf10c22cb060e20b3c727b2eaaf6da"
     },
     {
       "character": "c08",
@@ -2524,9 +2772,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e17",
       "emotion_name": "대화_밝음",
-      "file": "ch/c08_e17.png",
+      "file": "ch/c08_e17.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\17_대화_밝음.png",
-      "sha256": "52f554f331fbdcd7a9f6dd771d111e569b7828cc0452f58f4cfd130677a78ca2"
+      "source_sha256": "52f554f331fbdcd7a9f6dd771d111e569b7828cc0452f58f4cfd130677a78ca2",
+      "sha256": "6da2f04cba99f473dabc1412903f20bb5979fddb2e43da6719b571c320e5186c"
     },
     {
       "character": "c08",
@@ -2534,9 +2783,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e18",
       "emotion_name": "대화_진지",
-      "file": "ch/c08_e18.png",
+      "file": "ch/c08_e18.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\18_대화_진지.png",
-      "sha256": "a38210d56a0d621c5fc6883eb2c4014c9801c01be4c5bd795fb73a2a5a0958c1"
+      "source_sha256": "a38210d56a0d621c5fc6883eb2c4014c9801c01be4c5bd795fb73a2a5a0958c1",
+      "sha256": "64bcd04f4a968304de9d37214b282b1c09662c539900500ef62c0e96d7f06a1e"
     },
     {
       "character": "c08",
@@ -2544,9 +2794,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e19",
       "emotion_name": "대화_화남",
-      "file": "ch/c08_e19.png",
+      "file": "ch/c08_e19.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\19_대화_화남.png",
-      "sha256": "e2f1fedb6dd33382efdc2a54fc0e18e6e74ddd15e07f07ee514a3a84073c5620"
+      "source_sha256": "e2f1fedb6dd33382efdc2a54fc0e18e6e74ddd15e07f07ee514a3a84073c5620",
+      "sha256": "8907c4f8d8c9460b89647a2ca97a4ccdb15fe4dde6db74f9f0018e7dbffebb4d"
     },
     {
       "character": "c08",
@@ -2554,9 +2805,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e22",
       "emotion_name": "듣기_공감",
-      "file": "ch/c08_e22.png",
+      "file": "ch/c08_e22.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\22_듣기_공감.png",
-      "sha256": "923625098e381ec427a7578c9545a8ab535d06a6c716fa993f89185203375a19"
+      "source_sha256": "923625098e381ec427a7578c9545a8ab535d06a6c716fa993f89185203375a19",
+      "sha256": "279fbbefab6856a4f8795bfb4d94e20778ff4c058feb4fde235d74b1c53b5381"
     },
     {
       "character": "c08",
@@ -2564,9 +2816,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e25",
       "emotion_name": "뒤돌아보기_알아봄",
-      "file": "ch/c08_e25.png",
+      "file": "ch/c08_e25.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\25_뒤돌아보기_알아봄.png",
-      "sha256": "7a016c1e67e8ba0a0f8eb623e1ac06acc7c44370ff94d536c8f58839ee587153"
+      "source_sha256": "7a016c1e67e8ba0a0f8eb623e1ac06acc7c44370ff94d536c8f58839ee587153",
+      "sha256": "a8548a89b740b956bb20fadc978b70b85ee4aaab4ad1f3454f67d69ac907f704"
     },
     {
       "character": "c08",
@@ -2574,9 +2827,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e26",
       "emotion_name": "뒤돌아보기_놀람",
-      "file": "ch/c08_e26.png",
+      "file": "ch/c08_e26.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\26_뒤돌아보기_놀람.png",
-      "sha256": "d984910a9da27903b4e358dc568e3951119a56492d07fef6ce9d3bfb19e1b6f4"
+      "source_sha256": "d984910a9da27903b4e358dc568e3951119a56492d07fef6ce9d3bfb19e1b6f4",
+      "sha256": "cbb147a3deee9785db1a8155608d0b8f945c7d29e94e9db0e5f93c065272e5fd"
     },
     {
       "character": "c08",
@@ -2584,9 +2838,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e27",
       "emotion_name": "뒤돌아보기_경계",
-      "file": "ch/c08_e27.png",
+      "file": "ch/c08_e27.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\27_뒤돌아보기_경계.png",
-      "sha256": "540123507f0472c5966609fbea3f63bbaae2c288fce093cbd0fdc9f2c5d26bba"
+      "source_sha256": "540123507f0472c5966609fbea3f63bbaae2c288fce093cbd0fdc9f2c5d26bba",
+      "sha256": "23caadf2e03bd13869cf493d8df0cf86a25a771232c5d968c831282fbba86c37"
     },
     {
       "character": "c08",
@@ -2594,9 +2849,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e28",
       "emotion_name": "뒤돌아보기_상처",
-      "file": "ch/c08_e28.png",
+      "file": "ch/c08_e28.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\28_뒤돌아보기_상처.png",
-      "sha256": "56b02ab4ec50b2b99f1fa0bacf94f6293bf8404642eb6964b4874b1c42a93fcc"
+      "source_sha256": "56b02ab4ec50b2b99f1fa0bacf94f6293bf8404642eb6964b4874b1c42a93fcc",
+      "sha256": "14e21ef41e3d127228e7d31b9788a3601d27bd1d7b98842cf5654a5392faebb0"
     },
     {
       "character": "c08",
@@ -2604,9 +2860,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e29",
       "emotion_name": "손짓_인사",
-      "file": "ch/c08_e29.png",
+      "file": "ch/c08_e29.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\29_손짓_인사.png",
-      "sha256": "e8f026a6873350793424ef308c97cea44441bccadb9b774c589396590647efda"
+      "source_sha256": "e8f026a6873350793424ef308c97cea44441bccadb9b774c589396590647efda",
+      "sha256": "4df2723ecbe7bc3580338fd54217eb16c157eaae6ea8f95f40366d466d76eacd"
     },
     {
       "character": "c08",
@@ -2614,9 +2871,10 @@
       "english": "Joo Hyunwoo",
       "emotion": "e30",
       "emotion_name": "손짓_부르기",
-      "file": "ch/c08_e30.png",
+      "file": "ch/c08_e30.webp",
       "source": "D:\\크랙\\000 너는내운명\\캐릭터누끼\\주현우\\30_손짓_부르기.png",
-      "sha256": "0e840ab3cfe74980fd4d40d0b11040f4f7dfdc9f41d7ae6bb3ed288b00cf37cf"
+      "source_sha256": "0e840ab3cfe74980fd4d40d0b11040f4f7dfdc9f41d7ae6bb3ed288b00cf37cf",
+      "sha256": "02f498755c0f823bbb3e5da753bfa82d838ad8a624def0270b275d65603758cb"
     }
   ],
   "introductions": [
